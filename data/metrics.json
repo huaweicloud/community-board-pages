@@ -1,55 +1,55 @@
 {
-  "generated_at": "2026-08-06T13:22:31.949281+00:00",
+  "generated_at": "2026-08-06T12:35:39.753319+00:00",
   "global": {
-    "total": 708,
-    "open": 507,
+    "total": 706,
+    "open": 505,
     "closed": 201,
     "repos_with_issues": 32,
     "needs_triage": 0,
-    "unassigned": 87,
+    "unassigned": 85,
     "sla_breach": 505,
     "sla_warning": 0,
     "good_first": 0,
     "help_wanted": 0,
-    "created_7d": 10,
+    "created_7d": 8,
     "closed_7d": 12,
-    "created_30d": 18,
+    "created_30d": 16,
     "closed_30d": 71,
     "median_age_days": 83.1,
     "by_type": {
-      "bug": 2,
+      "bug": 1,
       "feature": 0,
       "documentation": 1,
       "question": 1,
-      "other": 704
+      "other": 703
     },
     "by_priority": {
       "critical": 0,
       "high": 0,
-      "medium": 4,
+      "medium": 3,
       "low": 0,
-      "unknown": 503
+      "unknown": 502
     }
   },
   "by_platform": {
     "github": {
-      "total": 263,
-      "open": 81,
+      "total": 262,
+      "open": 80,
       "closed": 182,
       "repos_with_issues": 31,
       "needs_triage": 0,
-      "unassigned": 80,
+      "unassigned": 79,
       "sla_breach": 80,
       "sla_warning": 0,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 9,
+      "created_7d": 8,
       "closed_7d": 12,
-      "created_30d": 17,
+      "created_30d": 16,
       "closed_30d": 71,
-      "median_age_days": 176.5,
+      "median_age_days": 177.2,
       "by_type": {
-        "bug": 1,
+        "bug": 0,
         "feature": 0,
         "documentation": 0,
         "question": 0,
@@ -58,25 +58,25 @@
       "by_priority": {
         "critical": 0,
         "high": 0,
-        "medium": 1,
+        "medium": 0,
         "low": 0,
         "unknown": 80
       }
     },
     "gitcode": {
-      "total": 445,
-      "open": 426,
+      "total": 444,
+      "open": 425,
       "closed": 19,
       "repos_with_issues": 1,
       "needs_triage": 0,
-      "unassigned": 7,
+      "unassigned": 6,
       "sla_breach": 425,
       "sla_warning": 0,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 1,
+      "created_7d": 0,
       "closed_7d": 0,
-      "created_30d": 1,
+      "created_30d": 0,
       "closed_30d": 0,
       "median_age_days": 83.1,
       "by_type": {
@@ -84,14 +84,14 @@
         "feature": 0,
         "documentation": 1,
         "question": 1,
-        "other": 442
+        "other": 441
       },
       "by_priority": {
         "critical": 0,
         "high": 0,
         "medium": 3,
         "low": 0,
-        "unknown": 423
+        "unknown": 422
       }
     }
   }
