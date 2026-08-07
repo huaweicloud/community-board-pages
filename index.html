@@ -1,1 +1,41 @@
-﻿<!DOCTYPE html><html><head><meta charset="utf-8"><title>test</title></head><body>hello minimal</body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>huaweicloud 开源社区治理看板</title>
+  <link rel="stylesheet" href="css/style.css?v=4">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/overview">
+        <span class="brand-logo">◧</span>
+        <span>huaweicloud <em>Community Board</em></span>
+      </a>
+      <nav class="nav">
+        <a href="#/overview" data-route="overview">总览</a>
+        <a href="#/repos" data-route="repos">仓库治理</a>
+        <a href="#/board/github" data-route="board" data-platform="github">GitHub 看板</a>
+        <a href="#/board/gitcode" data-route="board" data-platform="gitcode">GitCode 看板</a>
+        <a href="#/pr" data-route="pr">PR 看板</a>
+        <a href="#/risks" data-route="risks">风险</a>
+        <a href="#/trends" data-route="trends">趋势</a>
+      </nav>
+      <div class="topbar-right">
+        <span id="updated-at" class="updated-at" title="数据更新时间"></span>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <footer class="footer">
+    数据来源：GitHub API + GitCode API v5，定时采集自动刷新。
+  </footer>
+
+  <script src="js/views.js?v=4"></script>
+  <script src="js/app.js?v=4"></script>
+</body>
+</html>
