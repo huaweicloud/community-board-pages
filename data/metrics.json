@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T13:43:05.003679+00:00",
+  "generated_at": "2026-08-07T03:53:08.609486+00:00",
   "global": {
     "total": 708,
     "open": 507,
@@ -8,14 +8,14 @@
     "needs_triage": 0,
     "unassigned": 87,
     "sla_breach": 505,
-    "sla_warning": 0,
+    "sla_warning": 1,
     "good_first": 0,
     "help_wanted": 0,
     "created_7d": 10,
     "closed_7d": 12,
     "created_30d": 18,
     "closed_30d": 71,
-    "median_age_days": 83.1,
+    "median_age_days": 83.7,
     "by_type": {
       "bug": 2,
       "feature": 0,
@@ -26,9 +26,9 @@
     "by_priority": {
       "critical": 0,
       "high": 0,
-      "medium": 4,
+      "medium": 5,
       "low": 0,
-      "unknown": 503
+      "unknown": 502
     }
   },
   "by_platform": {
@@ -40,14 +40,14 @@
       "needs_triage": 0,
       "unassigned": 80,
       "sla_breach": 80,
-      "sla_warning": 0,
+      "sla_warning": 1,
       "good_first": 0,
       "help_wanted": 0,
       "created_7d": 9,
       "closed_7d": 12,
       "created_30d": 17,
       "closed_30d": 71,
-      "median_age_days": 176.5,
+      "median_age_days": 177.1,
       "by_type": {
         "bug": 1,
         "feature": 0,
@@ -78,7 +78,7 @@
       "closed_7d": 0,
       "created_30d": 1,
       "closed_30d": 0,
-      "median_age_days": 83.1,
+      "median_age_days": 83.7,
       "by_type": {
         "bug": 1,
         "feature": 0,
@@ -89,9 +89,9 @@
       "by_priority": {
         "critical": 0,
         "high": 0,
-        "medium": 3,
+        "medium": 4,
         "low": 0,
-        "unknown": 423
+        "unknown": 422
       }
     }
   }
