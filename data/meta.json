@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T03:42:56.551314+00:00",
+  "generated_at": "2026-08-08T03:49:12.289484+00:00",
   "columns": [
     {
       "id": "needs-triage",
@@ -321,6 +321,68 @@
   "governance_grading": "≥80 优秀 / ≥60 良好 / ≥40 一般 / <40 不足；未知信号（无权限探测）不计入评分",
   "benchmarks": {
     "note": "对标 GitHub 头部开源组织（Kubernetes/CNCF/知名 SDK 等项目治理均值）",
+    "projects": [
+      {
+        "group": "云厂商 SDK / Provider 对标",
+        "name": "terraform-provider-aws",
+        "url": "https://github.com/hashicorp/terraform-provider-aws",
+        "note": "云厂商 Terraform Provider 治理标杆（CI/分支保护/发布规范）"
+      },
+      {
+        "group": "云厂商 SDK / Provider 对标",
+        "name": "aws-sdk-go-v2",
+        "url": "https://github.com/aws/aws-sdk-go-v2",
+        "note": "云厂商 SDK 工程规范标杆"
+      },
+      {
+        "group": "云厂商 SDK / Provider 对标",
+        "name": "google-cloud-go",
+        "url": "https://github.com/googleapis/google-cloud-go",
+        "note": "Google Cloud SDK 治理对照"
+      },
+      {
+        "group": "云厂商 SDK / Provider 对标",
+        "name": "azure-sdk-for-go",
+        "url": "https://github.com/Azure/azure-sdk-for-go",
+        "note": "Azure SDK 治理对照"
+      },
+      {
+        "group": "云厂商 SDK / Provider 对标",
+        "name": "terraform-provider-alicloud",
+        "url": "https://github.com/alibaba/terraform-provider-alicloud",
+        "note": "国内云厂商 Terraform Provider 对标"
+      },
+      {
+        "group": "社区治理标杆",
+        "name": "kubernetes",
+        "url": "https://github.com/kubernetes/kubernetes",
+        "note": "Issue 标签/分级/triage 体系标杆"
+      },
+      {
+        "group": "社区治理标杆",
+        "name": "nodejs",
+        "url": "https://github.com/nodejs/node",
+        "note": "社区贡献/发布治理标杆"
+      },
+      {
+        "group": "社区治理标杆",
+        "name": "flutter",
+        "url": "https://github.com/flutter/flutter",
+        "note": "Issue 看板/健康文件标杆"
+      },
+      {
+        "group": "社区治理标杆",
+        "name": "home-assistant",
+        "url": "https://github.com/home-assistant/core",
+        "note": "领域化 Issue 治理标杆"
+      },
+      {
+        "group": "社区治理标杆",
+        "name": "rust-lang",
+        "url": "https://github.com/rust-lang/rust",
+        "note": "RFC/社区流程治理标杆"
+      }
+    ],
     "dims": {
       "d1": {
         "target": 80,

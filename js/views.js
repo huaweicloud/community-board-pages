@@ -200,11 +200,16 @@
   function benchPanelHtml(g) {
     const b = benchDef();
     const note = (b.note || '').replace('（', '（');
+    const projects = b.projects || [];
+    const groups = [...new Set(projects.map((p) => p.group))].map((grp) => {
+      const chips = projects.filter((p) => p.group === grp).map((p) =>
+        `<a class="bench-proj" href="${esc(p.url)}" target="_blank" rel="noopener" title="${esc(p.note || p.name)}">${esc(p.name)}</a>`).join('');
+      return `<div class="bench-proj-group"><span class="bench-proj-label">${esc(grp)}</span>${chips}</div>`;
+    }).join('');
     const rows = g.dims.map((d) => {
       const orgScore = org_score(g, d.id);
       const target = benchTarget(d.id);
       const st = benchStatus(orgScore, target);
-      const note2 = (b.dims && b.dims[d.id] && b.dims[d.id].note) || '';
       return `
         <div class="bench-row">
           <span class="bench-dim" data-tip-id="bench-${d.id}">${esc(d.short)} ${esc(d.name)}</span>
@@ -223,6 +228,7 @@
     return `
       <div class="panel bench-panel">
         <h3>行业对标 · 横向对比 <span class="dim-info-hint">${esc(note)} · 悬浮维度查看标杆口径</span></h3>
+        ${groups ? `<div class="bench-projects">${groups}</div>` : ''}
         <div class="bench-list">
           <div class="bench-row bench-head">
             <span>维度</span><span>组织 vs 行业标杆</span><span>组织</span><span>标杆</span><span>差距</span><span>状态</span>

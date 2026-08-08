@@ -390,3 +390,16 @@ table.data tr:hover td { background: var(--bg); }
 .rd-bench.ok { background: var(--green-soft); color: var(--green); }
 .rd-bench.warn { background: var(--amber-soft); color: var(--amber); }
 .rd-bench.bad { background: var(--red-soft); color: var(--red); }
+
+.bench-projects {
+  display: flex; flex-direction: column; gap: 6px;
+  padding: 10px 0 14px; margin-bottom: 4px; border-bottom: 1px solid var(--border);
+}
+.bench-proj-group { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.bench-proj-label { color: var(--muted); font-size: 12px; font-weight: 600; white-space: nowrap; }
+.bench-proj {
+  display: inline-block; padding: 2px 10px; border-radius: 12px;
+  background: var(--bg); border: 1px solid var(--border); color: var(--accent);
+  font-size: 12px; text-decoration: none;
+}
+.bench-proj:hover { background: var(--accent-soft); border-color: var(--accent); }
