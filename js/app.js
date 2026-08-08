@@ -16,8 +16,8 @@
     state: {
       route: { name: 'overview', platform: 'github' },
       boardFilters: {
-        github: { search: '', type: '', priority: '', assignee: '', openOnly: false, gfiOnly: false },
-        gitcode: { search: '', type: '', priority: '', assignee: '', openOnly: false, gfiOnly: false },
+        github: { search: '', type: '', priority: '', assignee: '', groupBy: '', openOnly: false, gfiOnly: false },
+        gitcode: { search: '', type: '', priority: '', assignee: '', groupBy: '', openOnly: false, gfiOnly: false },
       },
     },
     loadAll: loadAll,

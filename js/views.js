@@ -404,7 +404,7 @@
 
     const cols = (meta && meta.columns || []).map((col) => {
       const inCol = cards.filter((c) => c.column === col.id);
-      return colCard(col, filterCards(inCol, filters));
+      return colCard(col, filterCards(inCol, filters), filters.groupBy);
     }).join('');
 
     app.innerHTML = `
@@ -425,6 +425,13 @@
         <select id="f-assignee">
           <option value="">全部负责人</option>
           ${assignees.map((a) => `<option value="${esc(a)}" ${filters.assignee === a ? 'selected' : ''}>${esc(a)}</option>`).join('')}
+        </select>
+        <select id="f-group" title="将列内 Issue 分组显示（如 Backlog 细分）">
+          <option value="">不分组</option>
+          <option value="type" ${filters.groupBy === 'type' ? 'selected' : ''}>按类型分组</option>
+          <option value="priority" ${filters.groupBy === 'priority' ? 'selected' : ''}>按优先级分组</option>
+          <option value="area" ${filters.groupBy === 'area' ? 'selected' : ''}>按领域分组</option>
+          <option value="age" ${filters.groupBy === 'age' ? 'selected' : ''}>按年龄分组</option>
         </select>
         <label class="check"><input type="checkbox" id="f-open" ${filters.openOnly ? 'checked' : ''}>仅开启</label>
         <label class="check"><input type="checkbox" id="f-gfi" ${filters.gfiOnly ? 'checked' : ''}>仅 Good First</label>
@@ -447,6 +454,7 @@
     bind('f-type', 'type');
     bind('f-priority', 'priority');
     bind('f-assignee', 'assignee');
+    bind('f-group', 'groupBy');
     ['f-open', 'f-gfi'].forEach((id) => {
       const el = document.getElementById(id);
       if (el) el.addEventListener('change', () => {
@@ -457,7 +465,7 @@
     const clear = document.getElementById('clear-filters');
     if (clear) clear.addEventListener('click', (e) => {
       e.preventDefault();
-      f.search = ''; f.type = ''; f.priority = ''; f.assignee = ''; f.openOnly = false; f.gfiOnly = false;
+      f.search = ''; f.type = ''; f.priority = ''; f.assignee = ''; f.groupBy = ''; f.openOnly = false; f.gfiOnly = false;
       window.renderRoute(Board.state.route);
     });
   }
@@ -483,14 +491,60 @@
     });
   }
 
-  function colCard(col, cards) {
+  function colCard(col, cards, groupBy) {
+    const groups = groupCards(cards, groupBy);
+    const body = groups.map((g) => `
+      <div class="col-group">
+        <div class="col-group-head"><span>${esc(g.label)}</span><span class="n">${g.cards.length}</span></div>
+        ${g.cards.map(cardHtml).join('')}
+      </div>`).join('') || '<div class="empty" style="padding:16px;font-size:12px">空</div>';
     return `
       <div class="board-col ${esc(col.id)}">
         <div class="col-head"><span>${esc(col.title)}</span><span class="n">${cards.length}</span></div>
-        <div class="col-body">
-          ${cards.length ? cards.map(cardHtml).join('') : '<div class="empty" style="padding:16px;font-size:12px">空</div>'}
-        </div>
+        <div class="col-body">${body}</div>
       </div>`;
+  }
+
+  const GROUP_ORDER = {
+    type: { bug: 0, feature: 1, question: 2, documentation: 3, other: 9 },
+    priority: { critical: 0, high: 1, medium: 2, low: 3, unknown: 9 },
+    area: null,
+    age: { '<7 天': 0, '7-30 天': 1, '30-90 天': 2, '>90 天': 9 },
+  };
+  function groupKey(c, groupBy) {
+    switch (groupBy) {
+      case 'type': return c.type || 'other';
+      case 'priority': return c.priority || 'unknown';
+      case 'area': return c.area || '无领域';
+      case 'age': {
+        const d = c.age_days || 0;
+        if (d < 7) return '<7 天';
+        if (d < 30) return '7-30 天';
+        if (d < 90) return '30-90 天';
+        return '>90 天';
+      }
+    }
+    return '';
+  }
+  function groupCards(cards, groupBy) {
+    if (!groupBy || !cards.length) return cards.length ? [{ label: '', cards }] : [];
+    const map = {};
+    cards.forEach((c) => {
+      const k = groupKey(c, groupBy);
+      (map[k] = map[k] || []).push(c);
+    });
+    const order = GROUP_ORDER[groupBy];
+    const keys = Object.keys(map);
+    keys.sort((a, b) => {
+      if (order) {
+        const oa = order[a] ?? 9, ob = order[b] ?? 9;
+        if (oa !== ob) return oa - ob;
+      } else if (groupBy === 'area') {
+        return a.localeCompare(b);
+      }
+      return map[b].length - map[a].length;
+    });
+    return keys.map((k) => ({ label: k, cards: map[k] }));
   }
 
   function cardHtml(c) {
