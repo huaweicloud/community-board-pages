@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T02:57:16.589646+00:00",
+  "generated_at": "2026-08-08T03:38:34.253007+00:00",
   "columns": [
     {
       "id": "needs-triage",
@@ -318,5 +318,46 @@
       ]
     }
   ],
-  "governance_grading": "≥80 优秀 / ≥60 良好 / ≥40 一般 / <40 不足；未知信号（无权限探测）不计入评分"
+  "governance_grading": "≥80 优秀 / ≥60 良好 / ≥40 一般 / <40 不足；未知信号（无权限探测）不计入评分",
+  "benchmarks": {
+    "note": "对标 GitHub 头部开源组织（Kubernetes/CNCF/知名 SDK 等项目治理均值）",
+    "dims": {
+      "d1": {
+        "target": 80,
+        "note": "描述 100%、Topics≥3、活跃、License 齐全"
+      },
+      "d2": {
+        "target": 70,
+        "note": "CI 覆盖≥80%、Dependabot≥60%、CodeQL≥40%、≥2 贡献者"
+      },
+      "d3": {
+        "target": 70,
+        "note": "关闭率≥70%、无僵尸 Issue、标签/模板齐全"
+      },
+      "d4": {
+        "target": 80,
+        "note": "合并率≥95%、无积压 PR、PR 模板齐全"
+      },
+      "d5": {
+        "target": 70,
+        "note": "CI 覆盖≥80%、release 流程、Dependabot≥60%"
+      },
+      "d6": {
+        "target": 75,
+        "note": "分支保护≥80%、SemVer 发布、CHANGELOG"
+      },
+      "d7": {
+        "target": 65,
+        "note": "社区文件 4/6 及以上（README/CONTRIBUTING/SECURITY/CoC/模板）"
+      },
+      "d8": {
+        "target": 95,
+        "note": "License 100% 且可识别、无 GPL 传染"
+      },
+      "d9": {
+        "target": 70,
+        "note": "有活跃贡献与 CI、可观测"
+      }
+    }
+  }
 }

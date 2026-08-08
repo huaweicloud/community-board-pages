@@ -347,3 +347,46 @@ table.data tr:hover td { background: var(--bg); }
 .rd-check.unk { opacity: .45; }
 .rd-text { color: var(--text); font-size: 12.5px; margin-top: 6px; line-height: 1.5; }
 .rd-legend { color: var(--muted); font-size: 11.5px; }
+
+/* ---- industry benchmarks ---- */
+.bench-list { display: flex; flex-direction: column; gap: 6px; }
+.bench-row {
+  display: grid; grid-template-columns: 120px 1fr 48px 48px 60px 52px;
+  gap: 10px; align-items: center; font-size: 13px;
+}
+.bench-head { color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.bench-head span { cursor: default; }
+.bench-dim { font-weight: 600; white-space: nowrap; cursor: help; }
+.bench-track {
+  position: relative; height: 16px; background: var(--bg); border: 1px solid var(--border);
+  border-radius: 4px; overflow: hidden;
+}
+.bench-fill.org { height: 100%; background: var(--accent); border-radius: 4px 0 0 4px; }
+.bench-marker {
+  position: absolute; top: 0; bottom: 0; width: 2px; background: var(--red);
+}
+.bench-marker i {
+  position: absolute; top: -6px; left: 4px; font-style: normal; font-size: 10px;
+  color: var(--red); white-space: nowrap;
+}
+.bench-num { font-weight: 700; text-align: right; }
+.bench-num.org { color: var(--accent); }
+.bench-num.ref { color: var(--red); }
+.bench-gap { text-align: right; font-variant-numeric: tabular-nums; }
+.bench-status { font-weight: 600; text-align: center; }
+.bench-gap.ok, .bench-status.ok { color: var(--green); }
+.bench-gap.warn, .bench-status.warn { color: var(--amber); }
+.bench-gap.bad, .bench-status.bad { color: var(--red); }
+.bench-overall { border-top: 1px solid var(--border); padding-top: 8px; font-weight: 700; }
+.bench-tag {
+  display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 10px;
+  font-size: 10px; font-weight: 600; line-height: 16px; vertical-align: 1px;
+}
+.bench-tag.ok { background: var(--green-soft); color: var(--green); }
+.bench-tag.warn { background: var(--amber-soft); color: var(--amber); }
+.rd-bench {
+  padding: 0 8px; border-radius: 10px; font-size: 11px; font-weight: 600; line-height: 18px;
+}
+.rd-bench.ok { background: var(--green-soft); color: var(--green); }
+.rd-bench.warn { background: var(--amber-soft); color: var(--amber); }
+.rd-bench.bad { background: var(--red-soft); color: var(--red); }

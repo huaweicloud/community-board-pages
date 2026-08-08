@@ -179,6 +179,70 @@
     return g.org[id] ? g.org[id].score : 0;
   }
 
+  /* ---- industry benchmarks ---- */
+  function benchDef() {
+    return (Board.data.meta && Board.data.meta.benchmarks) || { dims: {} };
+  }
+  function benchTarget(did) {
+    return (benchDef().dims && benchDef().dims[did] && benchDef().dims[did].target) || 0;
+  }
+  function benchOverall(g) {
+    const ws = (g.dims || []).reduce((s, d) => s + (d.weight || 0), 0);
+    if (!ws) return 0;
+    return Math.round((g.dims || []).reduce((s, d) => s + benchTarget(d.id) * (d.weight || 0), 0) / ws);
+  }
+  function benchStatus(score, target) {
+    const gap = Math.round((score - target) * 10) / 10;
+    if (gap >= 0) return { label: '达标', cls: 'ok', gap: '+' + gap };
+    if (gap >= -10) return { label: '接近', cls: 'warn', gap: String(gap) };
+    return { label: '落后', cls: 'bad', gap: String(gap) };
+  }
+  function benchPanelHtml(g) {
+    const b = benchDef();
+    const note = (b.note || '').replace('（', '（');
+    const rows = g.dims.map((d) => {
+      const orgScore = org_score(g, d.id);
+      const target = benchTarget(d.id);
+      const st = benchStatus(orgScore, target);
+      const note2 = (b.dims && b.dims[d.id] && b.dims[d.id].note) || '';
+      return `
+        <div class="bench-row">
+          <span class="bench-dim" data-tip-id="bench-${d.id}">${esc(d.short)} ${esc(d.name)}</span>
+          <div class="bench-track">
+            <div class="bench-fill org" style="width:${Math.min(100, orgScore)}%"></div>
+            <div class="bench-marker" style="left:${Math.min(100, target)}%"><i>标 ${target}</i></div>
+          </div>
+          <span class="bench-num org">${orgScore}</span>
+          <span class="bench-num ref">${target}</span>
+          <span class="bench-gap ${st.cls}">${st.gap}</span>
+          <span class="bench-status ${st.cls}">${st.label}</span>
+        </div>`;
+    }).join('');
+    const overall = benchOverall(g);
+    const os = benchStatus(g.org.total.score, overall);
+    return `
+      <div class="panel bench-panel">
+        <h3>行业对标 · 横向对比 <span class="dim-info-hint">${esc(note)} · 悬浮维度查看标杆口径</span></h3>
+        <div class="bench-list">
+          <div class="bench-row bench-head">
+            <span>维度</span><span>组织 vs 行业标杆</span><span>组织</span><span>标杆</span><span>差距</span><span>状态</span>
+          </div>
+          ${rows}
+          <div class="bench-row bench-overall">
+            <span class="bench-dim">总体</span>
+            <div class="bench-track">
+              <div class="bench-fill org" style="width:${Math.min(100, g.org.total.score)}%"></div>
+              <div class="bench-marker" style="left:${Math.min(100, overall)}%"><i>标 ${overall}</i></div>
+            </div>
+            <span class="bench-num org">${g.org.total.score}</span>
+            <span class="bench-num ref">${overall}</span>
+            <span class="bench-gap ${os.cls}">${os.gap}</span>
+            <span class="bench-status ${os.cls}">${os.label}</span>
+          </div>
+        </div>
+      </div>`;
+  }
+
   /* ---------------- repos governance matrix ---------------- */
   function renderRepos(app) {
     const g = Board.data.governance;
@@ -213,9 +277,17 @@
       </div>`;
 
     app.innerHTML = `<div class="page-head"><h2 class="section-title">仓库治理矩阵</h2>
-      <span class="sub">9 维度评分 · 颜色：绿=优秀/良好 黄=一般 红=不足 · 悬浮列头 ⓘ 查看计算方式 · 点击仓库行展开单仓结论</span></div>${toolbar}`;
+      <span class="sub">9 维度评分 · 颜色：绿=优秀/良好 黄=一般 红=不足 · 悬浮列头 ⓘ 查看计算方式 · 点击仓库行展开单仓结论</span></div>
+      ${benchPanelHtml(g)}${toolbar}`;
 
     g.dims.forEach((d) => attachTip(document.querySelector(`[data-tip-id="col-${d.id}"]`), dimInfoHtml(d)));
+    g.dims.forEach((d) => {
+      const el = document.querySelector(`[data-tip-id="bench-${d.id}"]`);
+      const note = (benchDef().dims && benchDef().dims[d.id] && benchDef().dims[d.id].note) || '';
+      attachTip(el, `<div class="tip-title">${esc(d.short)} ${esc(d.name)} · 行业标杆 ${benchTarget(d.id)} 分</div>
+        <div class="tip-desc">${esc(note || '')}</div>
+        <div class="tip-note">${esc(benchDef().note || '')}</div>`);
+    });
 
     const body = document.getElementById('rg-body');
     if (!body) return;
@@ -265,12 +337,17 @@
       return `<td style="color:${color};font-weight:600" title="${esc(d.name)} ${dd.score}分 · ${tip}">${dd.score}</td>`;
     }).join('');
     const link = r.platform === 'github' ? `https://github.com/${r.repo}` : `https://gitcode.com/${r.repo}`;
+    const overall = benchOverall(g);
+    const bs = benchStatus(r.total, overall);
+    const mark = bs.cls === 'ok'
+      ? `<span class="bench-tag ok" title="达到总体行业标杆 ${overall} 分">对标达标</span>`
+      : (bs.cls === 'warn' ? `<span class="bench-tag warn" title="接近总体行业标杆 ${overall} 分（差 ${overall - r.total}）">接近</span>` : '');
     return `<tr class="repo-row" data-repo="${esc(r.repo)}">
       <td><span class="tog" style="color:var(--muted);margin-right:4px">▸</span>
         <a href="${esc(link)}" target="_blank" rel="noopener">${esc(r.repo)}</a></td>
       <td><span class="badge plat-${r.platform}">${r.platform === 'github' ? 'GH' : 'GC'}</span></td>
       <td>${r.stars || 0}</td>
-      <td style="font-weight:700;color:${GRADE_COLOR[r.grade] || '#59636e'}">${r.total}<br><small>${r.grade}</small></td>
+      <td style="font-weight:700;color:${GRADE_COLOR[r.grade] || '#59636e'}">${r.total} ${mark}<br><small>${r.grade}</small></td>
       ${cells}</tr>`;
   }
 
@@ -278,7 +355,8 @@
     const dims = g.dims.map((d) => {
       const dd = r.dims[d.id] || { score: 0, grade: '不足', conclusion: '' };
       const color = GRADE_COLOR[dd.grade] || '#59636e';
-      const failing = Object.entries(dd.checks || {}).filter(([, v]) => v === false).map(([k]) => k);
+      const target = benchTarget(d.id);
+      const st = benchStatus(dd.score, target);
       const checks = Object.entries(dd.checks || {}).map(([k, v]) =>
         `<span class="rd-check ${v === true ? 'ok' : v === false ? 'bad' : 'unk'}" title="${esc(k)}">${v === true ? '✅' : v === false ? '❌' : '❔'}</span>`).join('');
       return `
@@ -286,6 +364,7 @@
           <div class="rd-head">
             <span class="rd-dim-name">${esc(d.short)} ${esc(d.name)}</span>
             <span class="rd-score" style="color:${color}">${dd.score} · ${dd.grade}</span>
+            <span class="rd-bench ${st.cls}" title="行业标杆 ${target} 分 · 差距 ${st.gap}">标 ${target} ${st.label}</span>
             <span class="rd-checks">${checks}</span>
           </div>
           <div class="rd-text">${esc(dd.conclusion || '')}</div>
@@ -297,7 +376,7 @@
         <span class="rd-meta">★ ${r.stars || 0} · 开启 Issue ${r.open_issues || 0} · 开启 PR ${r.open_prs || 0} · 加权 ${r.total}（${r.grade}）</span>
       </div>
       <div class="rd-grid">${dims}</div>
-      <div class="rd-legend">✅ 达标 · ❌ 不足 · ❔ 信息未知（不计入评分）</div>`;
+      <div class="rd-legend">✅ 达标 · ❌ 不足 · ❔ 信息未知（不计入评分） · 标=行业标杆</div>`;
   }
 
   function checksTip(d, checks) {
