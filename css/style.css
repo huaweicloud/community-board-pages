@@ -372,17 +372,17 @@ table.data tr:hover td { background: var(--bg); }
 }
 .bench-fill.org { height: 100%; background: var(--accent); border-radius: 4px 0 0 4px; }
 .bench-marker {
-  position: absolute; top: 0; bottom: 0; width: 2px; background: var(--red);
+  position: absolute; top: 0; bottom: 0; width: 2px; background: var(--green);
 }
 .bench-marker i {
   position: absolute; top: -7px; left: 50%; transform: translateX(-50%);
   font-style: normal; font-size: 10px;
-  color: var(--red); white-space: nowrap; line-height: 1;
+  color: var(--green); white-space: nowrap; line-height: 1;
   background: var(--panel); padding: 1px 3px; border-radius: 3px;
 }
 .bench-num { font-weight: 700; text-align: right; }
 .bench-num.org { color: var(--accent); }
-.bench-num.ref { color: var(--red); }
+.bench-num.ref { color: var(--green); }
 .bench-gap { text-align: right; font-variant-numeric: tabular-nums; }
 .bench-status { font-weight: 600; text-align: center; }
 .bench-gap.ok, .bench-status.ok { color: var(--green); }
