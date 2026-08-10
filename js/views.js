@@ -62,6 +62,34 @@
   };
 
   /* ---------------- overview (GitHub only) ---------------- */
+  function overallConclusionHtml() {
+    const g = Board.data.governance;
+    const org = g.org_github || g.org;
+    const concls = g.conclusions_github || g.conclusions;
+    if (!concls) return '';
+    const seen = {};
+    Object.values(concls).forEach((c) => (c.facts || []).forEach((f) => {
+      const key = f.label.replace('近 30 天无合并 PR', '近 30 天无合并');
+      if (!seen[key] || f.missing > seen[key].missing) seen[key] = { ...f, label: key };
+    }));
+    const facts = Object.values(seen).sort((a, b) => b.missing - a.missing);
+    if (!facts.length) return '';
+    const top = facts.slice(0, 4);
+    const lic = seen['无 LICENSE'];
+    if (lic && !top.includes(lic)) top.push(lic);
+    const problems = top.map((f) => `${esc(f.label)}（${f.missing}/${f.known}）`).join('、');
+    const chips = top.map((f) => `<span class="badge" style="background:var(--red-soft);color:var(--red)" title="缺失 ${f.missing}/${f.known} 仓">${esc(f.label)} ${f.missing}</span>`).join('');
+    const gcls = org.total.grade === '不足' ? 'bad' : org.total.grade === '一般' ? 'warn' : 'ok';
+    return `
+      <div class="panel concl-overall">
+        <h3>总体结论</h3>
+        <p class="co-text">组织治理加权 <b>${org.total.score}</b> 分（<span class="co-grade ${gcls}">${org.total.grade}</span>）。
+          当前主要问题：${problems}。
+          建议优先：补齐 License、清理僵尸仓库、建立标签与社区文件体系。</p>
+        <div class="co-chips">${chips}</div>
+      </div>`;
+  }
+
   function renderOverview(app) {
     const g = Board.data.governance;
     const org = g.org_github || g.org;          // GitHub-only org scores
@@ -114,6 +142,7 @@
     const kpiCount = `P0: ${risksIn('P0')} · P1: ${risksIn('P1')} · P2: ${risksIn('P2')} · P3: ${risksIn('P3')}`;
 
     app.innerHTML = `
+      ${overallConclusionHtml()}
       <div class="chips">${platformChip('github')}
         <span class="chip">风险: <b>${kpiCount}</b></span>
         <span class="chip">GitCode 数据见「GitCode 看板」页</span></div>

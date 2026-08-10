@@ -292,6 +292,16 @@ table.data tr:hover td { background: var(--bg); }
 
 .compact-list { display: flex; flex-direction: column; gap: 4px; }
 
+/* ---- overall conclusion ---- */
+.concl-overall { border-left: 4px solid var(--red); }
+.concl-overall h3 { margin: 0 0 8px; }
+.co-text { margin: 0 0 8px; line-height: 1.7; }
+.co-grade { font-weight: 700; }
+.co-grade.bad { color: var(--red); }
+.co-grade.warn { color: var(--amber); }
+.co-grade.ok { color: var(--green); }
+.co-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+
 /* ---- dimension info & tooltip ---- */
 .dim-info {
   display: inline-block; margin-left: 2px; cursor: help;
