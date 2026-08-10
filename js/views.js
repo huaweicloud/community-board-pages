@@ -215,7 +215,7 @@
           <span class="bench-dim" data-tip-id="bench-${d.id}">${esc(d.short)} ${esc(d.name)}</span>
           <div class="bench-track">
             <div class="bench-fill org" style="width:${Math.min(100, orgScore)}%"></div>
-            <div class="bench-marker" style="left:${Math.min(100, target)}%"><i>标 ${target}</i></div>
+            <div class="bench-marker" style="left:${Math.min(100, target)}%"><i${target > 50 ? ' class="l"' : ''}>标 ${target}</i></div>
           </div>
           <span class="bench-num org">${orgScore}</span>
           <span class="bench-num ref">${target}</span>
@@ -238,7 +238,7 @@
             <span class="bench-dim">总体</span>
             <div class="bench-track">
               <div class="bench-fill org" style="width:${Math.min(100, g.org.total.score)}%"></div>
-              <div class="bench-marker" style="left:${Math.min(100, overall)}%"><i>标 ${overall}</i></div>
+              <div class="bench-marker" style="left:${Math.min(100, overall)}%"><i${overall > 50 ? ' class="l"' : ''}>标 ${overall}</i></div>
             </div>
             <span class="bench-num org">${g.org.total.score}</span>
             <span class="bench-num ref">${overall}</span>
