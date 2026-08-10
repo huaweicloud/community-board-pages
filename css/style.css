@@ -375,11 +375,11 @@ table.data tr:hover td { background: var(--bg); }
   position: absolute; top: 0; bottom: 0; width: 2px; background: var(--red);
 }
 .bench-marker i {
-  position: absolute; top: -7px; left: 4px; font-style: normal; font-size: 10px;
+  position: absolute; top: -7px; left: 50%; transform: translateX(-50%);
+  font-style: normal; font-size: 10px;
   color: var(--red); white-space: nowrap; line-height: 1;
   background: var(--panel); padding: 1px 3px; border-radius: 3px;
 }
-.bench-marker i.l { left: auto; right: 4px; transform: translateX(-100%); }
 .bench-num { font-weight: 700; text-align: right; }
 .bench-num.org { color: var(--accent); }
 .bench-num.ref { color: var(--red); }
