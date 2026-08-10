@@ -73,20 +73,27 @@
       if (!seen[key] || f.missing > seen[key].missing) seen[key] = { ...f, label: key };
     }));
     const facts = Object.values(seen).sort((a, b) => b.missing - a.missing);
-    if (!facts.length) return '';
-    const top = facts.slice(0, 4);
-    const lic = seen['无 LICENSE'];
-    if (lic && !top.includes(lic)) top.push(lic);
-    const problems = top.map((f) => `${esc(f.label)}（${f.missing}/${f.known}）`).join('、');
-    const chips = top.map((f) => `<span class="badge" style="background:var(--red-soft);color:var(--red)" title="缺失 ${f.missing}/${f.known} 仓">${esc(f.label)} ${f.missing}</span>`).join('');
+
+    const isPending = (l) => l.includes('僵尸') || l.includes('积压') || l.includes('关闭率 <') ||
+      l.includes('合并率 <') || l.includes('单人维护') || l.includes('GPL') || l.includes('近 30 天') || l.includes('SLA');
+    const isMissing = (l) => l.includes('无') || l.includes('未启用') || l.includes('未开启') ||
+      l.includes('Topics <') || l.includes('社区文件 <') || l.includes('零 Star');
+
+    const missing = [], pending = [];
+    facts.forEach((f) => {
+      if (isPending(f.label)) pending.push(f.label);
+      else if (isMissing(f.label)) missing.push(f.label);
+    });
+    const missingArr = [...new Set(missing)].slice(0, 6);
+    if (seen['无 LICENSE'] && !missingArr.includes('无 LICENSE')) missingArr.push('无 LICENSE');
+    const fmt = (arr, n) => [...new Set(arr)].slice(0, n).map(esc).join('、');
     const gcls = org.total.grade === '不足' ? 'bad' : org.total.grade === '一般' ? 'warn' : 'ok';
     return `
       <div class="panel concl-overall">
         <h3>总体结论</h3>
-        <p class="co-text">组织治理加权 <b>${org.total.score}</b> 分（<span class="co-grade ${gcls}">${org.total.grade}</span>）。
-          当前主要问题：${problems}。
-          建议优先：补齐 License、清理僵尸仓库、建立标签与社区文件体系。</p>
-        <div class="co-chips">${chips}</div>
+        <p class="co-text">组织治理加权 <b>${org.total.score}</b> 分（<span class="co-grade ${gcls}">${org.total.grade}</span>）。</p>
+        <p class="co-text">主要缺少：<b>${missingArr.map(esc).join('、')}</b>。</p>
+        <p class="co-text">待处理：<b>${fmt(pending, 4)}</b>。</p>
       </div>`;
   }
 
