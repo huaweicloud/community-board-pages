@@ -64,7 +64,6 @@
   /* ---------------- overview (GitHub only) ---------------- */
   function overallConclusionHtml() {
     const g = Board.data.governance;
-    const org = g.org_github || g.org;
     const concls = g.conclusions_github || g.conclusions;
     if (!concls) return '';
     const seen = {};
@@ -72,28 +71,20 @@
       const key = f.label.replace('近 30 天无合并 PR', '近 30 天无合并');
       if (!seen[key] || f.missing > seen[key].missing) seen[key] = { ...f, label: key };
     }));
-    const facts = Object.values(seen).sort((a, b) => b.missing - a.missing);
-
-    const isPending = (l) => l.includes('僵尸') || l.includes('积压') || l.includes('关闭率 <') ||
-      l.includes('合并率 <') || l.includes('单人维护') || l.includes('GPL') || l.includes('近 30 天') || l.includes('SLA');
-    const isMissing = (l) => l.includes('无') || l.includes('未启用') || l.includes('未开启') ||
-      l.includes('Topics <') || l.includes('社区文件 <') || l.includes('零 Star');
-
-    const missing = [], pending = [];
-    facts.forEach((f) => {
-      if (isPending(f.label)) pending.push(f.label);
-      else if (isMissing(f.label)) missing.push(f.label);
-    });
-    const missingArr = [...new Set(missing)].slice(0, 6);
-    if (seen['无 LICENSE'] && !missingArr.includes('无 LICENSE')) missingArr.push('无 LICENSE');
-    const fmt = (arr, n) => [...new Set(arr)].slice(0, n).map(esc).join('、');
-    const gcls = org.total.grade === '不足' ? 'bad' : org.total.grade === '一般' ? 'warn' : 'ok';
+    const has = (l) => seen[l] && seen[l].missing > 0;
+    const pileUp = has('存在积压 PR') || has('关闭率 < 70%') || has('近 30 天无合并');
+    const clauses = [];
+    if (has('无安全扫描')) clauses.push('缺少安全扫描');
+    if (has('无 LICENSE')) clauses.push('部分仓库缺少 License');
+    if (has('僵尸仓库')) clauses.push('僵尸仓库未处理');
+    if (pileUp) clauses.push('存在囤积未关闭的 Issue 和积压 PR');
+    if (has('无标签体系')) clauses.push('标签体系缺失');
+    if (has('社区文件 < 2')) clauses.push('社区协作文件缺失');
+    if (!clauses.length) return '';
     return `
       <div class="panel concl-overall">
         <h3>总体结论</h3>
-        <p class="co-text">组织治理加权 <b>${org.total.score}</b> 分（<span class="co-grade ${gcls}">${org.total.grade}</span>）。</p>
-        <p class="co-text">主要缺少：<b>${missingArr.map(esc).join('、')}</b>。</p>
-        <p class="co-text">待处理：<b>${fmt(pending, 4)}</b>。</p>
+        <p class="co-text">${clauses.slice(0, 4).join('，')}。</p>
       </div>`;
   }
 
