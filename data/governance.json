@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:16:00.613059+00:00",
+  "generated_at": "2026-08-16T02:23:17.916791+00:00",
   "dims": [
     {
       "id": "d1",
@@ -5223,7 +5223,7 @@
       "platform": "github",
       "stars": 1041,
       "open_issues": 61,
-      "open_prs": 9,
+      "open_prs": 8,
       "total": 41.8,
       "grade": "一般",
       "dims": {
@@ -29198,9 +29198,9 @@
       "count": 236,
       "items": [
         "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/cloud-custodian",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
@@ -29442,10 +29442,10 @@
       "count": 219,
       "items": [
         "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-devkit",
         "huaweicloud/cloud-custodian",
         "huaweicloud/.github",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/repository-requests",
@@ -29668,9 +29668,9 @@
       "title": "缺少 CONTRIBUTING.md 贡献指南",
       "count": 236,
       "items": [
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/cloud-custodian",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -29913,9 +29913,9 @@
       "count": 239,
       "items": [
         "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/cloud-custodian",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30159,10 +30159,10 @@
       "title": "Issue 标签体系缺失",
       "count": 171,
       "items": [
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/cloud-custodian",
         "huaweicloud/.github",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/devspace-aicli-plugins",
@@ -30716,9 +30716,9 @@
       "title": "零 Issue 仓库",
       "count": 167,
       "items": [
+        "huaweicloud/community-board-pages",
         "huaweicloud/cloud-custodian",
         "huaweicloud/.github",
-        "huaweicloud/community-board-pages",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/devspace-aicli-plugins",
         "huaweicloud/generator-cloudide-plugin",
@@ -30888,7 +30888,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-08-15T02:16:00.613059+00:00",
+    "generated_at": "2026-08-16T02:23:17.916791+00:00",
     "rows": [
       {
         "name": "许可证",
