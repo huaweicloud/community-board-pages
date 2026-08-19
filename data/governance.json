@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T02:18:21.416578+00:00",
+  "generated_at": "2026-08-19T02:21:00.012502+00:00",
   "dims": [
     {
       "id": "d1",
@@ -273,7 +273,7 @@
       "name": "代码质量"
     },
     "d3": {
-      "score": 30.2,
+      "score": 30.1,
       "grade": "不足",
       "weight": 10,
       "name": "Issue管理"
@@ -327,13 +327,13 @@
       "name": "仓库健康"
     },
     "d2": {
-      "score": 32.3,
+      "score": 32.4,
       "grade": "不足",
       "weight": 18,
       "name": "代码质量"
     },
     "d3": {
-      "score": 30.5,
+      "score": 30.4,
       "grade": "不足",
       "weight": 10,
       "name": "Issue管理"
@@ -351,7 +351,7 @@
       "name": "CI/CD"
     },
     "d6": {
-      "score": 39.4,
+      "score": 39.5,
       "grade": "不足",
       "weight": 12,
       "name": "分支发布"
@@ -383,10 +383,10 @@
     {
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
-      "stars": 15,
-      "open_issues": 9,
-      "open_prs": 9,
-      "total": 89.0,
+      "stars": 16,
+      "open_issues": 16,
+      "open_prs": 12,
+      "total": 90.3,
       "grade": "优秀",
       "dims": {
         "d1": {
@@ -450,15 +450,15 @@
           "conclusion": "得分 100/100（优秀）。各项达标。"
         },
         "d6": {
-          "score": 64,
+          "score": 75,
           "grade": "良好",
           "checks": {
-            "分支保护": null,
+            "分支保护": true,
             "Release/Tag": true,
             "SemVer 标签": true,
             "CHANGELOG": false
           },
-          "conclusion": "得分 64/100（良好）。不足：CHANGELOG。（信息未知：分支保护）"
+          "conclusion": "得分 75/100（良好）。不足：CHANGELOG。"
         },
         "d7": {
           "score": 100,
@@ -503,7 +503,7 @@
       "platform": "github",
       "stars": 272,
       "open_issues": 2,
-      "open_prs": 34,
+      "open_prs": 28,
       "total": 75.6,
       "grade": "良好",
       "dims": {
@@ -621,7 +621,7 @@
       "platform": "github",
       "stars": 15,
       "open_issues": 5,
-      "open_prs": 2,
+      "open_prs": 3,
       "total": 69.5,
       "grade": "良好",
       "dims": {
@@ -856,9 +856,9 @@
       "repo": "huaweicloud/.github",
       "platform": "github",
       "stars": 0,
-      "open_issues": 2,
+      "open_issues": 1,
       "open_prs": 4,
-      "total": 65.9,
+      "total": 67.1,
       "grade": "良好",
       "dims": {
         "d1": {
@@ -874,29 +874,29 @@
           "conclusion": "得分 75/100（良好）。不足：Topics≥3。"
         },
         "d2": {
-          "score": 85,
+          "score": 100,
           "grade": "优秀",
           "checks": {
             "CI 工作流": true,
             "Dependabot": true,
-            "安全扫描(CodeQL)": false,
+            "安全扫描(CodeQL)": true,
             "贡献者≥2": true,
             "主语言标识": true,
             "SECURITY.md": true
           },
-          "conclusion": "得分 85/100（优秀）。不足：安全扫描(CodeQL)。"
+          "conclusion": "得分 100/100（优秀）。各项达标。"
         },
         "d3": {
-          "score": 70,
-          "grade": "良好",
+          "score": 55,
+          "grade": "一般",
           "checks": {
             "有 Issue": true,
             "关闭率≥70%": false,
             "无僵尸 Issue": true,
-            "标签体系": true,
+            "标签体系": false,
             "Issue 模板": true
           },
-          "conclusion": "得分 70/100（良好）。不足：关闭率≥70%。"
+          "conclusion": "得分 55/100（一般）。不足：关闭率≥70%、标签体系。"
         },
         "d4": {
           "score": 60,
@@ -975,7 +975,7 @@
       "platform": "github",
       "stars": 20,
       "open_issues": 0,
-      "open_prs": 19,
+      "open_prs": 18,
       "total": 64.8,
       "grade": "良好",
       "dims": {
@@ -6638,7 +6638,7 @@
       "repo": "huaweicloud/huaweicloud-sdk-php-v3",
       "platform": "github",
       "stars": 18,
-      "open_issues": 12,
+      "open_issues": 13,
       "open_prs": 4,
       "total": 38.7,
       "grade": "不足",
@@ -15134,7 +15134,7 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 9,
+      "open_issues": 16,
       "open_prs": 0,
       "total": 17.5,
       "grade": "不足",
@@ -29179,8 +29179,8 @@
       "title": "仓库缺少 LICENSE 文件",
       "count": 129,
       "items": [
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/devspace-devbridge",
@@ -29318,12 +29318,12 @@
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/cloud-custodian",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
-        "huaweicloud/agentarts-sdk-python",
-        "huaweicloud/cloud-custodian",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-net-v3",
@@ -29559,15 +29559,14 @@
     {
       "prio": "P0",
       "title": "仓库未开启分支保护",
-      "count": 220,
+      "count": 219,
       "items": [
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/huaweicloud-devkit",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/cloud-custodian",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/.github",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/repository-requests",
         "huaweicloud/devspace-devbridge",
@@ -29791,11 +29790,11 @@
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/cloud-custodian",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
-        "huaweicloud/cloud-custodian",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30036,12 +30035,12 @@
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/cloud-custodian",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
-        "huaweicloud/agentarts-sdk-python",
-        "huaweicloud/cloud-custodian",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30280,13 +30279,14 @@
     {
       "prio": "P1",
       "title": "Issue 标签体系缺失",
-      "count": 171,
+      "count": 172,
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/community-board-pages",
         "huaweicloud/cloud-custodian",
+        "huaweicloud/.github",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/devspace-aicli-plugins",
         "huaweicloud/generator-cloudide-plugin",
@@ -30462,8 +30462,8 @@
       "count": 201,
       "items": [
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30671,9 +30671,9 @@
       "count": 50,
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/cloud-custodian",
         "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
-        "huaweicloud/cloud-custodian",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-net-v3",
@@ -30839,9 +30839,9 @@
       "title": "零 Issue 仓库",
       "count": 167,
       "items": [
-        "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/community-board-pages",
         "huaweicloud/cloud-custodian",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/devspace-aicli-plugins",
         "huaweicloud/generator-cloudide-plugin",
@@ -31011,7 +31011,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-08-18T02:18:21.416578+00:00",
+    "generated_at": "2026-08-19T02:21:00.012502+00:00",
     "rows": [
       {
         "name": "许可证",
@@ -31027,7 +31027,7 @@
       },
       {
         "name": "分支保护",
-        "cur": "9.8%",
+        "cur": "10.2%",
         "target": "≥80%",
         "prio": "P0"
       },
@@ -31107,11 +31107,11 @@
     "d2": {
       "score": 24.7,
       "grade": "不足",
-      "text": "均分 24.7/100，等级：不足。短板：无安全扫描（243/244 缺失，100%）、无 CI 工作流（201/244 缺失，82%）、无 SECURITY.md（124/131 缺失，95%）",
+      "text": "均分 24.7/100，等级：不足。短板：无安全扫描（242/244 缺失，99%）、无 CI 工作流（201/244 缺失，82%）、无 SECURITY.md（124/131 缺失，95%）",
       "facts": [
         {
           "label": "无安全扫描",
-          "missing": 243,
+          "missing": 242,
           "known": 244
         },
         {
@@ -31127,13 +31127,13 @@
       ]
     },
     "d3": {
-      "score": 30.2,
+      "score": 30.1,
       "grade": "不足",
-      "text": "均分 30.2/100，等级：不足。短板：无标签体系（171/244 缺失，70%）、关闭率 < 70%（71/77 缺失，92%）、存在僵尸 Issue（65/244 缺失，27%）",
+      "text": "均分 30.1/100，等级：不足。短板：无标签体系（172/244 缺失，70%）、关闭率 < 70%（71/77 缺失，92%）、存在僵尸 Issue（65/244 缺失，27%）",
       "facts": [
         {
           "label": "无标签体系",
-          "missing": 171,
+          "missing": 172,
           "known": 244
         },
         {
@@ -31305,13 +31305,13 @@
       ]
     },
     "d2": {
-      "score": 32.3,
+      "score": 32.4,
       "grade": "不足",
-      "text": "均分 32.3/100，等级：不足。短板：无安全扫描（143/144 缺失，99%）、无 SECURITY.md（124/131 缺失，95%）、无 CI 工作流（101/144 缺失，70%）",
+      "text": "均分 32.4/100，等级：不足。短板：无安全扫描（142/144 缺失，99%）、无 SECURITY.md（124/131 缺失，95%）、无 CI 工作流（101/144 缺失，70%）",
       "facts": [
         {
           "label": "无安全扫描",
-          "missing": 143,
+          "missing": 142,
           "known": 144
         },
         {
@@ -31327,13 +31327,13 @@
       ]
     },
     "d3": {
-      "score": 30.5,
+      "score": 30.4,
       "grade": "不足",
-      "text": "均分 30.5/100，等级：不足。短板：无标签体系（90/144 缺失，62%）、关闭率 < 70%（53/56 缺失，95%）、存在僵尸 Issue（50/144 缺失，35%）",
+      "text": "均分 30.4/100，等级：不足。短板：无标签体系（91/144 缺失，63%）、关闭率 < 70%（53/56 缺失，95%）、存在僵尸 Issue（50/144 缺失，35%）",
       "facts": [
         {
           "label": "无标签体系",
-          "missing": 90,
+          "missing": 91,
           "known": 144
         },
         {
@@ -31393,9 +31393,9 @@
       ]
     },
     "d6": {
-      "score": 39.4,
+      "score": 39.5,
       "grade": "不足",
-      "text": "均分 39.4/100，等级：不足。短板：无 CHANGELOG（109/131 缺失，83%）、无 SemVer 标签（76/144 缺失，53%）、无 Release/Tag（69/144 缺失，48%）",
+      "text": "均分 39.5/100，等级：不足。短板：无 CHANGELOG（109/131 缺失，83%）、无 SemVer 标签（76/144 缺失，53%）、无 Release/Tag（69/144 缺失，48%）",
       "facts": [
         {
           "label": "无 CHANGELOG",
