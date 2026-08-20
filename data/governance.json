@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T02:21:00.012502+00:00",
+  "generated_at": "2026-08-20T02:19:45.293639+00:00",
   "dims": [
     {
       "id": "d1",
@@ -279,7 +279,7 @@
       "name": "Issue管理"
     },
     "d4": {
-      "score": 33.7,
+      "score": 33.8,
       "grade": "不足",
       "weight": 10,
       "name": "PR管理"
@@ -339,7 +339,7 @@
       "name": "Issue管理"
     },
     "d4": {
-      "score": 36.9,
+      "score": 37.1,
       "grade": "不足",
       "weight": 10,
       "name": "PR管理"
@@ -369,7 +369,7 @@
       "name": "许可证合规"
     },
     "d9": {
-      "score": 23.8,
+      "score": 23.9,
       "grade": "不足",
       "weight": 6,
       "name": "可观测性"
@@ -384,8 +384,8 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
       "stars": 16,
-      "open_issues": 16,
-      "open_prs": 12,
+      "open_issues": 18,
+      "open_prs": 3,
       "total": 90.3,
       "grade": "优秀",
       "dims": {
@@ -503,7 +503,7 @@
       "platform": "github",
       "stars": 272,
       "open_issues": 2,
-      "open_prs": 28,
+      "open_prs": 27,
       "total": 75.6,
       "grade": "良好",
       "dims": {
@@ -621,7 +621,7 @@
       "platform": "github",
       "stars": 15,
       "open_issues": 5,
-      "open_prs": 3,
+      "open_prs": 4,
       "total": 69.5,
       "grade": "良好",
       "dims": {
@@ -1091,7 +1091,7 @@
     {
       "repo": "huaweicloud/spring-cloud-huawei",
       "platform": "github",
-      "stars": 576,
+      "stars": 577,
       "open_issues": 30,
       "open_prs": 22,
       "total": 63.9,
@@ -1563,7 +1563,7 @@
     {
       "repo": "huaweicloud/huaweicloud-csi-driver",
       "platform": "github",
-      "stars": 48,
+      "stars": 49,
       "open_issues": 9,
       "open_prs": 0,
       "total": 57.7,
@@ -4041,7 +4041,7 @@
     {
       "repo": "huaweicloud/huaweicloud-sdk-python-obs",
       "platform": "github",
-      "stars": 87,
+      "stars": 86,
       "open_issues": 26,
       "open_prs": 1,
       "total": 45.0,
@@ -5221,7 +5221,7 @@
     {
       "repo": "huaweicloud/ModelArts-Lab",
       "platform": "github",
-      "stars": 1041,
+      "stars": 1042,
       "open_issues": 61,
       "open_prs": 7,
       "total": 41.8,
@@ -10293,6 +10293,124 @@
       }
     },
     {
+      "repo": "huaweicloud/spring-cloud-huawei-samples",
+      "platform": "github",
+      "stars": 49,
+      "open_issues": 8,
+      "open_prs": 3,
+      "total": 31.2,
+      "grade": "不足",
+      "dims": {
+        "d1": {
+          "score": 60,
+          "grade": "良好",
+          "checks": {
+            "仓库描述": true,
+            "Topics≥3": false,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": false
+          },
+          "conclusion": "得分 60/100（良好）。不足：Topics≥3、LICENSE。"
+        },
+        "d2": {
+          "score": 35,
+          "grade": "不足",
+          "checks": {
+            "CI 工作流": false,
+            "Dependabot": null,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": true,
+            "主语言标识": true,
+            "SECURITY.md": false
+          },
+          "conclusion": "得分 35/100（不足）。不足：CI 工作流、安全扫描(CodeQL)、SECURITY.md。（信息未知：Dependabot）"
+        },
+        "d3": {
+          "score": 37,
+          "grade": "不足",
+          "checks": {
+            "有 Issue": true,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": false,
+            "标签体系": true,
+            "Issue 模板": null
+          },
+          "conclusion": "得分 37/100（不足）。不足：关闭率≥70%、无僵尸 Issue。（信息未知：Issue 模板）"
+        },
+        "d4": {
+          "score": 70,
+          "grade": "良好",
+          "checks": {
+            "有 PR 活动": true,
+            "合并率≥90%": true,
+            "无积压 PR": false,
+            "PR 模板": null,
+            "近30天有合并": true
+          },
+          "conclusion": "得分 70/100（良好）。不足：无积压 PR。（信息未知：PR 模板）"
+        },
+        "d5": {
+          "score": 0,
+          "grade": "不足",
+          "checks": {
+            "工作流存在": false,
+            "CI/测试/lint": false,
+            "release/publish": false,
+            "Dependabot": null
+          },
+          "conclusion": "得分 0/100（不足）。不足：工作流存在、CI/测试/lint、release/publish。（信息未知：Dependabot）"
+        },
+        "d6": {
+          "score": 30,
+          "grade": "不足",
+          "checks": {
+            "分支保护": true,
+            "Release/Tag": false,
+            "SemVer 标签": false,
+            "CHANGELOG": false
+          },
+          "conclusion": "得分 30/100（不足）。不足：Release/Tag、SemVer 标签、CHANGELOG。"
+        },
+        "d7": {
+          "score": 18,
+          "grade": "不足",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": false,
+            "SECURITY.md": false,
+            "CODE_OF_CONDUCT": false,
+            "Issue 模板": null,
+            "PR 模板": null,
+            "Discussions": false
+          },
+          "conclusion": "得分 18/100（不足）。不足：CONTRIBUTING.md、SECURITY.md、CODE_OF_CONDUCT、Discussions。（信息未知：Issue 模板、PR 模板）"
+        },
+        "d8": {
+          "score": 0,
+          "grade": "不足",
+          "checks": {
+            "存在 LICENSE": false,
+            "License 可识别": false,
+            "非 GPL": false
+          },
+          "conclusion": "得分 0/100（不足）。不足：存在 LICENSE、License 可识别、非 GPL。"
+        },
+        "d9": {
+          "score": 40,
+          "grade": "一般",
+          "checks": {
+            "近30天合并 PR": true,
+            "关闭率≥70%": false,
+            "有 CI": false,
+            "有 Stars": true,
+            "社区文件≥2": false
+          },
+          "conclusion": "得分 40/100（一般）。不足：关闭率≥70%、有 CI、社区文件≥2。"
+        }
+      }
+    },
+    {
       "repo": "huaweicloud/huaweicloud-tool-aad-toa",
       "platform": "github",
       "stars": 12,
@@ -10867,124 +10985,6 @@
             "非 GPL": true
           },
           "conclusion": "得分 100/100（优秀）。各项达标。"
-        },
-        "d9": {
-          "score": 20,
-          "grade": "不足",
-          "checks": {
-            "近30天合并 PR": false,
-            "关闭率≥70%": false,
-            "有 CI": false,
-            "有 Stars": true,
-            "社区文件≥2": false
-          },
-          "conclusion": "得分 20/100（不足）。不足：近30天合并 PR、关闭率≥70%、有 CI、社区文件≥2。"
-        }
-      }
-    },
-    {
-      "repo": "huaweicloud/spring-cloud-huawei-samples",
-      "platform": "github",
-      "stars": 49,
-      "open_issues": 8,
-      "open_prs": 2,
-      "total": 28.2,
-      "grade": "不足",
-      "dims": {
-        "d1": {
-          "score": 60,
-          "grade": "良好",
-          "checks": {
-            "仓库描述": true,
-            "Topics≥3": false,
-            "README": true,
-            "非僵尸仓库": true,
-            "LICENSE": false
-          },
-          "conclusion": "得分 60/100（良好）。不足：Topics≥3、LICENSE。"
-        },
-        "d2": {
-          "score": 35,
-          "grade": "不足",
-          "checks": {
-            "CI 工作流": false,
-            "Dependabot": null,
-            "安全扫描(CodeQL)": false,
-            "贡献者≥2": true,
-            "主语言标识": true,
-            "SECURITY.md": false
-          },
-          "conclusion": "得分 35/100（不足）。不足：CI 工作流、安全扫描(CodeQL)、SECURITY.md。（信息未知：Dependabot）"
-        },
-        "d3": {
-          "score": 37,
-          "grade": "不足",
-          "checks": {
-            "有 Issue": true,
-            "关闭率≥70%": false,
-            "无僵尸 Issue": false,
-            "标签体系": true,
-            "Issue 模板": null
-          },
-          "conclusion": "得分 37/100（不足）。不足：关闭率≥70%、无僵尸 Issue。（信息未知：Issue 模板）"
-        },
-        "d4": {
-          "score": 52,
-          "grade": "一般",
-          "checks": {
-            "有 PR 活动": true,
-            "合并率≥90%": true,
-            "无积压 PR": false,
-            "PR 模板": null,
-            "近30天有合并": false
-          },
-          "conclusion": "得分 52/100（一般）。不足：无积压 PR、近30天有合并。（信息未知：PR 模板）"
-        },
-        "d5": {
-          "score": 0,
-          "grade": "不足",
-          "checks": {
-            "工作流存在": false,
-            "CI/测试/lint": false,
-            "release/publish": false,
-            "Dependabot": null
-          },
-          "conclusion": "得分 0/100（不足）。不足：工作流存在、CI/测试/lint、release/publish。（信息未知：Dependabot）"
-        },
-        "d6": {
-          "score": 30,
-          "grade": "不足",
-          "checks": {
-            "分支保护": true,
-            "Release/Tag": false,
-            "SemVer 标签": false,
-            "CHANGELOG": false
-          },
-          "conclusion": "得分 30/100（不足）。不足：Release/Tag、SemVer 标签、CHANGELOG。"
-        },
-        "d7": {
-          "score": 18,
-          "grade": "不足",
-          "checks": {
-            "README": true,
-            "CONTRIBUTING.md": false,
-            "SECURITY.md": false,
-            "CODE_OF_CONDUCT": false,
-            "Issue 模板": null,
-            "PR 模板": null,
-            "Discussions": false
-          },
-          "conclusion": "得分 18/100（不足）。不足：CONTRIBUTING.md、SECURITY.md、CODE_OF_CONDUCT、Discussions。（信息未知：Issue 模板、PR 模板）"
-        },
-        "d8": {
-          "score": 0,
-          "grade": "不足",
-          "checks": {
-            "存在 LICENSE": false,
-            "License 可识别": false,
-            "非 GPL": false
-          },
-          "conclusion": "得分 0/100（不足）。不足：存在 LICENSE、License 可识别、非 GPL。"
         },
         "d9": {
           "score": 20,
@@ -15134,7 +15134,7 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 16,
+      "open_issues": 18,
       "open_prs": 0,
       "total": 17.5,
       "grade": "不足",
@@ -29179,14 +29179,14 @@
       "title": "仓库缺少 LICENSE 文件",
       "count": 129,
       "items": [
-        "huaweicloud/community-board-pages",
+        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/devspace-devbridge",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-mrs-example",
         "huaweicloud/VM-placement-dataset",
-        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/oasis",
         "huaweicloud/huaweicloud-iot-edge-sdk-java",
         "huaweicloud/huaweicloud-iot-edge-sdk-go",
@@ -29316,13 +29316,17 @@
       "title": "仓库缺少 SECURITY.md 安全策略",
       "count": 237,
       "items": [
+        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/ModelArts-Lab",
+        "huaweicloud/huaweicloud-csi-driver",
+        "huaweicloud/spring-cloud-huawei",
+        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/devspace-devbridge",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/cloud-custodian",
         "huaweicloud/agentarts-sdk-python",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -29330,12 +29334,10 @@
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/elb-toa",
         "huaweicloud/generator-cloudide-plugin",
         "huaweicloud/huaweicloud-mrs-example",
         "huaweicloud/huaweicloud-sdk-go-obs",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/VM-placement-dataset",
         "huaweicloud/terraform-provider-hcs",
         "huaweicloud/obsa-hdfs",
@@ -29350,7 +29352,6 @@
         "huaweicloud/huaweicloud-fpga",
         "huaweicloud/huaweicloud-dis-kafka-adapter",
         "huaweicloud/huaweicloud-sdk-java-dis",
-        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/huaweicloud-sdk-python-dis",
         "huaweicloud/ims-qemu-img",
         "huaweicloud/huaweicloud-iot-device-sdk-c",
@@ -29358,7 +29359,6 @@
         "huaweicloud/huaweicloud-sdk-ios-obs",
         "huaweicloud/cloudeye-grafana",
         "huaweicloud/devcloud-go",
-        "huaweicloud/huaweicloud-csi-driver",
         "huaweicloud/huaweicloud-sdk-nodejs-obs",
         "huaweicloud/huaweicloud-obs-obsutil",
         "huaweicloud/huaweicloud-iot-device-sdk-python",
@@ -29561,24 +29561,25 @@
       "title": "仓库未开启分支保护",
       "count": 219,
       "items": [
+        "huaweicloud/ModelArts-Lab",
+        "huaweicloud/huaweicloud-csi-driver",
+        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/devspace-devbridge",
+        "huaweicloud/huaweicloud-sdk-python-obs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/cloud-custodian",
         "huaweicloud/agentarts-sdk-python",
         "huaweicloud/.github",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/repository-requests",
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/elb-toa",
         "huaweicloud/devspace-aicli-plugins",
         "huaweicloud/huaweicloud-sdk-go-obs",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/VM-placement-dataset",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-sdk-java-obs",
         "huaweicloud/huaweicloud-obs-obsfs",
-        "huaweicloud/huaweicloud-sdk-python-obs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -29593,7 +29594,6 @@
         "huaweicloud/huaweicloud-sdk-ios-obs",
         "huaweicloud/cloudeye-grafana",
         "huaweicloud/devcloud-go",
-        "huaweicloud/huaweicloud-csi-driver",
         "huaweicloud/huaweicloud-sdk-nodejs-obs",
         "huaweicloud/huaweicloud-obs-obsutil",
         "huaweicloud/huaweicloud-iot-device-sdk-python",
@@ -29788,12 +29788,16 @@
       "title": "缺少 CONTRIBUTING.md 贡献指南",
       "count": 237,
       "items": [
+        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/ModelArts-Lab",
+        "huaweicloud/spring-cloud-huawei",
+        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/devspace-devbridge",
+        "huaweicloud/huaweicloud-sdk-python-obs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/cloud-custodian",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
@@ -29802,19 +29806,16 @@
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/elb-toa",
         "huaweicloud/generator-cloudide-plugin",
         "huaweicloud/huaweicloud-mrs-example",
         "huaweicloud/huaweicloud-sdk-go-obs",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/VM-placement-dataset",
         "huaweicloud/terraform-provider-hcs",
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-sdk-java-obs",
         "huaweicloud/huaweicloud-obs-obsfs",
-        "huaweicloud/huaweicloud-sdk-python-obs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -29824,7 +29825,6 @@
         "huaweicloud/huaweicloud-fpga",
         "huaweicloud/huaweicloud-dis-kafka-adapter",
         "huaweicloud/huaweicloud-sdk-java-dis",
-        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/huaweicloud-sdk-python-dis",
         "huaweicloud/ims-qemu-img",
         "huaweicloud/huaweicloud-iot-device-sdk-c",
@@ -30033,13 +30033,18 @@
       "title": "缺少 CODE_OF_CONDUCT.md 行为准则",
       "count": 240,
       "items": [
+        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/ModelArts-Lab",
+        "huaweicloud/huaweicloud-csi-driver",
+        "huaweicloud/spring-cloud-huawei",
+        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/devspace-devbridge",
+        "huaweicloud/huaweicloud-sdk-python-obs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/cloud-custodian",
         "huaweicloud/agentarts-sdk-python",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
@@ -30049,19 +30054,16 @@
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
         "huaweicloud/repository-requests",
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/elb-toa",
         "huaweicloud/generator-cloudide-plugin",
         "huaweicloud/huaweicloud-mrs-example",
         "huaweicloud/huaweicloud-sdk-go-obs",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/VM-placement-dataset",
         "huaweicloud/terraform-provider-hcs",
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-sdk-java-obs",
         "huaweicloud/huaweicloud-obs-obsfs",
-        "huaweicloud/huaweicloud-sdk-python-obs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -30071,7 +30073,6 @@
         "huaweicloud/huaweicloud-fpga",
         "huaweicloud/huaweicloud-dis-kafka-adapter",
         "huaweicloud/huaweicloud-sdk-java-dis",
-        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/huaweicloud-sdk-python-dis",
         "huaweicloud/ims-qemu-img",
         "huaweicloud/huaweicloud-iot-device-sdk-c",
@@ -30079,7 +30080,6 @@
         "huaweicloud/huaweicloud-sdk-ios-obs",
         "huaweicloud/cloudeye-grafana",
         "huaweicloud/devcloud-go",
-        "huaweicloud/huaweicloud-csi-driver",
         "huaweicloud/huaweicloud-sdk-nodejs-obs",
         "huaweicloud/huaweicloud-obs-obsutil",
         "huaweicloud/huaweicloud-iot-device-sdk-python",
@@ -30282,12 +30282,12 @@
       "count": 172,
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/devspace-devbridge",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/cloud-custodian",
         "huaweicloud/.github",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/devspace-aicli-plugins",
         "huaweicloud/generator-cloudide-plugin",
         "huaweicloud/VM-placement-dataset",
@@ -30461,21 +30461,22 @@
       "title": "仓库没有 CI/CD 工作流",
       "count": 201,
       "items": [
-        "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
+        "huaweicloud/spring-cloud-huawei-samples",
+        "huaweicloud/ModelArts-Lab",
         "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/huaweicloud-sdk-python-obs",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/huaweicloud-skills",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/elb-toa",
         "huaweicloud/huaweicloud-mrs-example",
         "huaweicloud/huaweicloud-sdk-go-obs",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/VM-placement-dataset",
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-obs-obsfs",
-        "huaweicloud/huaweicloud-sdk-python-obs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -30485,7 +30486,6 @@
         "huaweicloud/huaweicloud-fpga",
         "huaweicloud/huaweicloud-dis-kafka-adapter",
         "huaweicloud/huaweicloud-sdk-java-dis",
-        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/huaweicloud-sdk-python-dis",
         "huaweicloud/ims-qemu-img",
         "huaweicloud/huaweicloud-iot-device-sdk-c",
@@ -30670,9 +30670,12 @@
       "title": "存在积压 PR（>30 天未合并）",
       "count": 50,
       "items": [
+        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/terraform-provider-huaweicloud",
-        "huaweicloud/cloud-custodian",
+        "huaweicloud/ModelArts-Lab",
         "huaweicloud/spring-cloud-huawei",
+        "huaweicloud/huaweicloud-sdk-python-obs",
+        "huaweicloud/cloud-custodian",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30683,17 +30686,14 @@
         "huaweicloud/generator-cloudide-plugin",
         "huaweicloud/huaweicloud-mrs-example",
         "huaweicloud/huaweicloud-sdk-go-obs",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/terraform-provider-hcs",
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-sdk-java-obs",
-        "huaweicloud/huaweicloud-sdk-python-obs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/cloudeye-exporter",
         "huaweicloud/huaweicloud-dis-kafka-adapter",
         "huaweicloud/huaweicloud-sdk-java-dis",
-        "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/huaweicloud-sdk-python-dis",
         "huaweicloud/huaweicloud-iot-device-sdk-c",
         "huaweicloud/huaweicloud-iot-device-sdk-java",
@@ -30839,10 +30839,10 @@
       "title": "零 Issue 仓库",
       "count": 167,
       "items": [
-        "huaweicloud/cloud-custodian",
-        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/devspace-devbridge",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/cloud-custodian",
         "huaweicloud/devspace-aicli-plugins",
         "huaweicloud/generator-cloudide-plugin",
         "huaweicloud/VM-placement-dataset",
@@ -31011,7 +31011,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-08-19T02:21:00.012502+00:00",
+    "generated_at": "2026-08-20T02:19:45.293639+00:00",
     "rows": [
       {
         "name": "许可证",
@@ -31149,13 +31149,13 @@
       ]
     },
     "d4": {
-      "score": 33.7,
+      "score": 33.8,
       "grade": "不足",
-      "text": "均分 33.7/100，等级：不足。短板：近 30 天无合并（235/244 缺失，96%）、合并率 < 90%（217/244 缺失，89%）、存在积压 PR（50/244 缺失，20%）",
+      "text": "均分 33.8/100，等级：不足。短板：近 30 天无合并（234/244 缺失，96%）、合并率 < 90%（217/244 缺失，89%）、存在积压 PR（50/244 缺失，20%）",
       "facts": [
         {
           "label": "近 30 天无合并",
-          "missing": 235,
+          "missing": 234,
           "known": 244
         },
         {
@@ -31261,11 +31261,11 @@
     "d9": {
       "score": 14.3,
       "grade": "不足",
-      "text": "均分 14.3/100，等级：不足。短板：近 30 天无合并 PR（235/244 缺失，96%）、社区文件 < 2（234/244 缺失，96%）、无 CI（201/244 缺失，82%）",
+      "text": "均分 14.3/100，等级：不足。短板：近 30 天无合并 PR（234/244 缺失，96%）、社区文件 < 2（234/244 缺失，96%）、无 CI（201/244 缺失，82%）",
       "facts": [
         {
           "label": "近 30 天无合并 PR",
-          "missing": 235,
+          "missing": 234,
           "known": 244
         },
         {
@@ -31349,13 +31349,13 @@
       ]
     },
     "d4": {
-      "score": 36.9,
+      "score": 37.1,
       "grade": "不足",
-      "text": "均分 36.9/100，等级：不足。短板：近 30 天无合并（135/144 缺失，94%）、合并率 < 90%（117/144 缺失，81%）、存在积压 PR（50/144 缺失，35%）",
+      "text": "均分 37.1/100，等级：不足。短板：近 30 天无合并（134/144 缺失，93%）、合并率 < 90%（117/144 缺失，81%）、存在积压 PR（50/144 缺失，35%）",
       "facts": [
         {
           "label": "近 30 天无合并",
-          "missing": 135,
+          "missing": 134,
           "known": 144
         },
         {
@@ -31459,13 +31459,13 @@
       ]
     },
     "d9": {
-      "score": 23.8,
+      "score": 23.9,
       "grade": "不足",
-      "text": "均分 23.8/100，等级：不足。短板：近 30 天无合并 PR（135/144 缺失，94%）、社区文件 < 2（134/144 缺失，93%）、无 CI（101/144 缺失，70%）",
+      "text": "均分 23.9/100，等级：不足。短板：近 30 天无合并 PR（134/144 缺失，93%）、社区文件 < 2（134/144 缺失，93%）、无 CI（101/144 缺失，70%）",
       "facts": [
         {
           "label": "近 30 天无合并 PR",
-          "missing": 135,
+          "missing": 134,
           "known": 144
         },
         {
