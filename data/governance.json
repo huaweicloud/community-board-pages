@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T02:18:36.128736+00:00",
+  "generated_at": "2026-08-23T02:25:41.797447+00:00",
   "dims": [
     {
       "id": "d1",
@@ -384,8 +384,8 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
       "stars": 16,
-      "open_issues": 16,
-      "open_prs": 3,
+      "open_issues": 28,
+      "open_prs": 2,
       "total": 90.3,
       "grade": "优秀",
       "dims": {
@@ -5931,7 +5931,7 @@
       "platform": "github",
       "stars": 5,
       "open_issues": 0,
-      "open_prs": 1,
+      "open_prs": 4,
       "total": 40.6,
       "grade": "一般",
       "dims": {
@@ -11357,7 +11357,7 @@
     {
       "repo": "huaweicloud/huaweicloud-skills",
       "platform": "github",
-      "stars": 19,
+      "stars": 20,
       "open_issues": 2,
       "open_prs": 0,
       "total": 26.4,
@@ -15134,7 +15134,7 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 16,
+      "open_issues": 28,
       "open_prs": 0,
       "total": 17.5,
       "grade": "不足",
@@ -29179,8 +29179,8 @@
       "title": "仓库缺少 LICENSE 文件",
       "count": 129,
       "items": [
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/community-board-pages",
+        "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/spring-cloud-huawei-samples",
@@ -29316,10 +29316,11 @@
       "title": "仓库缺少 SECURITY.md 安全策略",
       "count": 237,
       "items": [
+        "huaweicloud/huaweicloud-skills",
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-csi-driver",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
         "huaweicloud/huaweicloud-sdk-net-v3",
@@ -29327,7 +29328,6 @@
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/dubbo-servicecomb",
         "huaweicloud/ModelArts-Lab",
         "huaweicloud/spring-cloud-huawei-samples",
@@ -29561,10 +29561,10 @@
       "title": "仓库未开启分支保护",
       "count": 219,
       "items": [
+        "huaweicloud/huaweicloud-skills",
+        "huaweicloud/community-board-pages",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-csi-driver",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/ModelArts-Lab",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-sdk-python-obs",
@@ -29788,9 +29788,10 @@
       "title": "缺少 CONTRIBUTING.md 贡献指南",
       "count": 237,
       "items": [
+        "huaweicloud/huaweicloud-skills",
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/devspace-devbridge",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
         "huaweicloud/huaweicloud-sdk-net-v3",
@@ -29798,7 +29799,6 @@
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/dubbo-servicecomb",
         "huaweicloud/ModelArts-Lab",
         "huaweicloud/spring-cloud-huawei-samples",
@@ -30033,10 +30033,11 @@
       "title": "缺少 CODE_OF_CONDUCT.md 行为准则",
       "count": 240,
       "items": [
+        "huaweicloud/huaweicloud-skills",
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-csi-driver",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
         "huaweicloud/huaweicloud-sdk-net-v3",
@@ -30044,7 +30045,6 @@
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/dubbo-servicecomb",
         "huaweicloud/ModelArts-Lab",
         "huaweicloud/spring-cloud-huawei-samples",
@@ -30281,10 +30281,10 @@
       "title": "Issue 标签体系缺失",
       "count": 172,
       "items": [
+        "huaweicloud/huaweicloud-skills",
+        "huaweicloud/community-board-pages",
         "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/devspace-devbridge",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/cloud-custodian",
         "huaweicloud/.github",
@@ -30461,10 +30461,10 @@
       "title": "仓库没有 CI/CD 工作流",
       "count": 201,
       "items": [
+        "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/ModelArts-Lab",
         "huaweicloud/spring-cloud-huawei-samples",
         "huaweicloud/aievspace-operation-guide",
@@ -30839,8 +30839,8 @@
       "title": "零 Issue 仓库",
       "count": 167,
       "items": [
-        "huaweicloud/devspace-devbridge",
         "huaweicloud/community-board-pages",
+        "huaweicloud/devspace-devbridge",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/cloud-custodian",
         "huaweicloud/devspace-aicli-plugins",
@@ -31011,7 +31011,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-08-22T02:18:36.128736+00:00",
+    "generated_at": "2026-08-23T02:25:41.797447+00:00",
     "rows": [
       {
         "name": "许可证",
