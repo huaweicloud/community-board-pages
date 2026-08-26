@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T02:20:53.202673+00:00",
+  "generated_at": "2026-08-26T02:27:03.440853+00:00",
   "dims": [
     {
       "id": "d1",
@@ -384,8 +384,8 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
       "stars": 16,
-      "open_issues": 29,
-      "open_prs": 3,
+      "open_issues": 28,
+      "open_prs": 4,
       "total": 90.3,
       "grade": "优秀",
       "dims": {
@@ -503,7 +503,7 @@
       "platform": "github",
       "stars": 272,
       "open_issues": 3,
-      "open_prs": 28,
+      "open_prs": 27,
       "total": 77.1,
       "grade": "良好",
       "dims": {
@@ -621,7 +621,7 @@
       "platform": "github",
       "stars": 15,
       "open_issues": 5,
-      "open_prs": 5,
+      "open_prs": 6,
       "total": 69.5,
       "grade": "良好",
       "dims": {
@@ -6991,7 +6991,7 @@
     {
       "repo": "huaweicloud/huaweicloud-obs-obsfs",
       "platform": "github",
-      "stars": 30,
+      "stars": 31,
       "open_issues": 7,
       "open_prs": 0,
       "total": 37.4,
@@ -15252,7 +15252,7 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 29,
+      "open_issues": 28,
       "open_prs": 0,
       "total": 17.5,
       "grade": "不足",
@@ -29179,8 +29179,8 @@
       "title": "仓库缺少 LICENSE 文件",
       "count": 129,
       "items": [
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
@@ -29317,9 +29317,10 @@
       "count": 237,
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/huaweicloud-obs-obsfs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-csi-driver",
@@ -29343,7 +29344,6 @@
         "huaweicloud/terraform-provider-hcs",
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
-        "huaweicloud/huaweicloud-obs-obsfs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -29561,10 +29561,11 @@
       "title": "仓库未开启分支保护",
       "count": 219,
       "items": [
+        "huaweicloud/huaweicloud-obs-obsfs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/.github",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-csi-driver",
         "huaweicloud/ModelArts-Lab",
@@ -29579,7 +29580,6 @@
         "huaweicloud/VM-placement-dataset",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-sdk-java-obs",
-        "huaweicloud/huaweicloud-obs-obsfs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -29789,9 +29789,10 @@
       "count": 237,
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/huaweicloud-obs-obsfs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-sdk-java-v3",
@@ -29816,7 +29817,6 @@
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-sdk-java-obs",
-        "huaweicloud/huaweicloud-obs-obsfs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -30034,9 +30034,10 @@
       "count": 240,
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/huaweicloud-obs-obsfs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-csi-driver",
@@ -30064,7 +30065,6 @@
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
         "huaweicloud/huaweicloud-sdk-java-obs",
-        "huaweicloud/huaweicloud-obs-obsfs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -30281,10 +30281,10 @@
       "title": "Issue 标签体系缺失",
       "count": 170,
       "items": [
+        "huaweicloud/community-board-pages",
         "huaweicloud/.github",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/cloud-custodian",
         "huaweicloud/devspace-aicli-plugins",
@@ -30459,9 +30459,10 @@
       "title": "仓库没有 CI/CD 工作流",
       "count": 201,
       "items": [
+        "huaweicloud/huaweicloud-obs-obsfs",
+        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/ModelArts-Lab",
@@ -30474,7 +30475,6 @@
         "huaweicloud/VM-placement-dataset",
         "huaweicloud/obsa-hdfs",
         "huaweicloud/huaweicloud-sdk-dotnet-obs",
-        "huaweicloud/huaweicloud-obs-obsfs",
         "huaweicloud/huaweicloud-sdk-php-obs",
         "huaweicloud/trace_generation_rnn",
         "huaweicloud/devspace-aishell",
@@ -30837,8 +30837,8 @@
       "title": "零 Issue 仓库",
       "count": 167,
       "items": [
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/devspace-devbridge",
         "huaweicloud/cloud-custodian",
         "huaweicloud/devspace-aicli-plugins",
@@ -31009,7 +31009,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-08-25T02:20:53.202673+00:00",
+    "generated_at": "2026-08-26T02:27:03.440853+00:00",
     "rows": [
       {
         "name": "许可证",
