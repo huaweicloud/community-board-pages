@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T12:37:08.048463+00:00",
+  "generated_at": "2026-08-29T07:45:02.371593+00:00",
   "dims": [
     {
       "id": "d1",
@@ -385,7 +385,7 @@
       "platform": "github",
       "stars": 16,
       "open_issues": 22,
-      "open_prs": 3,
+      "open_prs": 2,
       "total": 94.5,
       "grade": "优秀",
       "dims": {
@@ -503,7 +503,7 @@
       "platform": "github",
       "stars": 272,
       "open_issues": 3,
-      "open_prs": 34,
+      "open_prs": 24,
       "total": 77.1,
       "grade": "良好",
       "dims": {
@@ -29316,13 +29316,13 @@
       "title": "仓库缺少 SECURITY.md 安全策略",
       "count": 237,
       "items": [
-        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-skills",
+        "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-java-v3",
-        "huaweicloud/terraform-provider-huaweicloud",
-        "huaweicloud/devspace-devbridge",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
@@ -29561,10 +29561,10 @@
       "title": "仓库未开启分支保护",
       "count": 219,
       "items": [
-        "huaweicloud/agentarts-sdk-python",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/devspace-devbridge",
+        "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-obs-obsfs",
         "huaweicloud/huaweicloud-sdk-nodejs-obs",
         "huaweicloud/huaweicloud-sdk-go-obs",
@@ -29788,12 +29788,12 @@
       "title": "缺少 CONTRIBUTING.md 贡献指南",
       "count": 237,
       "items": [
+        "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-skills",
+        "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-java-v3",
-        "huaweicloud/terraform-provider-huaweicloud",
-        "huaweicloud/devspace-devbridge",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
@@ -30033,13 +30033,13 @@
       "title": "缺少 CODE_OF_CONDUCT.md 行为准则",
       "count": 240,
       "items": [
-        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/devspace-devbridge",
         "huaweicloud/huaweicloud-skills",
+        "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-java-v3",
-        "huaweicloud/terraform-provider-huaweicloud",
-        "huaweicloud/devspace-devbridge",
-        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
@@ -30281,8 +30281,8 @@
       "title": "Issue 标签体系缺失",
       "count": 170,
       "items": [
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/devspace-devbridge",
+        "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/.github",
@@ -30668,9 +30668,9 @@
       "title": "存在积压 PR（>30 天未合并）",
       "count": 50,
       "items": [
+        "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-java-v3",
-        "huaweicloud/terraform-provider-huaweicloud",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
@@ -31009,7 +31009,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-08-28T12:37:08.048463+00:00",
+    "generated_at": "2026-08-29T07:45:02.371593+00:00",
     "rows": [
       {
         "name": "许可证",
