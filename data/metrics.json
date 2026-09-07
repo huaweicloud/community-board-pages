@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:42:29.467416+00:00",
+  "generated_at": "2026-09-07T05:52:06.656378+00:00",
   "global": {
     "total": 1273,
     "open": 1047,
@@ -11,11 +11,11 @@
     "sla_warning": 1,
     "good_first": 0,
     "help_wanted": 0,
-    "created_7d": 32,
+    "created_7d": 31,
     "closed_7d": 36,
-    "created_30d": 147,
-    "closed_30d": 100,
-    "median_age_days": 350.4,
+    "created_30d": 144,
+    "closed_30d": 98,
+    "median_age_days": 351.4,
     "by_type": {
       "bug": 264,
       "feature": 105,
@@ -43,11 +43,11 @@
       "sla_warning": 1,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 32,
+      "created_7d": 31,
       "closed_7d": 36,
-      "created_30d": 143,
-      "closed_30d": 100,
-      "median_age_days": 1200.0,
+      "created_30d": 140,
+      "closed_30d": 98,
+      "median_age_days": 1201.0,
       "by_type": {
         "bug": 262,
         "feature": 105,
@@ -78,7 +78,7 @@
       "closed_7d": 0,
       "created_30d": 4,
       "closed_30d": 0,
-      "median_age_days": 113.8,
+      "median_age_days": 114.8,
       "by_type": {
         "bug": 2,
         "feature": 0,
