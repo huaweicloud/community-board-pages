@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T05:52:06.656378+00:00",
+  "generated_at": "2026-09-08T05:45:14.319744+00:00",
   "by_open": [
     {
       "repo": "huaweicloud/dstore",
@@ -9,7 +9,7 @@
       "needs_triage": 0,
       "sla_breach": 426,
       "good_first": 0,
-      "max_age_days": 167.5,
+      "max_age_days": 168.5,
       "recent_created_30d": 0
     },
     {
@@ -20,7 +20,7 @@
       "needs_triage": 0,
       "sla_breach": 70,
       "good_first": 0,
-      "max_age_days": 1907.9,
+      "max_age_days": 1908.9,
       "recent_created_30d": 0
     },
     {
@@ -31,7 +31,7 @@
       "needs_triage": 0,
       "sla_breach": 61,
       "good_first": 0,
-      "max_age_days": 2671.2,
+      "max_age_days": 2672.2,
       "recent_created_30d": 0
     },
     {
@@ -42,8 +42,19 @@
       "needs_triage": 0,
       "sla_breach": 48,
       "good_first": 0,
-      "max_age_days": 2037.2,
+      "max_age_days": 2038.2,
       "recent_created_30d": 1
+    },
+    {
+      "repo": "huaweicloud/huaweicloud-devkit",
+      "platform": "github",
+      "total": 125,
+      "open": 38,
+      "needs_triage": 0,
+      "sla_breach": 33,
+      "good_first": 0,
+      "max_age_days": 19.6,
+      "recent_created_30d": 125
     },
     {
       "repo": "huaweicloud/spring-cloud-huawei",
@@ -53,7 +64,7 @@
       "needs_triage": 0,
       "sla_breach": 31,
       "good_first": 0,
-      "max_age_days": 1637.8,
+      "max_age_days": 1638.8,
       "recent_created_30d": 2
     },
     {
@@ -64,7 +75,7 @@
       "needs_triage": 0,
       "sla_breach": 30,
       "good_first": 0,
-      "max_age_days": 2363.8,
+      "max_age_days": 2364.8,
       "recent_created_30d": 0
     },
     {
@@ -75,19 +86,8 @@
       "needs_triage": 0,
       "sla_breach": 28,
       "good_first": 0,
-      "max_age_days": 1881.9,
+      "max_age_days": 1882.9,
       "recent_created_30d": 0
-    },
-    {
-      "repo": "huaweicloud/huaweicloud-devkit",
-      "platform": "github",
-      "total": 114,
-      "open": 27,
-      "needs_triage": 0,
-      "sla_breach": 27,
-      "good_first": 0,
-      "max_age_days": 18.6,
-      "recent_created_30d": 114
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-browserjs-obs",
@@ -97,7 +97,7 @@
       "needs_triage": 0,
       "sla_breach": 27,
       "good_first": 0,
-      "max_age_days": 1856.8,
+      "max_age_days": 1857.8,
       "recent_created_30d": 0
     },
     {
@@ -108,7 +108,7 @@
       "needs_triage": 0,
       "sla_breach": 26,
       "good_first": 0,
-      "max_age_days": 2124.2,
+      "max_age_days": 2125.2,
       "recent_created_30d": 0
     },
     {
@@ -119,7 +119,7 @@
       "needs_triage": 0,
       "sla_breach": 25,
       "good_first": 0,
-      "max_age_days": 2428.9,
+      "max_age_days": 2429.8,
       "recent_created_30d": 0
     },
     {
@@ -130,7 +130,7 @@
       "needs_triage": 0,
       "sla_breach": 21,
       "good_first": 0,
-      "max_age_days": 2010.7,
+      "max_age_days": 2011.7,
       "recent_created_30d": 1
     },
     {
@@ -141,8 +141,19 @@
       "needs_triage": 0,
       "sla_breach": 18,
       "good_first": 0,
-      "max_age_days": 1833.6,
+      "max_age_days": 1834.6,
       "recent_created_30d": 0
+    },
+    {
+      "repo": "huaweicloud/huaweicloud-sdk-cpp-v3",
+      "platform": "github",
+      "total": 19,
+      "open": 14,
+      "needs_triage": 0,
+      "sla_breach": 13,
+      "good_first": 0,
+      "max_age_days": 729.0,
+      "recent_created_30d": 3
     },
     {
       "repo": "huaweicloud/obsa-hdfs",
@@ -152,19 +163,8 @@
       "needs_triage": 0,
       "sla_breach": 14,
       "good_first": 0,
-      "max_age_days": 2073.2,
+      "max_age_days": 2074.2,
       "recent_created_30d": 0
-    },
-    {
-      "repo": "huaweicloud/huaweicloud-sdk-cpp-v3",
-      "platform": "github",
-      "total": 17,
-      "open": 13,
-      "needs_triage": 0,
-      "sla_breach": 13,
-      "good_first": 0,
-      "max_age_days": 728.0,
-      "recent_created_30d": 1
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-php-v3",
@@ -174,7 +174,7 @@
       "needs_triage": 0,
       "sla_breach": 13,
       "good_first": 0,
-      "max_age_days": 1983.9,
+      "max_age_days": 1984.9,
       "recent_created_30d": 1
     },
     {
@@ -185,7 +185,7 @@
       "needs_triage": 0,
       "sla_breach": 13,
       "good_first": 0,
-      "max_age_days": 1967.0,
+      "max_age_days": 1968.0,
       "recent_created_30d": 0
     },
     {
@@ -196,7 +196,7 @@
       "needs_triage": 0,
       "sla_breach": 12,
       "good_first": 0,
-      "max_age_days": 1867.9,
+      "max_age_days": 1868.9,
       "recent_created_30d": 2
     },
     {
@@ -207,7 +207,7 @@
       "needs_triage": 0,
       "sla_breach": 10,
       "good_first": 0,
-      "max_age_days": 914.7,
+      "max_age_days": 915.7,
       "recent_created_30d": 1
     },
     {
@@ -218,7 +218,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 2137.2,
+      "max_age_days": 2138.2,
       "recent_created_30d": 0
     },
     {
@@ -229,7 +229,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 1943.9,
+      "max_age_days": 1944.9,
       "recent_created_30d": 0
     },
     {
@@ -240,7 +240,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 2153.7,
+      "max_age_days": 2154.7,
       "recent_created_30d": 0
     },
     {
@@ -251,7 +251,7 @@
       "needs_triage": 0,
       "sla_breach": 8,
       "good_first": 0,
-      "max_age_days": 1999.8,
+      "max_age_days": 2000.8,
       "recent_created_30d": 0
     },
     {
@@ -262,7 +262,7 @@
       "needs_triage": 0,
       "sla_breach": 7,
       "good_first": 0,
-      "max_age_days": 615.9,
+      "max_age_days": 616.9,
       "recent_created_30d": 0
     },
     {
@@ -273,7 +273,7 @@
       "needs_triage": 0,
       "sla_breach": 7,
       "good_first": 0,
-      "max_age_days": 2353.8,
+      "max_age_days": 2354.8,
       "recent_created_30d": 0
     },
     {
@@ -284,7 +284,7 @@
       "needs_triage": 0,
       "sla_breach": 6,
       "good_first": 0,
-      "max_age_days": 1432.1,
+      "max_age_days": 1433.1,
       "recent_created_30d": 0
     },
     {
@@ -295,8 +295,8 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 89.9,
-      "recent_created_30d": 3
+      "max_age_days": 90.9,
+      "recent_created_30d": 2
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-python-v3",
@@ -306,7 +306,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 2064.9,
+      "max_age_days": 2065.9,
       "recent_created_30d": 0
     },
     {
@@ -317,7 +317,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 1558.0,
+      "max_age_days": 1559.0,
       "recent_created_30d": 0
     },
     {
@@ -328,7 +328,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 2692.0,
+      "max_age_days": 2693.0,
       "recent_created_30d": 0
     },
     {
@@ -339,7 +339,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1508.4,
+      "max_age_days": 1509.4,
       "recent_created_30d": 2
     },
     {
@@ -350,7 +350,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 2064.2,
+      "max_age_days": 2065.2,
       "recent_created_30d": 0
     },
     {
@@ -361,8 +361,8 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2867.8,
-      "recent_created_30d": 1
+      "max_age_days": 2868.8,
+      "recent_created_30d": 0
     },
     {
       "repo": "huaweicloud/obs-helper",
@@ -372,7 +372,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1230.5,
+      "max_age_days": 1231.5,
       "recent_created_30d": 0
     },
     {
@@ -383,7 +383,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 562.9,
+      "max_age_days": 563.9,
       "recent_created_30d": 0
     },
     {
@@ -394,7 +394,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 3009.8,
+      "max_age_days": 3010.8,
       "recent_created_30d": 0
     },
     {
@@ -405,7 +405,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1571.8,
+      "max_age_days": 1572.8,
       "recent_created_30d": 0
     },
     {
@@ -416,7 +416,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2954.1,
+      "max_age_days": 2955.1,
       "recent_created_30d": 0
     },
     {
@@ -427,7 +427,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2641.6,
+      "max_age_days": 2642.6,
       "recent_created_30d": 0
     },
     {
@@ -438,7 +438,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 24.0,
+      "max_age_days": 25.0,
       "recent_created_30d": 2
     },
     {
@@ -449,7 +449,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 423.5,
+      "max_age_days": 424.5,
       "recent_created_30d": 1
     },
     {
@@ -460,7 +460,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 71.9,
+      "max_age_days": 72.9,
       "recent_created_30d": 0
     },
     {
@@ -471,7 +471,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2181.9,
+      "max_age_days": 2182.9,
       "recent_created_30d": 0
     },
     {
@@ -482,7 +482,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 914.9,
+      "max_age_days": 915.9,
       "recent_created_30d": 0
     },
     {
@@ -493,7 +493,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 1384.8,
+      "max_age_days": 1385.8,
       "recent_created_30d": 0
     },
     {
@@ -504,7 +504,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2351.4,
+      "max_age_days": 2352.3,
       "recent_created_30d": 0
     },
     {
@@ -515,7 +515,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2385.1,
+      "max_age_days": 2386.1,
       "recent_created_30d": 0
     },
     {
@@ -526,7 +526,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2613.7,
+      "max_age_days": 2614.7,
       "recent_created_30d": 0
     },
     {
@@ -537,7 +537,7 @@
       "needs_triage": 0,
       "sla_breach": 0,
       "good_first": 0,
-      "max_age_days": 21.1,
+      "max_age_days": 22.1,
       "recent_created_30d": 1
     },
     {
@@ -548,7 +548,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 180.0,
+      "max_age_days": 181.0,
       "recent_created_30d": 0
     },
     {
@@ -559,7 +559,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 674.6,
+      "max_age_days": 675.6,
       "recent_created_30d": 0
     },
     {
@@ -570,7 +570,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 446.9,
+      "max_age_days": 447.9,
       "recent_created_30d": 0
     },
     {
@@ -581,7 +581,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 559.1,
+      "max_age_days": 560.1,
       "recent_created_30d": 0
     },
     {
@@ -592,7 +592,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 633.2,
+      "max_age_days": 634.1,
       "recent_created_30d": 0
     },
     {
@@ -603,7 +603,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 646.1,
+      "max_age_days": 647.1,
       "recent_created_30d": 0
     },
     {
@@ -614,7 +614,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1024.6,
+      "max_age_days": 1025.6,
       "recent_created_30d": 0
     },
     {
@@ -625,7 +625,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1234.8,
+      "max_age_days": 1235.8,
       "recent_created_30d": 0
     },
     {
@@ -636,7 +636,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1896.9,
+      "max_age_days": 1897.9,
       "recent_created_30d": 0
     },
     {
@@ -647,7 +647,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 2159.5,
+      "max_age_days": 2160.5,
       "recent_created_30d": 0
     },
     {
@@ -658,7 +658,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 2734.7,
+      "max_age_days": 2735.7,
       "recent_created_30d": 0
     },
     {
@@ -670,7 +670,7 @@
       "sla_breach": 0,
       "good_first": 0,
       "max_age_days": 0,
-      "recent_created_30d": 6
+      "recent_created_30d": 5
     },
     {
       "repo": "huaweicloud/test-private-flow",
@@ -704,7 +704,7 @@
       "needs_triage": 0,
       "sla_breach": 426,
       "good_first": 0,
-      "max_age_days": 167.5,
+      "max_age_days": 168.5,
       "recent_created_30d": 0
     },
     {
@@ -715,7 +715,7 @@
       "needs_triage": 0,
       "sla_breach": 70,
       "good_first": 0,
-      "max_age_days": 1907.9,
+      "max_age_days": 1908.9,
       "recent_created_30d": 0
     },
     {
@@ -726,7 +726,7 @@
       "needs_triage": 0,
       "sla_breach": 61,
       "good_first": 0,
-      "max_age_days": 2671.2,
+      "max_age_days": 2672.2,
       "recent_created_30d": 0
     },
     {
@@ -737,8 +737,19 @@
       "needs_triage": 0,
       "sla_breach": 48,
       "good_first": 0,
-      "max_age_days": 2037.2,
+      "max_age_days": 2038.2,
       "recent_created_30d": 1
+    },
+    {
+      "repo": "huaweicloud/huaweicloud-devkit",
+      "platform": "github",
+      "total": 125,
+      "open": 38,
+      "needs_triage": 0,
+      "sla_breach": 33,
+      "good_first": 0,
+      "max_age_days": 19.6,
+      "recent_created_30d": 125
     },
     {
       "repo": "huaweicloud/spring-cloud-huawei",
@@ -748,7 +759,7 @@
       "needs_triage": 0,
       "sla_breach": 31,
       "good_first": 0,
-      "max_age_days": 1637.8,
+      "max_age_days": 1638.8,
       "recent_created_30d": 2
     },
     {
@@ -759,7 +770,7 @@
       "needs_triage": 0,
       "sla_breach": 30,
       "good_first": 0,
-      "max_age_days": 2363.8,
+      "max_age_days": 2364.8,
       "recent_created_30d": 0
     },
     {
@@ -770,19 +781,8 @@
       "needs_triage": 0,
       "sla_breach": 28,
       "good_first": 0,
-      "max_age_days": 1881.9,
+      "max_age_days": 1882.9,
       "recent_created_30d": 0
-    },
-    {
-      "repo": "huaweicloud/huaweicloud-devkit",
-      "platform": "github",
-      "total": 114,
-      "open": 27,
-      "needs_triage": 0,
-      "sla_breach": 27,
-      "good_first": 0,
-      "max_age_days": 18.6,
-      "recent_created_30d": 114
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-browserjs-obs",
@@ -792,7 +792,7 @@
       "needs_triage": 0,
       "sla_breach": 27,
       "good_first": 0,
-      "max_age_days": 1856.8,
+      "max_age_days": 1857.8,
       "recent_created_30d": 0
     },
     {
@@ -803,7 +803,7 @@
       "needs_triage": 0,
       "sla_breach": 26,
       "good_first": 0,
-      "max_age_days": 2124.2,
+      "max_age_days": 2125.2,
       "recent_created_30d": 0
     },
     {
@@ -814,7 +814,7 @@
       "needs_triage": 0,
       "sla_breach": 25,
       "good_first": 0,
-      "max_age_days": 2428.9,
+      "max_age_days": 2429.8,
       "recent_created_30d": 0
     },
     {
@@ -825,7 +825,7 @@
       "needs_triage": 0,
       "sla_breach": 21,
       "good_first": 0,
-      "max_age_days": 2010.7,
+      "max_age_days": 2011.7,
       "recent_created_30d": 1
     },
     {
@@ -836,7 +836,7 @@
       "needs_triage": 0,
       "sla_breach": 18,
       "good_first": 0,
-      "max_age_days": 1833.6,
+      "max_age_days": 1834.6,
       "recent_created_30d": 0
     },
     {
@@ -847,19 +847,19 @@
       "needs_triage": 0,
       "sla_breach": 14,
       "good_first": 0,
-      "max_age_days": 2073.2,
+      "max_age_days": 2074.2,
       "recent_created_30d": 0
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-cpp-v3",
       "platform": "github",
-      "total": 17,
-      "open": 13,
+      "total": 19,
+      "open": 14,
       "needs_triage": 0,
       "sla_breach": 13,
       "good_first": 0,
-      "max_age_days": 728.0,
-      "recent_created_30d": 1
+      "max_age_days": 729.0,
+      "recent_created_30d": 3
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-php-v3",
@@ -869,7 +869,7 @@
       "needs_triage": 0,
       "sla_breach": 13,
       "good_first": 0,
-      "max_age_days": 1983.9,
+      "max_age_days": 1984.9,
       "recent_created_30d": 1
     },
     {
@@ -880,7 +880,7 @@
       "needs_triage": 0,
       "sla_breach": 13,
       "good_first": 0,
-      "max_age_days": 1967.0,
+      "max_age_days": 1968.0,
       "recent_created_30d": 0
     },
     {
@@ -891,7 +891,7 @@
       "needs_triage": 0,
       "sla_breach": 12,
       "good_first": 0,
-      "max_age_days": 1867.9,
+      "max_age_days": 1868.9,
       "recent_created_30d": 2
     },
     {
@@ -902,7 +902,7 @@
       "needs_triage": 0,
       "sla_breach": 10,
       "good_first": 0,
-      "max_age_days": 914.7,
+      "max_age_days": 915.7,
       "recent_created_30d": 1
     },
     {
@@ -913,7 +913,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 2137.2,
+      "max_age_days": 2138.2,
       "recent_created_30d": 0
     },
     {
@@ -924,7 +924,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 1943.9,
+      "max_age_days": 1944.9,
       "recent_created_30d": 0
     },
     {
@@ -935,7 +935,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 2153.7,
+      "max_age_days": 2154.7,
       "recent_created_30d": 0
     },
     {
@@ -946,7 +946,7 @@
       "needs_triage": 0,
       "sla_breach": 8,
       "good_first": 0,
-      "max_age_days": 1999.8,
+      "max_age_days": 2000.8,
       "recent_created_30d": 0
     },
     {
@@ -957,7 +957,7 @@
       "needs_triage": 0,
       "sla_breach": 7,
       "good_first": 0,
-      "max_age_days": 615.9,
+      "max_age_days": 616.9,
       "recent_created_30d": 0
     },
     {
@@ -968,7 +968,7 @@
       "needs_triage": 0,
       "sla_breach": 7,
       "good_first": 0,
-      "max_age_days": 2353.8,
+      "max_age_days": 2354.8,
       "recent_created_30d": 0
     },
     {
@@ -979,7 +979,7 @@
       "needs_triage": 0,
       "sla_breach": 6,
       "good_first": 0,
-      "max_age_days": 1432.1,
+      "max_age_days": 1433.1,
       "recent_created_30d": 0
     },
     {
@@ -990,8 +990,8 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 89.9,
-      "recent_created_30d": 3
+      "max_age_days": 90.9,
+      "recent_created_30d": 2
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-python-v3",
@@ -1001,7 +1001,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 2064.9,
+      "max_age_days": 2065.9,
       "recent_created_30d": 0
     },
     {
@@ -1012,7 +1012,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 1558.0,
+      "max_age_days": 1559.0,
       "recent_created_30d": 0
     },
     {
@@ -1023,7 +1023,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 2692.0,
+      "max_age_days": 2693.0,
       "recent_created_30d": 0
     },
     {
@@ -1034,7 +1034,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1508.4,
+      "max_age_days": 1509.4,
       "recent_created_30d": 2
     },
     {
@@ -1045,7 +1045,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 2064.2,
+      "max_age_days": 2065.2,
       "recent_created_30d": 0
     },
     {
@@ -1056,8 +1056,8 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2867.8,
-      "recent_created_30d": 1
+      "max_age_days": 2868.8,
+      "recent_created_30d": 0
     },
     {
       "repo": "huaweicloud/obs-helper",
@@ -1067,7 +1067,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1230.5,
+      "max_age_days": 1231.5,
       "recent_created_30d": 0
     },
     {
@@ -1078,7 +1078,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 562.9,
+      "max_age_days": 563.9,
       "recent_created_30d": 0
     },
     {
@@ -1089,7 +1089,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 3009.8,
+      "max_age_days": 3010.8,
       "recent_created_30d": 0
     },
     {
@@ -1100,7 +1100,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1571.8,
+      "max_age_days": 1572.8,
       "recent_created_30d": 0
     },
     {
@@ -1111,7 +1111,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2954.1,
+      "max_age_days": 2955.1,
       "recent_created_30d": 0
     },
     {
@@ -1122,7 +1122,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2641.6,
+      "max_age_days": 2642.6,
       "recent_created_30d": 0
     },
     {
@@ -1133,7 +1133,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 24.0,
+      "max_age_days": 25.0,
       "recent_created_30d": 2
     },
     {
@@ -1144,7 +1144,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 423.5,
+      "max_age_days": 424.5,
       "recent_created_30d": 1
     },
     {
@@ -1155,7 +1155,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 71.9,
+      "max_age_days": 72.9,
       "recent_created_30d": 0
     },
     {
@@ -1166,7 +1166,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2181.9,
+      "max_age_days": 2182.9,
       "recent_created_30d": 0
     },
     {
@@ -1177,7 +1177,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 914.9,
+      "max_age_days": 915.9,
       "recent_created_30d": 0
     },
     {
@@ -1188,7 +1188,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 1384.8,
+      "max_age_days": 1385.8,
       "recent_created_30d": 0
     },
     {
@@ -1199,7 +1199,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2351.4,
+      "max_age_days": 2352.3,
       "recent_created_30d": 0
     },
     {
@@ -1210,7 +1210,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2385.1,
+      "max_age_days": 2386.1,
       "recent_created_30d": 0
     },
     {
@@ -1221,7 +1221,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2613.7,
+      "max_age_days": 2614.7,
       "recent_created_30d": 0
     },
     {
@@ -1232,7 +1232,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 180.0,
+      "max_age_days": 181.0,
       "recent_created_30d": 0
     },
     {
@@ -1243,7 +1243,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 674.6,
+      "max_age_days": 675.6,
       "recent_created_30d": 0
     },
     {
@@ -1254,7 +1254,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 446.9,
+      "max_age_days": 447.9,
       "recent_created_30d": 0
     },
     {
@@ -1265,7 +1265,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 559.1,
+      "max_age_days": 560.1,
       "recent_created_30d": 0
     },
     {
@@ -1276,7 +1276,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 633.2,
+      "max_age_days": 634.1,
       "recent_created_30d": 0
     },
     {
@@ -1287,7 +1287,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 646.1,
+      "max_age_days": 647.1,
       "recent_created_30d": 0
     },
     {
@@ -1298,7 +1298,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1024.6,
+      "max_age_days": 1025.6,
       "recent_created_30d": 0
     },
     {
@@ -1309,7 +1309,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1234.8,
+      "max_age_days": 1235.8,
       "recent_created_30d": 0
     },
     {
@@ -1320,7 +1320,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1896.9,
+      "max_age_days": 1897.9,
       "recent_created_30d": 0
     },
     {
@@ -1331,7 +1331,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 2159.5,
+      "max_age_days": 2160.5,
       "recent_created_30d": 0
     },
     {
@@ -1342,7 +1342,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 2734.7,
+      "max_age_days": 2735.7,
       "recent_created_30d": 0
     },
     {
@@ -1354,7 +1354,7 @@
       "sla_breach": 0,
       "good_first": 0,
       "max_age_days": 0,
-      "recent_created_30d": 6
+      "recent_created_30d": 5
     },
     {
       "repo": "huaweicloud/.github",
@@ -1364,7 +1364,7 @@
       "needs_triage": 0,
       "sla_breach": 0,
       "good_first": 0,
-      "max_age_days": 21.1,
+      "max_age_days": 22.1,
       "recent_created_30d": 1
     },
     {
@@ -1394,13 +1394,24 @@
     {
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
-      "total": 114,
-      "open": 27,
+      "total": 125,
+      "open": 38,
       "needs_triage": 0,
-      "sla_breach": 27,
+      "sla_breach": 33,
       "good_first": 0,
-      "max_age_days": 18.6,
-      "recent_created_30d": 114
+      "max_age_days": 19.6,
+      "recent_created_30d": 125
+    },
+    {
+      "repo": "huaweicloud/huaweicloud-sdk-cpp-v3",
+      "platform": "github",
+      "total": 19,
+      "open": 14,
+      "needs_triage": 0,
+      "sla_breach": 13,
+      "good_first": 0,
+      "max_age_days": 729.0,
+      "recent_created_30d": 3
     },
     {
       "repo": "huaweicloud/terraform-provider-huaweicloud",
@@ -1410,7 +1421,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1508.4,
+      "max_age_days": 1509.4,
       "recent_created_30d": 2
     },
     {
@@ -1421,7 +1432,7 @@
       "needs_triage": 0,
       "sla_breach": 31,
       "good_first": 0,
-      "max_age_days": 1637.8,
+      "max_age_days": 1638.8,
       "recent_created_30d": 2
     },
     {
@@ -1432,7 +1443,7 @@
       "needs_triage": 0,
       "sla_breach": 12,
       "good_first": 0,
-      "max_age_days": 1867.9,
+      "max_age_days": 1868.9,
       "recent_created_30d": 2
     },
     {
@@ -1443,7 +1454,7 @@
       "needs_triage": 0,
       "sla_breach": 10,
       "good_first": 0,
-      "max_age_days": 914.7,
+      "max_age_days": 915.7,
       "recent_created_30d": 1
     },
     {
@@ -1455,18 +1466,7 @@
       "sla_breach": 0,
       "good_first": 0,
       "max_age_days": 0,
-      "recent_created_30d": 6
-    },
-    {
-      "repo": "huaweicloud/huaweicloud-sdk-cpp-v3",
-      "platform": "github",
-      "total": 17,
-      "open": 13,
-      "needs_triage": 0,
-      "sla_breach": 13,
-      "good_first": 0,
-      "max_age_days": 728.0,
-      "recent_created_30d": 1
+      "recent_created_30d": 5
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-c-obs",
@@ -1476,7 +1476,7 @@
       "needs_triage": 0,
       "sla_breach": 48,
       "good_first": 0,
-      "max_age_days": 2037.2,
+      "max_age_days": 2038.2,
       "recent_created_30d": 1
     },
     {
@@ -1487,7 +1487,7 @@
       "needs_triage": 0,
       "sla_breach": 21,
       "good_first": 0,
-      "max_age_days": 2010.7,
+      "max_age_days": 2011.7,
       "recent_created_30d": 1
     },
     {
@@ -1498,7 +1498,7 @@
       "needs_triage": 0,
       "sla_breach": 0,
       "good_first": 0,
-      "max_age_days": 21.1,
+      "max_age_days": 22.1,
       "recent_created_30d": 1
     },
     {
@@ -1509,7 +1509,7 @@
       "needs_triage": 0,
       "sla_breach": 13,
       "good_first": 0,
-      "max_age_days": 1983.9,
+      "max_age_days": 1984.9,
       "recent_created_30d": 1
     },
     {
@@ -1520,7 +1520,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 24.0,
+      "max_age_days": 25.0,
       "recent_created_30d": 2
     },
     {
@@ -1531,7 +1531,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 423.5,
+      "max_age_days": 424.5,
       "recent_created_30d": 1
     },
     {
@@ -1542,8 +1542,8 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 89.9,
-      "recent_created_30d": 3
+      "max_age_days": 90.9,
+      "recent_created_30d": 2
     },
     {
       "repo": "huaweicloud/test-private-flow",
@@ -1564,8 +1564,8 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2867.8,
-      "recent_created_30d": 1
+      "max_age_days": 2868.8,
+      "recent_created_30d": 0
     },
     {
       "repo": "huaweicloud/dstore",
@@ -1575,7 +1575,7 @@
       "needs_triage": 0,
       "sla_breach": 426,
       "good_first": 0,
-      "max_age_days": 167.5,
+      "max_age_days": 168.5,
       "recent_created_30d": 0
     },
     {
@@ -1586,7 +1586,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 2137.2,
+      "max_age_days": 2138.2,
       "recent_created_30d": 0
     },
     {
@@ -1608,7 +1608,7 @@
       "needs_triage": 0,
       "sla_breach": 13,
       "good_first": 0,
-      "max_age_days": 1967.0,
+      "max_age_days": 1968.0,
       "recent_created_30d": 0
     },
     {
@@ -1619,7 +1619,7 @@
       "needs_triage": 0,
       "sla_breach": 6,
       "good_first": 0,
-      "max_age_days": 1432.1,
+      "max_age_days": 1433.1,
       "recent_created_30d": 0
     },
     {
@@ -1630,7 +1630,7 @@
       "needs_triage": 0,
       "sla_breach": 70,
       "good_first": 0,
-      "max_age_days": 1907.9,
+      "max_age_days": 1908.9,
       "recent_created_30d": 0
     },
     {
@@ -1641,7 +1641,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 71.9,
+      "max_age_days": 72.9,
       "recent_created_30d": 0
     },
     {
@@ -1652,7 +1652,7 @@
       "needs_triage": 0,
       "sla_breach": 27,
       "good_first": 0,
-      "max_age_days": 1856.8,
+      "max_age_days": 1857.8,
       "recent_created_30d": 0
     },
     {
@@ -1663,7 +1663,7 @@
       "needs_triage": 0,
       "sla_breach": 7,
       "good_first": 0,
-      "max_age_days": 615.9,
+      "max_age_days": 616.9,
       "recent_created_30d": 0
     },
     {
@@ -1674,7 +1674,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 2064.9,
+      "max_age_days": 2065.9,
       "recent_created_30d": 0
     },
     {
@@ -1685,7 +1685,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 1943.9,
+      "max_age_days": 1944.9,
       "recent_created_30d": 0
     },
     {
@@ -1696,7 +1696,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 180.0,
+      "max_age_days": 181.0,
       "recent_created_30d": 0
     },
     {
@@ -1707,7 +1707,7 @@
       "needs_triage": 0,
       "sla_breach": 25,
       "good_first": 0,
-      "max_age_days": 2428.9,
+      "max_age_days": 2429.8,
       "recent_created_30d": 0
     },
     {
@@ -1718,7 +1718,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2181.9,
+      "max_age_days": 2182.9,
       "recent_created_30d": 0
     },
     {
@@ -1729,7 +1729,7 @@
       "needs_triage": 0,
       "sla_breach": 61,
       "good_first": 0,
-      "max_age_days": 2671.2,
+      "max_age_days": 2672.2,
       "recent_created_30d": 0
     },
     {
@@ -1740,7 +1740,7 @@
       "needs_triage": 0,
       "sla_breach": 18,
       "good_first": 0,
-      "max_age_days": 1833.6,
+      "max_age_days": 1834.6,
       "recent_created_30d": 0
     },
     {
@@ -1751,7 +1751,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 674.6,
+      "max_age_days": 675.6,
       "recent_created_30d": 0
     },
     {
@@ -1762,7 +1762,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 446.9,
+      "max_age_days": 447.9,
       "recent_created_30d": 0
     },
     {
@@ -1773,7 +1773,7 @@
       "needs_triage": 0,
       "sla_breach": 30,
       "good_first": 0,
-      "max_age_days": 2363.8,
+      "max_age_days": 2364.8,
       "recent_created_30d": 0
     },
     {
@@ -1784,7 +1784,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 2064.2,
+      "max_age_days": 2065.2,
       "recent_created_30d": 0
     },
     {
@@ -1795,7 +1795,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1230.5,
+      "max_age_days": 1231.5,
       "recent_created_30d": 0
     },
     {
@@ -1806,7 +1806,7 @@
       "needs_triage": 0,
       "sla_breach": 8,
       "good_first": 0,
-      "max_age_days": 1999.8,
+      "max_age_days": 2000.8,
       "recent_created_30d": 0
     },
     {
@@ -1817,7 +1817,7 @@
       "needs_triage": 0,
       "sla_breach": 26,
       "good_first": 0,
-      "max_age_days": 2124.2,
+      "max_age_days": 2125.2,
       "recent_created_30d": 0
     },
     {
@@ -1828,7 +1828,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 562.9,
+      "max_age_days": 563.9,
       "recent_created_30d": 0
     },
     {
@@ -1839,7 +1839,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 559.1,
+      "max_age_days": 560.1,
       "recent_created_30d": 0
     },
     {
@@ -1850,7 +1850,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 633.2,
+      "max_age_days": 634.1,
       "recent_created_30d": 0
     },
     {
@@ -1861,7 +1861,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 646.1,
+      "max_age_days": 647.1,
       "recent_created_30d": 0
     },
     {
@@ -1872,7 +1872,7 @@
       "needs_triage": 0,
       "sla_breach": 28,
       "good_first": 0,
-      "max_age_days": 1881.9,
+      "max_age_days": 1882.9,
       "recent_created_30d": 0
     },
     {
@@ -1883,7 +1883,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 3009.8,
+      "max_age_days": 3010.8,
       "recent_created_30d": 0
     },
     {
@@ -1894,7 +1894,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 2153.7,
+      "max_age_days": 2154.7,
       "recent_created_30d": 0
     },
     {
@@ -1905,7 +1905,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1571.8,
+      "max_age_days": 1572.8,
       "recent_created_30d": 0
     },
     {
@@ -1916,7 +1916,7 @@
       "needs_triage": 0,
       "sla_breach": 14,
       "good_first": 0,
-      "max_age_days": 2073.2,
+      "max_age_days": 2074.2,
       "recent_created_30d": 0
     },
     {
@@ -1927,7 +1927,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 914.9,
+      "max_age_days": 915.9,
       "recent_created_30d": 0
     },
     {
@@ -1938,7 +1938,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2954.1,
+      "max_age_days": 2955.1,
       "recent_created_30d": 0
     },
     {
@@ -1949,7 +1949,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 1558.0,
+      "max_age_days": 1559.0,
       "recent_created_30d": 0
     },
     {
@@ -1960,7 +1960,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1024.6,
+      "max_age_days": 1025.6,
       "recent_created_30d": 0
     },
     {
@@ -1971,7 +1971,7 @@
       "needs_triage": 0,
       "sla_breach": 7,
       "good_first": 0,
-      "max_age_days": 2353.8,
+      "max_age_days": 2354.8,
       "recent_created_30d": 0
     },
     {
@@ -1982,7 +1982,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1234.8,
+      "max_age_days": 1235.8,
       "recent_created_30d": 0
     },
     {
@@ -1993,7 +1993,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 1384.8,
+      "max_age_days": 1385.8,
       "recent_created_30d": 0
     },
     {
@@ -2004,7 +2004,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 2692.0,
+      "max_age_days": 2693.0,
       "recent_created_30d": 0
     },
     {
@@ -2015,7 +2015,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2351.4,
+      "max_age_days": 2352.3,
       "recent_created_30d": 0
     },
     {
@@ -2026,7 +2026,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1896.9,
+      "max_age_days": 1897.9,
       "recent_created_30d": 0
     },
     {
@@ -2037,7 +2037,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 2641.6,
+      "max_age_days": 2642.6,
       "recent_created_30d": 0
     },
     {
@@ -2048,7 +2048,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2385.1,
+      "max_age_days": 2386.1,
       "recent_created_30d": 0
     },
     {
@@ -2059,7 +2059,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 2159.5,
+      "max_age_days": 2160.5,
       "recent_created_30d": 0
     },
     {
@@ -2070,7 +2070,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 2613.7,
+      "max_age_days": 2614.7,
       "recent_created_30d": 0
     },
     {
@@ -2081,7 +2081,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 2734.7,
+      "max_age_days": 2735.7,
       "recent_created_30d": 0
     }
   ],
@@ -2116,8 +2116,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 3009.8,
-      "last_update_days": 27.9,
+      "age_days": 3010.8,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2150,8 +2150,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2954.1,
-      "last_update_days": 27.9,
+      "age_days": 2955.1,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": false
     },
@@ -2182,8 +2182,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2867.8,
-      "last_update_days": 28.1,
+      "age_days": 2868.8,
+      "last_update_days": 29.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2214,8 +2214,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2835.1,
-      "last_update_days": 28.1,
+      "age_days": 2836.1,
+      "last_update_days": 29.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2248,8 +2248,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2829.9,
-      "last_update_days": 27.9,
+      "age_days": 2830.9,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2285,8 +2285,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2734.7,
-      "last_update_days": 27.9,
+      "age_days": 2735.7,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2317,8 +2317,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2711.7,
-      "last_update_days": 28.1,
+      "age_days": 2712.7,
+      "last_update_days": 29.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2353,8 +2353,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2692.0,
-      "last_update_days": 27.9,
+      "age_days": 2693.0,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2387,8 +2387,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2690.9,
-      "last_update_days": 27.9,
+      "age_days": 2691.9,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2422,8 +2422,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2690.9,
-      "last_update_days": 27.9,
+      "age_days": 2691.9,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     }
@@ -2459,8 +2459,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 3009.8,
-      "last_update_days": 27.9,
+      "age_days": 3010.8,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2493,8 +2493,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2954.1,
-      "last_update_days": 27.9,
+      "age_days": 2955.1,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": false
     },
@@ -2525,8 +2525,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2867.8,
-      "last_update_days": 28.1,
+      "age_days": 2868.8,
+      "last_update_days": 29.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2557,8 +2557,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2835.1,
-      "last_update_days": 28.1,
+      "age_days": 2836.1,
+      "last_update_days": 29.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2591,8 +2591,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2829.9,
-      "last_update_days": 27.9,
+      "age_days": 2830.9,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2628,8 +2628,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2734.7,
-      "last_update_days": 27.9,
+      "age_days": 2735.7,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2660,8 +2660,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2711.7,
-      "last_update_days": 28.1,
+      "age_days": 2712.7,
+      "last_update_days": 29.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2696,8 +2696,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2692.0,
-      "last_update_days": 27.9,
+      "age_days": 2693.0,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2730,8 +2730,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2690.9,
-      "last_update_days": 27.9,
+      "age_days": 2691.9,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2765,8 +2765,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2690.9,
-      "last_update_days": 27.9,
+      "age_days": 2691.9,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2800,8 +2800,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2671.2,
-      "last_update_days": 27.9,
+      "age_days": 2672.2,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": false
     },
@@ -2834,8 +2834,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2669.2,
-      "last_update_days": 27.9,
+      "age_days": 2670.2,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2869,8 +2869,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2663.6,
-      "last_update_days": 27.9,
+      "age_days": 2664.6,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2904,8 +2904,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2658.7,
-      "last_update_days": 27.9,
+      "age_days": 2659.7,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2939,8 +2939,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2656.1,
-      "last_update_days": 27.9,
+      "age_days": 2657.1,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2974,8 +2974,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2656.1,
-      "last_update_days": 27.9,
+      "age_days": 2657.1,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -3009,8 +3009,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2656.1,
-      "last_update_days": 27.9,
+      "age_days": 2657.1,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -3044,8 +3044,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2655.8,
-      "last_update_days": 27.9,
+      "age_days": 2656.8,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": false
     },
@@ -3080,8 +3080,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2651.1,
-      "last_update_days": 27.9,
+      "age_days": 2652.1,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -3114,24 +3114,276 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 2641.6,
-      "last_update_days": 27.9,
+      "age_days": 2642.6,
+      "last_update_days": 28.9,
       "needs_triage": false,
       "unassigned": true
     }
   ],
   "recent": [
     {
-      "key": "github:huaweicloud/huaweicloud-devkit:485",
+      "key": "github:huaweicloud/huaweicloud-devkit:530",
       "platform": "github",
       "repo": "huaweicloud-devkit",
       "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 485,
-      "title": "[Bug] OBS 静态网站托管部署场景测试发现 2 个问题：obsutil mb 返回码误报、网站端点生效延迟 404 误判（附测试报告）",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/485",
+      "number": 530,
+      "title": "[Bug/多环境] Linux ARM64 下 KooCLI 缺少 BSS 服务（余额查询不可用）+ README 版本/分支同步 + MCP 参数校验宽松",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/530",
       "state": "open",
-      "created_at": "2026-09-04T09:30:27Z",
-      "updated_at": "2026-09-04T09:41:09Z",
+      "created_at": "2026-09-08T04:46:11Z",
+      "updated_at": "2026-09-08T04:59:01Z",
+      "closed_at": null,
+      "comments": 5,
+      "assignee": null,
+      "author": "shuangheaven",
+      "labels": [
+        "agent",
+        "agent/triaged",
+        "area/ci-cd",
+        "priority/high",
+        "status/triaged",
+        "triaged",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "high",
+      "area": "ci-cd",
+      "status_label": "status/triaged",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.0,
+      "last_update_days": 0.0,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-sdk-cpp-v3:70",
+      "platform": "github",
+      "repo": "huaweicloud-sdk-cpp-v3",
+      "repo_full": "huaweicloud/huaweicloud-sdk-cpp-v3",
+      "number": 70,
+      "title": "[Bug]: 啊啊，这个这个这个我们，这个这个啊，这个是吧",
+      "url": "https://github.com/huaweicloud/huaweicloud-sdk-cpp-v3/issues/70",
+      "state": "open",
+      "created_at": "2026-09-08T02:21:14Z",
+      "updated_at": "2026-09-08T02:21:14Z",
+      "closed_at": null,
+      "comments": 0,
+      "assignee": null,
+      "author": "kevinpersist",
+      "labels": [
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "unknown",
+      "area": null,
+      "status_label": null,
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.1,
+      "last_update_days": 0.1,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-sdk-cpp-v3:69",
+      "platform": "github",
+      "repo": "huaweicloud-sdk-cpp-v3",
+      "repo_full": "huaweicloud/huaweicloud-sdk-cpp-v3",
+      "number": 69,
+      "title": "[Bug]: 啊啊，这个这个这个我们，这个这个啊，这个是吧",
+      "url": "https://github.com/huaweicloud/huaweicloud-sdk-cpp-v3/issues/69",
+      "state": "closed",
+      "created_at": "2026-09-08T02:17:57Z",
+      "updated_at": "2026-09-08T02:18:47Z",
+      "closed_at": "2026-09-08T02:18:32Z",
+      "comments": 0,
+      "assignee": null,
+      "author": "kevinpersist",
+      "labels": [
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "unknown",
+      "area": null,
+      "status_label": null,
+      "good_first": false,
+      "help_wanted": false,
+      "column": "done",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.1,
+      "last_update_days": 0.1,
+      "needs_triage": false,
+      "unassigned": false
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:520",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 520,
+      "title": "README credential documentation is incomplete and conflicts with SKILL.md on env-field usage",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/520",
+      "state": "open",
+      "created_at": "2026-09-07T16:53:58Z",
+      "updated_at": "2026-09-07T17:00:10Z",
+      "closed_at": null,
+      "comments": 3,
+      "assignee": null,
+      "author": "zrr000212-netizen",
+      "labels": [
+        "agent",
+        "agent/triaged",
+        "area/ci-cd",
+        "priority/critical",
+        "status/triaged",
+        "triaged",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "critical",
+      "area": "ci-cd",
+      "status_label": "status/triaged",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": true,
+      "sla_warning": false,
+      "age_days": 0.5,
+      "last_update_days": 0.5,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:519",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 519,
+      "title": "[Bug] Codex 原生插件安装使用错误名称且可能误报成功，README 缺少 Codex 安装指引",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/519",
+      "state": "open",
+      "created_at": "2026-09-07T15:42:57Z",
+      "updated_at": "2026-09-07T15:43:10Z",
+      "closed_at": null,
+      "comments": 1,
+      "assignee": null,
+      "author": "BeyondTianxingjian",
+      "labels": [
+        "agent/triaged",
+        "area/web",
+        "priority/high",
+        "status/triaged",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "high",
+      "area": "web",
+      "status_label": "status/triaged",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": true,
+      "sla_warning": false,
+      "age_days": 0.6,
+      "last_update_days": 0.6,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:518",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 518,
+      "title": "[Bug/发布] 正式版 1.1.1 发布后镜像源同步滞后：latest 安装报 ETARGET/拿到旧版，且更新检测误报检测到新版本 1.1.0（版本倒退）",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/518",
+      "state": "open",
+      "created_at": "2026-09-07T15:39:42Z",
+      "updated_at": "2026-09-07T15:46:47Z",
+      "closed_at": null,
+      "comments": 3,
+      "assignee": null,
+      "author": "shuangheaven",
+      "labels": [
+        "agent",
+        "agent/triaged",
+        "area/ci-cd",
+        "priority/high",
+        "status/triaged",
+        "triaged",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "high",
+      "area": "ci-cd",
+      "status_label": "status/triaged",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": true,
+      "sla_warning": false,
+      "age_days": 0.6,
+      "last_update_days": 0.6,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:516",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 516,
+      "title": "安装的是最新的 1.1.1，但 `npx huaweicloud-devkit version` 查出的是 1.1.0",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/516",
+      "state": "open",
+      "created_at": "2026-09-07T15:12:26Z",
+      "updated_at": "2026-09-07T15:21:48Z",
+      "closed_at": null,
+      "comments": 3,
+      "assignee": null,
+      "author": "zrr000212-netizen",
+      "labels": [
+        "agent",
+        "agent/triaged",
+        "area/sdk",
+        "priority/medium",
+        "status/triaged",
+        "triaged",
+        "type/feature"
+      ],
+      "type": "feature",
+      "priority": "medium",
+      "area": "sdk",
+      "status_label": "status/triaged",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.6,
+      "last_update_days": 0.6,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:512",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 512,
+      "title": "Install/uninstall fails on clean environments: better-sqlite3 native module not built",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/512",
+      "state": "open",
+      "created_at": "2026-09-07T11:42:05Z",
+      "updated_at": "2026-09-07T11:48:39Z",
       "closed_at": null,
       "comments": 4,
       "assignee": null,
@@ -3139,87 +3391,51 @@
       "labels": [
         "agent",
         "agent/triaged",
-        "area/api",
-        "priority/high",
-        "status/triaged",
-        "triaged",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "high",
-      "area": "api",
-      "status_label": "status/triaged",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "backlog",
-      "sla_breach": true,
-      "sla_warning": false,
-      "age_days": 2.8,
-      "last_update_days": 2.8,
-      "needs_triage": false,
-      "unassigned": true
-    },
-    {
-      "key": "github:huaweicloud/terraform-provider-huaweicloud:10487",
-      "platform": "github",
-      "repo": "terraform-provider-huaweicloud",
-      "repo_full": "huaweicloud/terraform-provider-huaweicloud",
-      "number": 10487,
-      "title": "CCI 2.0 Terraform provider: container command and args lose their order(TS2026090368MNXWBE3OIX)",
-      "url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/issues/10487",
-      "state": "open",
-      "created_at": "2026-09-04T07:05:16Z",
-      "updated_at": "2026-09-04T10:05:25Z",
-      "closed_at": null,
-      "comments": 0,
-      "assignee": null,
-      "author": "serdarkoc",
-      "labels": [
-        "agent/triaged",
         "area/ci-cd",
-        "priority/medium",
-        "type/bug"
+        "priority/low",
+        "triaged",
+        "type/documentation"
       ],
-      "type": "bug",
-      "priority": "medium",
+      "type": "documentation",
+      "priority": "low",
       "area": "ci-cd",
       "status_label": null,
       "good_first": false,
       "help_wanted": false,
       "column": "backlog",
-      "sla_breach": true,
+      "sla_breach": false,
       "sla_warning": false,
-      "age_days": 2.9,
-      "last_update_days": 2.8,
+      "age_days": 0.8,
+      "last_update_days": 0.7,
       "needs_triage": false,
       "unassigned": true
     },
     {
-      "key": "github:huaweicloud/huaweicloud-devkit:479",
+      "key": "github:huaweicloud/huaweicloud-devkit:511",
       "platform": "github",
       "repo": "huaweicloud-devkit",
       "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 479,
-      "title": "沙箱环境注入的临时 STS 凭据优先级高于用户配置凭据，导致代金券等查询使用错误账号",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/479",
+      "number": 511,
+      "title": "[Bug] Hermes installer on Windows ignores --home option, writes skills to %LOCALAPPDATA% instead of --home directory",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/511",
       "state": "open",
-      "created_at": "2026-09-03T12:24:07Z",
-      "updated_at": "2026-09-03T12:27:40Z",
+      "created_at": "2026-09-07T11:07:17Z",
+      "updated_at": "2026-09-07T11:16:47Z",
       "closed_at": null,
-      "comments": 4,
+      "comments": 3,
       "assignee": null,
-      "author": "coconut1919",
+      "author": "Shenchunli-Bot",
       "labels": [
         "agent",
         "agent/triaged",
         "area/ci-cd",
-        "priority/high",
+        "priority/critical",
         "status/triaged",
         "triaged",
         "type/bug"
       ],
       "type": "bug",
-      "priority": "high",
+      "priority": "critical",
       "area": "ci-cd",
       "status_label": "status/triaged",
       "good_first": false,
@@ -3227,275 +3443,48 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 3.7,
-      "last_update_days": 3.7,
+      "age_days": 0.8,
+      "last_update_days": 0.8,
       "needs_triage": false,
       "unassigned": true
     },
     {
-      "key": "github:huaweicloud/spring-cloud-huawei:1649",
+      "key": "github:huaweicloud/huaweicloud-devkit:510",
       "platform": "github",
-      "repo": "spring-cloud-huawei",
-      "repo_full": "huaweicloud/spring-cloud-huawei",
-      "number": 1649,
-      "title": "Improve unit test coverage for common utilities and invocation context",
-      "url": "https://github.com/huaweicloud/spring-cloud-huawei/issues/1649",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 510,
+      "title": "[测试报告] 卸载/更新/版本查询 发现问题汇总：better-sqlite3 原生构建被拦截 + 若干覆盖缺口",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/510",
       "state": "open",
-      "created_at": "2026-09-03T07:25:37Z",
-      "updated_at": "2026-09-03T10:17:09Z",
+      "created_at": "2026-09-07T10:41:49Z",
+      "updated_at": "2026-09-07T10:52:29Z",
       "closed_at": null,
-      "comments": 0,
+      "comments": 5,
       "assignee": null,
-      "author": "Lacematrix",
+      "author": "Shenchunli-Bot",
       "labels": [
+        "agent",
         "agent/triaged",
-        "area/web",
+        "area/ci-cd",
         "priority/low",
+        "status/triaged",
+        "triaged",
         "type/bug"
       ],
       "type": "bug",
       "priority": "low",
-      "area": "web",
-      "status_label": null,
-      "good_first": false,
-      "help_wanted": false,
-      "column": "backlog",
-      "sla_breach": true,
-      "sla_warning": false,
-      "age_days": 3.9,
-      "last_update_days": 3.8,
-      "needs_triage": false,
-      "unassigned": true
-    },
-    {
-      "key": "github:huaweicloud/dubbo-servicecomb:157",
-      "platform": "github",
-      "repo": "dubbo-servicecomb",
-      "repo_full": "huaweicloud/dubbo-servicecomb",
-      "number": 157,
-      "title": "[Feature]: Add unit tests for common and config center modules",
-      "url": "https://github.com/huaweicloud/dubbo-servicecomb/issues/157",
-      "state": "open",
-      "created_at": "2026-09-03T06:55:50Z",
-      "updated_at": "2026-09-03T10:17:18Z",
-      "closed_at": null,
-      "comments": 0,
-      "assignee": null,
-      "author": "Lacematrix",
-      "labels": [
-        "agent/triaged",
-        "area/ci-cd",
-        "area/security",
-        "area/web",
-        "priority/high",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "high",
       "area": "ci-cd",
-      "status_label": null,
+      "status_label": "status/triaged",
       "good_first": false,
       "help_wanted": false,
       "column": "backlog",
-      "sla_breach": true,
+      "sla_breach": false,
       "sla_warning": false,
-      "age_days": 4.0,
-      "last_update_days": 3.8,
+      "age_days": 0.8,
+      "last_update_days": 0.8,
       "needs_triage": false,
       "unassigned": true
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-csi-driver:175",
-      "platform": "github",
-      "repo": "huaweicloud-csi-driver",
-      "repo_full": "huaweicloud/huaweicloud-csi-driver",
-      "number": 175,
-      "title": "[Bug]: ControllerUnpublishVolume is not idempotent on NotFound",
-      "url": "https://github.com/huaweicloud/huaweicloud-csi-driver/issues/175",
-      "state": "open",
-      "created_at": "2026-09-02T12:47:02Z",
-      "updated_at": "2026-09-02T15:30:31Z",
-      "closed_at": null,
-      "comments": 0,
-      "assignee": null,
-      "author": "imightbuyaboat",
-      "labels": [
-        "agent/triaged",
-        "area/api",
-        "area/ci-cd",
-        "area/database",
-        "priority/medium",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "medium",
-      "area": "api",
-      "status_label": null,
-      "good_first": false,
-      "help_wanted": false,
-      "column": "backlog",
-      "sla_breach": true,
-      "sla_warning": false,
-      "age_days": 4.7,
-      "last_update_days": 4.6,
-      "needs_triage": false,
-      "unassigned": true
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:452",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 452,
-      "title": "用户首次使用插件时，未领取代金券不会被主动提示",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/452",
-      "state": "closed",
-      "created_at": "2026-09-02T08:39:30Z",
-      "updated_at": "2026-09-02T08:46:35Z",
-      "closed_at": "2026-09-02T08:44:41Z",
-      "comments": 4,
-      "assignee": null,
-      "author": "coconut1919",
-      "labels": [
-        "agent",
-        "agent/triaged",
-        "area/sdk",
-        "human",
-        "priority/medium",
-        "status/resolved",
-        "triaged",
-        "type/question"
-      ],
-      "type": "question",
-      "priority": "medium",
-      "area": "sdk",
-      "status_label": "status/resolved",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "done",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 4.9,
-      "last_update_days": 4.9,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:445",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 445,
-      "title": "【huaweicloud-devkit】 三次 Web 应用部署测试断点汇总与沙箱预装能力改进建议",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/445",
-      "state": "closed",
-      "created_at": "2026-09-02T07:13:32Z",
-      "updated_at": "2026-09-04T07:58:49Z",
-      "closed_at": "2026-09-04T07:58:37Z",
-      "comments": 4,
-      "assignee": null,
-      "author": "ralkdwbeuq2080",
-      "labels": [
-        "agent",
-        "agent/triaged",
-        "area/api",
-        "priority/critical",
-        "status/resolved",
-        "triaged",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "critical",
-      "area": "api",
-      "status_label": "status/resolved",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "done",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 4.9,
-      "last_update_days": 2.9,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:443",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 443,
-      "title": "[Skill] 复用已有安全组时，宽松规则绕过 public_exposure 检测",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/443",
-      "state": "closed",
-      "created_at": "2026-09-02T06:47:55Z",
-      "updated_at": "2026-09-02T18:17:52Z",
-      "closed_at": "2026-09-02T18:10:47Z",
-      "comments": 8,
-      "assignee": null,
-      "author": "zrr000212-netizen",
-      "labels": [
-        "agent",
-        "agent/triaged",
-        "area/security",
-        "bug",
-        "enhancement",
-        "priority/critical",
-        "status/resolved",
-        "triaged",
-        "type/feature"
-      ],
-      "type": "feature",
-      "priority": "critical",
-      "area": "security",
-      "status_label": "status/resolved",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "done",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 5.0,
-      "last_update_days": 4.5,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:423",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 423,
-      "title": "[umbrella] 测试优化 11 项问题修复合入与验证",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/423",
-      "state": "closed",
-      "created_at": "2026-09-01T09:39:36Z",
-      "updated_at": "2026-09-01T12:55:27Z",
-      "closed_at": "2026-09-01T12:55:19Z",
-      "comments": 4,
-      "assignee": null,
-      "author": "zrr000212-netizen",
-      "labels": [
-        "agent",
-        "agent/triaged",
-        "area/api",
-        "enhancement",
-        "priority/low",
-        "status/resolved",
-        "triaged",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "low",
-      "area": "api",
-      "status_label": "status/resolved",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "done",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 5.8,
-      "last_update_days": 5.7,
-      "needs_triage": false,
-      "unassigned": false
     }
   ]
 }
