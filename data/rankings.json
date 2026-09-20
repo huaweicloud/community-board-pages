@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:35:58.129742+00:00",
+  "generated_at": "2026-09-20T05:54:26.362686+00:00",
   "by_open": [
     {
       "repo": "huaweicloud/dstore",
@@ -9,19 +9,19 @@
       "needs_triage": 0,
       "sla_breach": 426,
       "good_first": 0,
-      "max_age_days": 179.5,
+      "max_age_days": 180.5,
       "recent_created_30d": 0
     },
     {
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
-      "total": 230,
-      "open": 59,
+      "total": 235,
+      "open": 64,
       "needs_triage": 0,
       "sla_breach": 49,
       "good_first": 0,
-      "max_age_days": 28.8,
-      "recent_created_30d": 198
+      "max_age_days": 29.8,
+      "recent_created_30d": 200
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-go-v3",
@@ -31,7 +31,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 1979.0,
+      "max_age_days": 1980.0,
       "recent_created_30d": 0
     },
     {
@@ -42,7 +42,7 @@
       "needs_triage": 0,
       "sla_breach": 6,
       "good_first": 0,
-      "max_age_days": 1632.8,
+      "max_age_days": 1633.8,
       "recent_created_30d": 0
     },
     {
@@ -53,7 +53,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 101.9,
+      "max_age_days": 102.9,
       "recent_created_30d": 0
     },
     {
@@ -64,7 +64,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1520.4,
+      "max_age_days": 1521.4,
       "recent_created_30d": 4
     },
     {
@@ -75,8 +75,19 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1223.9,
+      "max_age_days": 1225.0,
       "recent_created_30d": 1
+    },
+    {
+      "repo": "huaweicloud/huaweicloud-sdk-python-v3",
+      "platform": "github",
+      "total": 9,
+      "open": 3,
+      "needs_triage": 0,
+      "sla_breach": 1,
+      "good_first": 0,
+      "max_age_days": 112.0,
+      "recent_created_30d": 2
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-cpp-v3",
@@ -86,7 +97,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 93.9,
+      "max_age_days": 95.0,
       "recent_created_30d": 3
     },
     {
@@ -97,7 +108,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1242.5,
+      "max_age_days": 1243.5,
       "recent_created_30d": 0
     },
     {
@@ -108,8 +119,8 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 30.1,
-      "recent_created_30d": 2
+      "max_age_days": 31.1,
+      "recent_created_30d": 1
     },
     {
       "repo": "huaweicloud/huaweicloud-csi-driver",
@@ -119,7 +130,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 926.7,
+      "max_age_days": 927.7,
       "recent_created_30d": 1
     },
     {
@@ -130,7 +141,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 109.8,
+      "max_age_days": 110.8,
       "recent_created_30d": 1
     },
     {
@@ -141,7 +152,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 525.9,
+      "max_age_days": 526.9,
       "recent_created_30d": 1
     },
     {
@@ -152,7 +163,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 36.0,
+      "max_age_days": 37.0,
       "recent_created_30d": 0
     },
     {
@@ -163,7 +174,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 83.9,
+      "max_age_days": 84.9,
       "recent_created_30d": 0
     },
     {
@@ -174,7 +185,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 478.8,
+      "max_age_days": 479.8,
       "recent_created_30d": 0
     },
     {
@@ -185,7 +196,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 524.9,
+      "max_age_days": 525.9,
       "recent_created_30d": 0
     },
     {
@@ -196,7 +207,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1.7,
+      "max_age_days": 2.8,
       "recent_created_30d": 1
     },
     {
@@ -207,7 +218,7 @@
       "needs_triage": 0,
       "sla_breach": 0,
       "good_first": 0,
-      "max_age_days": 33.1,
+      "max_age_days": 34.1,
       "recent_created_30d": 0
     },
     {
@@ -218,7 +229,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 34.1,
+      "max_age_days": 35.1,
       "recent_created_30d": 0
     },
     {
@@ -229,7 +240,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 35.9,
+      "max_age_days": 36.9,
       "recent_created_30d": 0
     },
     {
@@ -240,7 +251,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 62.1,
+      "max_age_days": 63.1,
       "recent_created_30d": 0
     },
     {
@@ -251,7 +262,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 70.8,
+      "max_age_days": 71.8,
       "recent_created_30d": 0
     },
     {
@@ -262,18 +273,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 79.9,
-      "recent_created_30d": 0
-    },
-    {
-      "repo": "huaweicloud/huaweicloud-sdk-python-v3",
-      "platform": "github",
-      "total": 7,
-      "open": 1,
-      "needs_triage": 0,
-      "sla_breach": 1,
-      "good_first": 0,
-      "max_age_days": 111.0,
+      "max_age_days": 80.9,
       "recent_created_30d": 0
     },
     {
@@ -284,7 +284,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 940.0,
+      "max_age_days": 941.0,
       "recent_created_30d": 0
     },
     {
@@ -295,7 +295,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 763.7,
+      "max_age_days": 764.7,
       "recent_created_30d": 0
     },
     {
@@ -704,19 +704,19 @@
       "needs_triage": 0,
       "sla_breach": 426,
       "good_first": 0,
-      "max_age_days": 179.5,
+      "max_age_days": 180.5,
       "recent_created_30d": 0
     },
     {
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
-      "total": 230,
-      "open": 59,
+      "total": 235,
+      "open": 64,
       "needs_triage": 0,
       "sla_breach": 49,
       "good_first": 0,
-      "max_age_days": 28.8,
-      "recent_created_30d": 198
+      "max_age_days": 29.8,
+      "recent_created_30d": 200
     },
     {
       "repo": "huaweicloud/huaweicloud-sdk-go-v3",
@@ -726,7 +726,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 1979.0,
+      "max_age_days": 1980.0,
       "recent_created_30d": 0
     },
     {
@@ -737,7 +737,7 @@
       "needs_triage": 0,
       "sla_breach": 6,
       "good_first": 0,
-      "max_age_days": 1632.8,
+      "max_age_days": 1633.8,
       "recent_created_30d": 0
     },
     {
@@ -748,7 +748,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 101.9,
+      "max_age_days": 102.9,
       "recent_created_30d": 0
     },
     {
@@ -759,7 +759,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1520.4,
+      "max_age_days": 1521.4,
       "recent_created_30d": 4
     },
     {
@@ -770,7 +770,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1223.9,
+      "max_age_days": 1225.0,
       "recent_created_30d": 1
     },
     {
@@ -781,7 +781,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 93.9,
+      "max_age_days": 95.0,
       "recent_created_30d": 3
     },
     {
@@ -792,7 +792,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1242.5,
+      "max_age_days": 1243.5,
       "recent_created_30d": 0
     },
     {
@@ -803,8 +803,8 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 30.1,
-      "recent_created_30d": 2
+      "max_age_days": 31.1,
+      "recent_created_30d": 1
     },
     {
       "repo": "huaweicloud/huaweicloud-csi-driver",
@@ -814,7 +814,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 926.7,
+      "max_age_days": 927.7,
       "recent_created_30d": 1
     },
     {
@@ -825,7 +825,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 109.8,
+      "max_age_days": 110.8,
       "recent_created_30d": 1
     },
     {
@@ -836,7 +836,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 525.9,
+      "max_age_days": 526.9,
       "recent_created_30d": 1
     },
     {
@@ -847,7 +847,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 36.0,
+      "max_age_days": 37.0,
       "recent_created_30d": 0
     },
     {
@@ -858,7 +858,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 83.9,
+      "max_age_days": 84.9,
       "recent_created_30d": 0
     },
     {
@@ -869,7 +869,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 478.8,
+      "max_age_days": 479.8,
       "recent_created_30d": 0
     },
     {
@@ -880,8 +880,19 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 524.9,
+      "max_age_days": 525.9,
       "recent_created_30d": 0
+    },
+    {
+      "repo": "huaweicloud/huaweicloud-sdk-python-v3",
+      "platform": "github",
+      "total": 9,
+      "open": 3,
+      "needs_triage": 0,
+      "sla_breach": 1,
+      "good_first": 0,
+      "max_age_days": 112.0,
+      "recent_created_30d": 2
     },
     {
       "repo": "huaweicloud/huaweicloud-iot-device-sdk-java",
@@ -891,7 +902,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1.7,
+      "max_age_days": 2.8,
       "recent_created_30d": 1
     },
     {
@@ -902,7 +913,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 34.1,
+      "max_age_days": 35.1,
       "recent_created_30d": 0
     },
     {
@@ -913,7 +924,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 35.9,
+      "max_age_days": 36.9,
       "recent_created_30d": 0
     },
     {
@@ -924,7 +935,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 62.1,
+      "max_age_days": 63.1,
       "recent_created_30d": 0
     },
     {
@@ -935,7 +946,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 70.8,
+      "max_age_days": 71.8,
       "recent_created_30d": 0
     },
     {
@@ -946,18 +957,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 79.9,
-      "recent_created_30d": 0
-    },
-    {
-      "repo": "huaweicloud/huaweicloud-sdk-python-v3",
-      "platform": "github",
-      "total": 7,
-      "open": 1,
-      "needs_triage": 0,
-      "sla_breach": 1,
-      "good_first": 0,
-      "max_age_days": 111.0,
+      "max_age_days": 80.9,
       "recent_created_30d": 0
     },
     {
@@ -968,7 +968,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 940.0,
+      "max_age_days": 941.0,
       "recent_created_30d": 0
     },
     {
@@ -979,7 +979,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 763.7,
+      "max_age_days": 764.7,
       "recent_created_30d": 0
     },
     {
@@ -1001,7 +1001,7 @@
       "needs_triage": 0,
       "sla_breach": 0,
       "good_first": 0,
-      "max_age_days": 33.1,
+      "max_age_days": 34.1,
       "recent_created_30d": 0
     },
     {
@@ -1392,15 +1392,26 @@
   ],
   "by_needs_triage": [
     {
+      "repo": "huaweicloud/huaweicloud-sdk-python-v3",
+      "platform": "github",
+      "total": 9,
+      "open": 3,
+      "needs_triage": 0,
+      "sla_breach": 1,
+      "good_first": 0,
+      "max_age_days": 112.0,
+      "recent_created_30d": 2
+    },
+    {
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
-      "total": 230,
-      "open": 59,
+      "total": 235,
+      "open": 64,
       "needs_triage": 0,
       "sla_breach": 49,
       "good_first": 0,
-      "max_age_days": 28.8,
-      "recent_created_30d": 198
+      "max_age_days": 29.8,
+      "recent_created_30d": 200
     },
     {
       "repo": "huaweicloud/huaweicloud-iot-device-sdk-java",
@@ -1410,7 +1421,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 1.7,
+      "max_age_days": 2.8,
       "recent_created_30d": 1
     },
     {
@@ -1432,7 +1443,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1520.4,
+      "max_age_days": 1521.4,
       "recent_created_30d": 4
     },
     {
@@ -1443,7 +1454,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 93.9,
+      "max_age_days": 95.0,
       "recent_created_30d": 3
     },
     {
@@ -1454,7 +1465,7 @@
       "needs_triage": 0,
       "sla_breach": 4,
       "good_first": 0,
-      "max_age_days": 1223.9,
+      "max_age_days": 1225.0,
       "recent_created_30d": 1
     },
     {
@@ -1465,8 +1476,8 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 30.1,
-      "recent_created_30d": 2
+      "max_age_days": 31.1,
+      "recent_created_30d": 1
     },
     {
       "repo": "huaweicloud/huaweicloud-csi-driver",
@@ -1476,7 +1487,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 926.7,
+      "max_age_days": 927.7,
       "recent_created_30d": 1
     },
     {
@@ -1487,7 +1498,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 109.8,
+      "max_age_days": 110.8,
       "recent_created_30d": 1
     },
     {
@@ -1498,7 +1509,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 525.9,
+      "max_age_days": 526.9,
       "recent_created_30d": 1
     },
     {
@@ -1509,7 +1520,7 @@
       "needs_triage": 0,
       "sla_breach": 0,
       "good_first": 0,
-      "max_age_days": 33.1,
+      "max_age_days": 34.1,
       "recent_created_30d": 0
     },
     {
@@ -1520,7 +1531,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 34.1,
+      "max_age_days": 35.1,
       "recent_created_30d": 0
     },
     {
@@ -1531,7 +1542,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 36.0,
+      "max_age_days": 37.0,
       "recent_created_30d": 0
     },
     {
@@ -1542,7 +1553,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 35.9,
+      "max_age_days": 36.9,
       "recent_created_30d": 0
     },
     {
@@ -1553,7 +1564,7 @@
       "needs_triage": 0,
       "sla_breach": 5,
       "good_first": 0,
-      "max_age_days": 101.9,
+      "max_age_days": 102.9,
       "recent_created_30d": 0
     },
     {
@@ -1586,7 +1597,7 @@
       "needs_triage": 0,
       "sla_breach": 426,
       "good_first": 0,
-      "max_age_days": 179.5,
+      "max_age_days": 180.5,
       "recent_created_30d": 0
     },
     {
@@ -1597,7 +1608,7 @@
       "needs_triage": 0,
       "sla_breach": 6,
       "good_first": 0,
-      "max_age_days": 1632.8,
+      "max_age_days": 1633.8,
       "recent_created_30d": 0
     },
     {
@@ -1619,7 +1630,7 @@
       "needs_triage": 0,
       "sla_breach": 9,
       "good_first": 0,
-      "max_age_days": 1979.0,
+      "max_age_days": 1980.0,
       "recent_created_30d": 0
     },
     {
@@ -1630,7 +1641,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 62.1,
+      "max_age_days": 63.1,
       "recent_created_30d": 0
     },
     {
@@ -1641,7 +1652,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 70.8,
+      "max_age_days": 71.8,
       "recent_created_30d": 0
     },
     {
@@ -1652,7 +1663,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 83.9,
+      "max_age_days": 84.9,
       "recent_created_30d": 0
     },
     {
@@ -1663,7 +1674,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 79.9,
+      "max_age_days": 80.9,
       "recent_created_30d": 0
     },
     {
@@ -1674,18 +1685,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 478.8,
-      "recent_created_30d": 0
-    },
-    {
-      "repo": "huaweicloud/huaweicloud-sdk-python-v3",
-      "platform": "github",
-      "total": 7,
-      "open": 1,
-      "needs_triage": 0,
-      "sla_breach": 1,
-      "good_first": 0,
-      "max_age_days": 111.0,
+      "max_age_days": 479.8,
       "recent_created_30d": 0
     },
     {
@@ -1718,7 +1718,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 940.0,
+      "max_age_days": 941.0,
       "recent_created_30d": 0
     },
     {
@@ -1806,7 +1806,7 @@
       "needs_triage": 0,
       "sla_breach": 3,
       "good_first": 0,
-      "max_age_days": 1242.5,
+      "max_age_days": 1243.5,
       "recent_created_30d": 0
     },
     {
@@ -1839,7 +1839,7 @@
       "needs_triage": 0,
       "sla_breach": 2,
       "good_first": 0,
-      "max_age_days": 524.9,
+      "max_age_days": 525.9,
       "recent_created_30d": 0
     },
     {
@@ -1883,7 +1883,7 @@
       "needs_triage": 0,
       "sla_breach": 1,
       "good_first": 0,
-      "max_age_days": 763.7,
+      "max_age_days": 764.7,
       "recent_created_30d": 0
     },
     {
@@ -2111,8 +2111,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1979.0,
-      "last_update_days": 51.2,
+      "age_days": 1980.0,
+      "last_update_days": 52.2,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2141,8 +2141,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1788.7,
-      "last_update_days": 51.2,
+      "age_days": 1789.7,
+      "last_update_days": 52.2,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2171,8 +2171,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1632.8,
-      "last_update_days": 51.8,
+      "age_days": 1633.8,
+      "last_update_days": 52.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2201,8 +2201,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1552.0,
-      "last_update_days": 51.2,
+      "age_days": 1553.0,
+      "last_update_days": 52.2,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2234,8 +2234,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1520.4,
-      "last_update_days": 60.0,
+      "age_days": 1521.4,
+      "last_update_days": 61.0,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2266,8 +2266,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1242.5,
-      "last_update_days": 40.0,
+      "age_days": 1243.5,
+      "last_update_days": 41.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2302,8 +2302,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1223.9,
-      "last_update_days": 29.1,
+      "age_days": 1225.0,
+      "last_update_days": 30.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2332,8 +2332,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 940.0,
-      "last_update_days": 59.1,
+      "age_days": 941.0,
+      "last_update_days": 60.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2375,8 +2375,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 926.7,
-      "last_update_days": 39.9,
+      "age_days": 927.7,
+      "last_update_days": 40.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2407,8 +2407,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 850.9,
-      "last_update_days": 40.0,
+      "age_days": 851.9,
+      "last_update_days": 41.1,
       "needs_triage": false,
       "unassigned": true
     }
@@ -2439,8 +2439,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1979.0,
-      "last_update_days": 51.2,
+      "age_days": 1980.0,
+      "last_update_days": 52.2,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2469,8 +2469,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1788.7,
-      "last_update_days": 51.2,
+      "age_days": 1789.7,
+      "last_update_days": 52.2,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2499,8 +2499,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1632.8,
-      "last_update_days": 51.8,
+      "age_days": 1633.8,
+      "last_update_days": 52.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2529,8 +2529,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1552.0,
-      "last_update_days": 51.2,
+      "age_days": 1553.0,
+      "last_update_days": 52.2,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2562,8 +2562,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1520.4,
-      "last_update_days": 60.0,
+      "age_days": 1521.4,
+      "last_update_days": 61.0,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2594,8 +2594,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1242.5,
-      "last_update_days": 40.0,
+      "age_days": 1243.5,
+      "last_update_days": 41.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2630,8 +2630,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 1223.9,
-      "last_update_days": 29.1,
+      "age_days": 1225.0,
+      "last_update_days": 30.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2660,8 +2660,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 940.0,
-      "last_update_days": 59.1,
+      "age_days": 941.0,
+      "last_update_days": 60.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2703,8 +2703,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 926.7,
-      "last_update_days": 39.9,
+      "age_days": 927.7,
+      "last_update_days": 40.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2735,8 +2735,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 850.9,
-      "last_update_days": 40.0,
+      "age_days": 851.9,
+      "last_update_days": 41.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2773,8 +2773,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 763.7,
-      "last_update_days": 39.9,
+      "age_days": 764.7,
+      "last_update_days": 40.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2803,8 +2803,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 700.4,
-      "last_update_days": 51.1,
+      "age_days": 701.4,
+      "last_update_days": 52.2,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2833,8 +2833,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 640.9,
-      "last_update_days": 51.8,
+      "age_days": 641.9,
+      "last_update_days": 52.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2863,8 +2863,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 568.9,
-      "last_update_days": 51.1,
+      "age_days": 570.0,
+      "last_update_days": 52.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2893,8 +2893,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 525.9,
-      "last_update_days": 53.9,
+      "age_days": 526.9,
+      "last_update_days": 54.9,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2923,8 +2923,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 524.9,
-      "last_update_days": 50.1,
+      "age_days": 525.9,
+      "last_update_days": 51.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2953,8 +2953,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 523.7,
-      "last_update_days": 50.1,
+      "age_days": 524.7,
+      "last_update_days": 51.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -2985,8 +2985,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 480.1,
-      "last_update_days": 40.0,
+      "age_days": 481.1,
+      "last_update_days": 41.1,
       "needs_triage": false,
       "unassigned": true
     },
@@ -3015,8 +3015,8 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 478.8,
-      "last_update_days": 88.6,
+      "age_days": 479.8,
+      "last_update_days": 89.7,
       "needs_triage": false,
       "unassigned": true
     },
@@ -3045,13 +3045,270 @@
       "column": "backlog",
       "sla_breach": true,
       "sla_warning": false,
-      "age_days": 477.8,
-      "last_update_days": 51.1,
+      "age_days": 478.8,
+      "last_update_days": 52.1,
       "needs_triage": false,
       "unassigned": true
     }
   ],
   "recent": [
+    {
+      "key": "github:huaweicloud/huaweicloud-sdk-python-v3:51",
+      "platform": "github",
+      "repo": "huaweicloud-sdk-python-v3",
+      "repo_full": "huaweicloud/huaweicloud-sdk-python-v3",
+      "number": 51,
+      "title": "[Bug]: Documentation references `v3` but package only contains `v2`",
+      "url": "https://github.com/huaweicloud/huaweicloud-sdk-python-v3/issues/51",
+      "state": "open",
+      "created_at": "2026-09-20T03:19:27Z",
+      "updated_at": "2026-09-20T03:19:27Z",
+      "closed_at": null,
+      "comments": 0,
+      "assignee": null,
+      "author": "crescent1a",
+      "labels": [],
+      "type": "other",
+      "priority": "unknown",
+      "area": null,
+      "status_label": null,
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.1,
+      "last_update_days": 0.1,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-sdk-python-v3:50",
+      "platform": "github",
+      "repo": "huaweicloud-sdk-python-v3",
+      "repo_full": "huaweicloud/huaweicloud-sdk-python-v3",
+      "number": 50,
+      "title": "[Bug]: BatchRebootSeversOption class name has a typo — missing 'r' in \"Servers\"",
+      "url": "https://github.com/huaweicloud/huaweicloud-sdk-python-v3/issues/50",
+      "state": "open",
+      "created_at": "2026-09-20T03:09:58Z",
+      "updated_at": "2026-09-20T03:09:58Z",
+      "closed_at": null,
+      "comments": 0,
+      "assignee": null,
+      "author": "crescent1a",
+      "labels": [],
+      "type": "other",
+      "priority": "unknown",
+      "area": null,
+      "status_label": null,
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.1,
+      "last_update_days": 0.1,
+      "needs_triage": false,
+      "unassigned": true
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:758",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 758,
+      "title": "[每日测试] Hermes Windows 2026-09-20: D4-16 命令包裹穿透 + D4-11 提示注入 + D4-23 规则未发布 + serviceCatalog路由低",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/758",
+      "state": "open",
+      "created_at": "2026-09-19T22:13:35Z",
+      "updated_at": "2026-09-19T22:43:43Z",
+      "closed_at": null,
+      "comments": 6,
+      "assignee": "grapedev-bot",
+      "author": "shuangheaven",
+      "labels": [
+        "P0",
+        "agent/triaged",
+        "area/ci-cd",
+        "area/security",
+        "bug",
+        "daily-test",
+        "hermes",
+        "priority/critical",
+        "security",
+        "spec-ready",
+        "status/in-progress",
+        "type/feature"
+      ],
+      "type": "feature",
+      "priority": "critical",
+      "area": "ci-cd",
+      "status_label": "status/in-progress",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "in-progress",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.3,
+      "last_update_days": 0.3,
+      "needs_triage": false,
+      "unassigned": false
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:755",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 755,
+      "title": "[测试报告] huaweicloud-devkit v1.1.5 每日测试缺陷合并单（1 项）",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/755",
+      "state": "open",
+      "created_at": "2026-09-19T21:47:41Z",
+      "updated_at": "2026-09-19T21:57:54Z",
+      "closed_at": null,
+      "comments": 5,
+      "assignee": "coconut1919",
+      "author": "shuangheaven",
+      "labels": [
+        "agent/triaged",
+        "area/sdk",
+        "priority/high",
+        "status/in-progress",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "high",
+      "area": "sdk",
+      "status_label": "status/in-progress",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "in-progress",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.3,
+      "last_update_days": 0.3,
+      "needs_triage": false,
+      "unassigned": false
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:754",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 754,
+      "title": "[测试报告] huaweicloud-devkit v1.1.5 每日测试缺陷合并单（1 项）",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/754",
+      "state": "open",
+      "created_at": "2026-09-19T21:43:33Z",
+      "updated_at": "2026-09-19T22:15:54Z",
+      "closed_at": null,
+      "comments": 4,
+      "assignee": "zrr000212-netizen",
+      "author": "shuangheaven",
+      "labels": [
+        "agent/triaged",
+        "area/ci-cd",
+        "priority/high",
+        "status/triaged",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "high",
+      "area": "ci-cd",
+      "status_label": "status/triaged",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.3,
+      "last_update_days": 0.3,
+      "needs_triage": false,
+      "unassigned": false
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:752",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 752,
+      "title": "[测试报告] huaweicloud-devkit 1.1.5 每日测试缺陷合并单（9 项，AtomCode/Linux）",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/752",
+      "state": "open",
+      "created_at": "2026-09-19T21:32:28Z",
+      "updated_at": "2026-09-19T22:58:57Z",
+      "closed_at": null,
+      "comments": 7,
+      "assignee": "grapedev-bot",
+      "author": "shuangheaven",
+      "labels": [
+        "P0",
+        "P1",
+        "agent/triaged",
+        "area/ci-cd",
+        "area/security",
+        "mcp-protocol",
+        "priority/critical",
+        "spec-ready",
+        "status/triaged",
+        "test-report",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "critical",
+      "area": "ci-cd",
+      "status_label": "status/triaged",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "backlog",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.3,
+      "last_update_days": 0.3,
+      "needs_triage": false,
+      "unassigned": false
+    },
+    {
+      "key": "github:huaweicloud/huaweicloud-devkit:751",
+      "platform": "github",
+      "repo": "huaweicloud-devkit",
+      "repo_full": "huaweicloud/huaweicloud-devkit",
+      "number": 751,
+      "title": "[测试报告] huaweicloud-devkit 1.1.5 每日测试缺陷合并单（3 项）",
+      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/751",
+      "state": "open",
+      "created_at": "2026-09-19T21:17:08Z",
+      "updated_at": "2026-09-19T21:37:17Z",
+      "closed_at": null,
+      "comments": 6,
+      "assignee": "grapedev-bot",
+      "author": "shuangheaven",
+      "labels": [
+        "agent/triaged",
+        "area/sdk",
+        "daily-test",
+        "priority/high",
+        "review-requested",
+        "search-routing",
+        "status/in-progress",
+        "test-report",
+        "type/bug"
+      ],
+      "type": "bug",
+      "priority": "high",
+      "area": "sdk",
+      "status_label": "status/in-progress",
+      "good_first": false,
+      "help_wanted": false,
+      "column": "in-progress",
+      "sla_breach": false,
+      "sla_warning": false,
+      "age_days": 0.4,
+      "last_update_days": 0.3,
+      "needs_triage": false,
+      "unassigned": false
+    },
     {
       "key": "github:huaweicloud/huaweicloud-devkit:746",
       "platform": "github",
@@ -3087,8 +3344,8 @@
       "column": "in-progress",
       "sla_breach": false,
       "sla_warning": false,
-      "age_days": 0.3,
-      "last_update_days": 0.1,
+      "age_days": 1.3,
+      "last_update_days": 1.2,
       "needs_triage": false,
       "unassigned": false
     },
@@ -3123,8 +3380,8 @@
       "column": "in-progress",
       "sla_breach": false,
       "sla_warning": false,
-      "age_days": 0.3,
-      "last_update_days": 0.3,
+      "age_days": 1.3,
+      "last_update_days": 1.3,
       "needs_triage": false,
       "unassigned": false
     },
@@ -3163,274 +3420,8 @@
       "column": "in-progress",
       "sla_breach": false,
       "sla_warning": false,
-      "age_days": 0.8,
-      "last_update_days": 0.7,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:740",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 740,
-      "title": "[测试报告] huaweicloud-devkit 1.1.5 每日测试缺陷合并单（3 项）",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/740",
-      "state": "open",
-      "created_at": "2026-09-18T08:00:01Z",
-      "updated_at": "2026-09-18T08:25:14Z",
-      "closed_at": null,
-      "comments": 5,
-      "assignee": "grapedev-bot",
-      "author": "shuangheaven",
-      "labels": [
-        "agent/triaged",
-        "area/ci-cd",
-        "priority/high",
-        "spec-ready",
-        "status/triaged",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "high",
-      "area": "ci-cd",
-      "status_label": "status/triaged",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "backlog",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 0.9,
-      "last_update_days": 0.9,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:738",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 738,
-      "title": "deploy_nginx proxy template ignores port auto-increment (listen ${listenPort} instead of ${targetPort})",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/738",
-      "state": "open",
-      "created_at": "2026-09-18T06:29:28Z",
-      "updated_at": "2026-09-18T09:43:16Z",
-      "closed_at": null,
-      "comments": 9,
-      "assignee": "grapedev-bot",
-      "author": "coconut1919",
-      "labels": [
-        "agent/triaged",
-        "area/ci-cd",
-        "priority/high",
-        "spec-ready",
-        "status/in-progress",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "high",
-      "area": "ci-cd",
-      "status_label": "status/in-progress",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "in-progress",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 1.0,
-      "last_update_days": 0.8,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:737",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 737,
-      "title": "Sandbox deploy pipeline: misleading port warning, malformed publicUrl, missing expose guidance (live-sandbox verified)",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/737",
-      "state": "open",
-      "created_at": "2026-09-18T06:05:30Z",
-      "updated_at": "2026-09-18T06:10:22Z",
-      "closed_at": null,
-      "comments": 3,
-      "assignee": null,
-      "author": "coconut1919",
-      "labels": [
-        "agent/triaged",
-        "area/api",
-        "priority/high",
-        "status/triaged",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "high",
-      "area": "api",
-      "status_label": "status/triaged",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "backlog",
-      "sla_breach": true,
-      "sla_warning": false,
-      "age_days": 1.0,
-      "last_update_days": 1.0,
-      "needs_triage": false,
-      "unassigned": true
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:733",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 733,
-      "title": "[测试报告] huaweicloud-devkit v1.1.5 每日测试缺陷合并单（CodeArtsWork Windows 2026-09-18，6 项已知复现）",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/733",
-      "state": "open",
-      "created_at": "2026-09-18T00:10:39Z",
-      "updated_at": "2026-09-18T21:43:45Z",
-      "closed_at": null,
-      "comments": 11,
-      "assignee": "grapedev-bot",
-      "author": "shuangheaven",
-      "labels": [
-        "agent/triaged",
-        "area/api",
-        "area/security",
-        "daily-test",
-        "priority/critical",
-        "spec-ready",
-        "status/in-progress",
-        "type/bug",
-        "每日测试"
-      ],
-      "type": "bug",
-      "priority": "critical",
-      "area": "api",
-      "status_label": "status/in-progress",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "in-progress",
-      "sla_breach": true,
-      "sla_warning": false,
-      "age_days": 1.2,
-      "last_update_days": 0.3,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:732",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 732,
-      "title": "[daily-test] KooCLI 7.2.12 缺少 DMS/DEW 服务映射 (EXP-C4-14/EXP-C4-18)",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/732",
-      "state": "open",
-      "created_at": "2026-09-18T00:00:11Z",
-      "updated_at": "2026-09-18T00:52:50Z",
-      "closed_at": null,
-      "comments": 7,
-      "assignee": "grapedev-bot",
-      "author": "shuangheaven",
-      "labels": [
-        "P1",
-        "agent/triaged",
-        "area/ci-cd",
-        "bug",
-        "daily-test",
-        "priority/high",
-        "review-requested",
-        "spec-ready",
-        "status/in-progress",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "high",
-      "area": "ci-cd",
-      "status_label": "status/in-progress",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "in-progress",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 1.2,
-      "last_update_days": 1.2,
-      "needs_triage": false,
-      "unassigned": false
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:730",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 730,
-      "title": "[测试报告] huaweicloud-devkit v1.1.5 每日测试缺陷合并单（Hermes Windows 2026-09-18，4 项）",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/730",
-      "state": "open",
-      "created_at": "2026-09-17T22:12:28Z",
-      "updated_at": "2026-09-18T21:43:53Z",
-      "closed_at": null,
-      "comments": 8,
-      "assignee": null,
-      "author": "shuangheaven",
-      "labels": [
-        "agent/triaged",
-        "area/sdk",
-        "daily-test",
-        "priority/critical",
-        "spec-ready",
-        "status/in-progress",
-        "test-report",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "critical",
-      "area": "sdk",
-      "status_label": "status/in-progress",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "in-progress",
-      "sla_breach": true,
-      "sla_warning": false,
-      "age_days": 1.3,
-      "last_update_days": 0.3,
-      "needs_triage": false,
-      "unassigned": true
-    },
-    {
-      "key": "github:huaweicloud/huaweicloud-devkit:727",
-      "platform": "github",
-      "repo": "huaweicloud-devkit",
-      "repo_full": "huaweicloud/huaweicloud-devkit",
-      "number": 727,
-      "title": "[测试报告] huaweicloud-devkit v1.1.5 每日测试缺陷合并单（1 项）",
-      "url": "https://github.com/huaweicloud/huaweicloud-devkit/issues/727",
-      "state": "open",
-      "created_at": "2026-09-17T21:26:16Z",
-      "updated_at": "2026-09-17T21:30:18Z",
-      "closed_at": null,
-      "comments": 3,
-      "assignee": "zrr000212-netizen",
-      "author": "shuangheaven",
-      "labels": [
-        "agent/triaged",
-        "area/ci-cd",
-        "priority/high",
-        "status/triaged",
-        "type/bug"
-      ],
-      "type": "bug",
-      "priority": "high",
-      "area": "ci-cd",
-      "status_label": "status/triaged",
-      "good_first": false,
-      "help_wanted": false,
-      "column": "backlog",
-      "sla_breach": false,
-      "sla_warning": false,
-      "age_days": 1.3,
-      "last_update_days": 1.3,
+      "age_days": 1.8,
+      "last_update_days": 1.8,
       "needs_triage": false,
       "unassigned": false
     }
