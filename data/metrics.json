@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-10-03T06:13:52.448980+00:00",
+  "generated_at": "2026-10-04T06:42:13.169874+00:00",
   "global": {
-    "total": 1454,
-    "open": 596,
+    "total": 1456,
+    "open": 598,
     "closed": 858,
     "repos_with_issues": 67,
     "needs_triage": 0,
-    "unassigned": 142,
-    "sla_breach": 577,
+    "unassigned": 144,
+    "sla_breach": 585,
     "sla_warning": 1,
     "good_first": 0,
     "help_wanted": 0,
     "created_7d": 31,
     "closed_7d": 10,
-    "created_30d": 201,
-    "closed_30d": 650,
-    "median_age_days": 138.1,
+    "created_30d": 200,
+    "closed_30d": 649,
+    "median_age_days": 139.1,
     "by_type": {
       "bug": 398,
       "feature": 137,
       "documentation": 47,
       "question": 38,
-      "other": 834
+      "other": 836
     },
     "by_priority": {
       "critical": 38,
       "high": 33,
       "medium": 59,
       "low": 14,
-      "unknown": 452
+      "unknown": 454
     }
   },
   "by_platform": {
@@ -43,11 +43,11 @@
       "sla_warning": 1,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 16,
+      "created_7d": 15,
       "closed_7d": 10,
-      "created_30d": 186,
-      "closed_30d": 650,
-      "median_age_days": 18.6,
+      "created_30d": 183,
+      "closed_30d": 649,
+      "median_age_days": 19.6,
       "by_type": {
         "bug": 395,
         "feature": 131,
@@ -64,34 +64,34 @@
       }
     },
     "gitcode": {
-      "total": 464,
-      "open": 441,
+      "total": 466,
+      "open": 443,
       "closed": 23,
-      "repos_with_issues": 6,
+      "repos_with_issues": 7,
       "needs_triage": 0,
-      "unassigned": 22,
-      "sla_breach": 428,
+      "unassigned": 24,
+      "sla_breach": 436,
       "sla_warning": 0,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 15,
+      "created_7d": 16,
       "closed_7d": 0,
-      "created_30d": 15,
+      "created_30d": 17,
       "closed_30d": 0,
-      "median_age_days": 138.1,
+      "median_age_days": 139.1,
       "by_type": {
         "bug": 3,
         "feature": 6,
         "documentation": 9,
         "question": 1,
-        "other": 445
+        "other": 447
       },
       "by_priority": {
         "critical": 0,
         "high": 0,
         "medium": 14,
         "low": 5,
-        "unknown": 422
+        "unknown": 424
       }
     }
   }
