@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T07:23:09.763092+00:00",
+  "generated_at": "2026-10-07T07:01:53.255336+00:00",
   "dims": [
     {
       "id": "d1",
@@ -384,8 +384,8 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "github",
       "stars": 65,
-      "open_issues": 94,
-      "open_prs": 35,
+      "open_issues": 97,
+      "open_prs": 36,
       "total": 92.8,
       "grade": "优秀",
       "dims": {
@@ -503,7 +503,7 @@
       "platform": "github",
       "stars": 274,
       "open_issues": 5,
-      "open_prs": 25,
+      "open_prs": 26,
       "total": 77.1,
       "grade": "良好",
       "dims": {
@@ -15606,7 +15606,7 @@
       "repo": "huaweicloud/huaweicloud-devkit",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 94,
+      "open_issues": 97,
       "open_prs": 0,
       "total": 17.5,
       "grade": "不足",
@@ -31070,7 +31070,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-10-06T07:23:09.763092+00:00",
+    "generated_at": "2026-10-07T07:01:53.255336+00:00",
     "rows": [
       {
         "name": "许可证",
