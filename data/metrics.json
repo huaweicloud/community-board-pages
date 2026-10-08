@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-07T07:01:53.255336+00:00",
+  "generated_at": "2026-10-08T07:09:22.706296+00:00",
   "global": {
-    "total": 1465,
+    "total": 1467,
     "open": 605,
-    "closed": 860,
+    "closed": 862,
     "repos_with_issues": 67,
     "needs_triage": 0,
     "unassigned": 149,
@@ -11,31 +11,31 @@
     "sla_warning": 2,
     "good_first": 0,
     "help_wanted": 0,
-    "created_7d": 32,
+    "created_7d": 29,
     "closed_7d": 4,
-    "created_30d": 206,
-    "closed_30d": 650,
-    "median_age_days": 142.1,
+    "created_30d": 195,
+    "closed_30d": 648,
+    "median_age_days": 143.2,
     "by_type": {
-      "bug": 404,
-      "feature": 140,
+      "bug": 405,
+      "feature": 141,
       "documentation": 47,
       "question": 38,
       "other": 836
     },
     "by_priority": {
-      "critical": 42,
+      "critical": 41,
       "high": 34,
-      "medium": 61,
+      "medium": 62,
       "low": 15,
       "unknown": 453
     }
   },
   "by_platform": {
     "github": {
-      "total": 999,
+      "total": 1001,
       "open": 162,
-      "closed": 837,
+      "closed": 839,
       "repos_with_issues": 63,
       "needs_triage": 0,
       "unassigned": 125,
@@ -43,22 +43,22 @@
       "sla_warning": 2,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 17,
+      "created_7d": 14,
       "closed_7d": 4,
-      "created_30d": 189,
-      "closed_30d": 650,
-      "median_age_days": 22.6,
+      "created_30d": 178,
+      "closed_30d": 648,
+      "median_age_days": 23.6,
       "by_type": {
-        "bug": 401,
-        "feature": 134,
+        "bug": 402,
+        "feature": 135,
         "documentation": 38,
         "question": 37,
         "other": 389
       },
       "by_priority": {
-        "critical": 42,
+        "critical": 41,
         "high": 34,
-        "medium": 47,
+        "medium": 48,
         "low": 10,
         "unknown": 29
       }
@@ -78,7 +78,7 @@
       "closed_7d": 0,
       "created_30d": 17,
       "closed_30d": 0,
-      "median_age_days": 142.1,
+      "median_age_days": 143.2,
       "by_type": {
         "bug": 3,
         "feature": 6,
