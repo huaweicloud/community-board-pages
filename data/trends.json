@@ -1,20 +1,12 @@
 {
-  "generated_at": "2026-10-08T07:09:22.706296+00:00",
+  "generated_at": "2026-10-09T07:15:05.124833+00:00",
   "window_days": 90,
   "days": [
-    {
-      "date": "2026-07-11",
-      "created": 0,
-      "closed": 0,
-      "open_cum": 1080,
-      "github_created": 0,
-      "gitcode_created": 0
-    },
     {
       "date": "2026-07-12",
       "created": 0,
       "closed": 0,
-      "open_cum": 1080,
+      "open_cum": 1079,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -22,7 +14,7 @@
       "date": "2026-07-13",
       "created": 0,
       "closed": 35,
-      "open_cum": 1045,
+      "open_cum": 1044,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -30,7 +22,7 @@
       "date": "2026-07-14",
       "created": 0,
       "closed": 4,
-      "open_cum": 1041,
+      "open_cum": 1040,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -38,7 +30,7 @@
       "date": "2026-07-15",
       "created": 0,
       "closed": 2,
-      "open_cum": 1039,
+      "open_cum": 1038,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -46,7 +38,7 @@
       "date": "2026-07-16",
       "created": 0,
       "closed": 2,
-      "open_cum": 1037,
+      "open_cum": 1036,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -54,7 +46,7 @@
       "date": "2026-07-17",
       "created": 0,
       "closed": 1,
-      "open_cum": 1036,
+      "open_cum": 1035,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -62,7 +54,7 @@
       "date": "2026-07-18",
       "created": 0,
       "closed": 0,
-      "open_cum": 1036,
+      "open_cum": 1035,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -70,7 +62,7 @@
       "date": "2026-07-19",
       "created": 1,
       "closed": 0,
-      "open_cum": 1037,
+      "open_cum": 1036,
       "github_created": 1,
       "gitcode_created": 0
     },
@@ -78,7 +70,7 @@
       "date": "2026-07-20",
       "created": 1,
       "closed": 6,
-      "open_cum": 1032,
+      "open_cum": 1031,
       "github_created": 1,
       "gitcode_created": 0
     },
@@ -86,7 +78,7 @@
       "date": "2026-07-21",
       "created": 0,
       "closed": 6,
-      "open_cum": 1026,
+      "open_cum": 1025,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -94,7 +86,7 @@
       "date": "2026-07-22",
       "created": 0,
       "closed": 0,
-      "open_cum": 1026,
+      "open_cum": 1025,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -102,7 +94,7 @@
       "date": "2026-07-23",
       "created": 0,
       "closed": 1,
-      "open_cum": 1025,
+      "open_cum": 1024,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -110,7 +102,7 @@
       "date": "2026-07-24",
       "created": 0,
       "closed": 0,
-      "open_cum": 1025,
+      "open_cum": 1024,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -118,7 +110,7 @@
       "date": "2026-07-25",
       "created": 0,
       "closed": 0,
-      "open_cum": 1025,
+      "open_cum": 1024,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -126,7 +118,7 @@
       "date": "2026-07-26",
       "created": 0,
       "closed": 0,
-      "open_cum": 1025,
+      "open_cum": 1024,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -134,7 +126,7 @@
       "date": "2026-07-27",
       "created": 1,
       "closed": 0,
-      "open_cum": 1026,
+      "open_cum": 1025,
       "github_created": 1,
       "gitcode_created": 0
     },
@@ -142,7 +134,7 @@
       "date": "2026-07-28",
       "created": 0,
       "closed": 0,
-      "open_cum": 1026,
+      "open_cum": 1025,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -150,7 +142,7 @@
       "date": "2026-07-29",
       "created": 0,
       "closed": 0,
-      "open_cum": 1026,
+      "open_cum": 1025,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -158,7 +150,7 @@
       "date": "2026-07-30",
       "created": 0,
       "closed": 0,
-      "open_cum": 1026,
+      "open_cum": 1025,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -166,7 +158,7 @@
       "date": "2026-07-31",
       "created": 0,
       "closed": 2,
-      "open_cum": 1024,
+      "open_cum": 1023,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -174,7 +166,7 @@
       "date": "2026-08-01",
       "created": 0,
       "closed": 0,
-      "open_cum": 1024,
+      "open_cum": 1023,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -182,7 +174,7 @@
       "date": "2026-08-02",
       "created": 0,
       "closed": 0,
-      "open_cum": 1024,
+      "open_cum": 1023,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -190,7 +182,7 @@
       "date": "2026-08-03",
       "created": 0,
       "closed": 1,
-      "open_cum": 1023,
+      "open_cum": 1022,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -198,7 +190,7 @@
       "date": "2026-08-04",
       "created": 0,
       "closed": 0,
-      "open_cum": 1023,
+      "open_cum": 1022,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -206,7 +198,7 @@
       "date": "2026-08-05",
       "created": 7,
       "closed": 7,
-      "open_cum": 1023,
+      "open_cum": 1022,
       "github_created": 7,
       "gitcode_created": 0
     },
@@ -214,7 +206,7 @@
       "date": "2026-08-06",
       "created": 3,
       "closed": 2,
-      "open_cum": 1024,
+      "open_cum": 1023,
       "github_created": 2,
       "gitcode_created": 1
     },
@@ -222,7 +214,7 @@
       "date": "2026-08-07",
       "created": 2,
       "closed": 2,
-      "open_cum": 1024,
+      "open_cum": 1023,
       "github_created": 2,
       "gitcode_created": 0
     },
@@ -230,7 +222,7 @@
       "date": "2026-08-08",
       "created": 12,
       "closed": 10,
-      "open_cum": 1026,
+      "open_cum": 1025,
       "github_created": 12,
       "gitcode_created": 0
     },
@@ -238,7 +230,7 @@
       "date": "2026-08-09",
       "created": 1,
       "closed": 0,
-      "open_cum": 1027,
+      "open_cum": 1026,
       "github_created": 1,
       "gitcode_created": 0
     },
@@ -246,7 +238,7 @@
       "date": "2026-08-10",
       "created": 10,
       "closed": 1,
-      "open_cum": 1036,
+      "open_cum": 1035,
       "github_created": 10,
       "gitcode_created": 0
     },
@@ -254,7 +246,7 @@
       "date": "2026-08-11",
       "created": 1,
       "closed": 3,
-      "open_cum": 1034,
+      "open_cum": 1033,
       "github_created": 1,
       "gitcode_created": 0
     },
@@ -262,7 +254,7 @@
       "date": "2026-08-12",
       "created": 4,
       "closed": 10,
-      "open_cum": 1028,
+      "open_cum": 1027,
       "github_created": 4,
       "gitcode_created": 0
     },
@@ -270,7 +262,7 @@
       "date": "2026-08-13",
       "created": 1,
       "closed": 2,
-      "open_cum": 1027,
+      "open_cum": 1026,
       "github_created": 1,
       "gitcode_created": 0
     },
@@ -278,7 +270,7 @@
       "date": "2026-08-14",
       "created": 8,
       "closed": 1,
-      "open_cum": 1034,
+      "open_cum": 1033,
       "github_created": 7,
       "gitcode_created": 1
     },
@@ -286,7 +278,7 @@
       "date": "2026-08-15",
       "created": 0,
       "closed": 0,
-      "open_cum": 1034,
+      "open_cum": 1033,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -294,7 +286,7 @@
       "date": "2026-08-16",
       "created": 1,
       "closed": 0,
-      "open_cum": 1035,
+      "open_cum": 1034,
       "github_created": 1,
       "gitcode_created": 0
     },
@@ -302,7 +294,7 @@
       "date": "2026-08-17",
       "created": 7,
       "closed": 1,
-      "open_cum": 1041,
+      "open_cum": 1040,
       "github_created": 7,
       "gitcode_created": 0
     },
@@ -310,7 +302,7 @@
       "date": "2026-08-18",
       "created": 8,
       "closed": 1,
-      "open_cum": 1048,
+      "open_cum": 1047,
       "github_created": 8,
       "gitcode_created": 0
     },
@@ -318,7 +310,7 @@
       "date": "2026-08-19",
       "created": 3,
       "closed": 1,
-      "open_cum": 1050,
+      "open_cum": 1049,
       "github_created": 3,
       "gitcode_created": 0
     },
@@ -326,7 +318,7 @@
       "date": "2026-08-20",
       "created": 2,
       "closed": 0,
-      "open_cum": 1052,
+      "open_cum": 1051,
       "github_created": 2,
       "gitcode_created": 0
     },
@@ -334,7 +326,7 @@
       "date": "2026-08-21",
       "created": 5,
       "closed": 8,
-      "open_cum": 1049,
+      "open_cum": 1048,
       "github_created": 5,
       "gitcode_created": 0
     },
@@ -342,7 +334,7 @@
       "date": "2026-08-22",
       "created": 18,
       "closed": 3,
-      "open_cum": 1064,
+      "open_cum": 1063,
       "github_created": 15,
       "gitcode_created": 3
     },
@@ -350,7 +342,7 @@
       "date": "2026-08-23",
       "created": 0,
       "closed": 0,
-      "open_cum": 1064,
+      "open_cum": 1063,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -358,7 +350,7 @@
       "date": "2026-08-24",
       "created": 14,
       "closed": 11,
-      "open_cum": 1067,
+      "open_cum": 1066,
       "github_created": 14,
       "gitcode_created": 0
     },
@@ -366,7 +358,7 @@
       "date": "2026-08-25",
       "created": 0,
       "closed": 1,
-      "open_cum": 1066,
+      "open_cum": 1065,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -374,7 +366,7 @@
       "date": "2026-08-26",
       "created": 2,
       "closed": 3,
-      "open_cum": 1065,
+      "open_cum": 1064,
       "github_created": 2,
       "gitcode_created": 0
     },
@@ -382,7 +374,7 @@
       "date": "2026-08-27",
       "created": 3,
       "closed": 6,
-      "open_cum": 1062,
+      "open_cum": 1061,
       "github_created": 3,
       "gitcode_created": 0
     },
@@ -390,7 +382,7 @@
       "date": "2026-08-28",
       "created": 0,
       "closed": 0,
-      "open_cum": 1062,
+      "open_cum": 1061,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -398,7 +390,7 @@
       "date": "2026-08-29",
       "created": 13,
       "closed": 0,
-      "open_cum": 1075,
+      "open_cum": 1074,
       "github_created": 13,
       "gitcode_created": 0
     },
@@ -406,7 +398,7 @@
       "date": "2026-08-30",
       "created": 0,
       "closed": 0,
-      "open_cum": 1075,
+      "open_cum": 1074,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -414,7 +406,7 @@
       "date": "2026-08-31",
       "created": 16,
       "closed": 1,
-      "open_cum": 1090,
+      "open_cum": 1089,
       "github_created": 16,
       "gitcode_created": 0
     },
@@ -422,7 +414,7 @@
       "date": "2026-09-01",
       "created": 7,
       "closed": 21,
-      "open_cum": 1076,
+      "open_cum": 1075,
       "github_created": 7,
       "gitcode_created": 0
     },
@@ -430,7 +422,7 @@
       "date": "2026-09-02",
       "created": 4,
       "closed": 11,
-      "open_cum": 1069,
+      "open_cum": 1068,
       "github_created": 4,
       "gitcode_created": 0
     },
@@ -438,7 +430,7 @@
       "date": "2026-09-03",
       "created": 3,
       "closed": 1,
-      "open_cum": 1071,
+      "open_cum": 1070,
       "github_created": 3,
       "gitcode_created": 0
     },
@@ -446,7 +438,7 @@
       "date": "2026-09-04",
       "created": 2,
       "closed": 1,
-      "open_cum": 1072,
+      "open_cum": 1071,
       "github_created": 2,
       "gitcode_created": 0
     },
@@ -454,7 +446,7 @@
       "date": "2026-09-05",
       "created": 0,
       "closed": 1,
-      "open_cum": 1071,
+      "open_cum": 1070,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -462,7 +454,7 @@
       "date": "2026-09-06",
       "created": 0,
       "closed": 0,
-      "open_cum": 1071,
+      "open_cum": 1070,
       "github_created": 0,
       "gitcode_created": 0
     },
@@ -470,7 +462,7 @@
       "date": "2026-09-07",
       "created": 10,
       "closed": 0,
-      "open_cum": 1081,
+      "open_cum": 1080,
       "github_created": 10,
       "gitcode_created": 0
     },
@@ -478,7 +470,7 @@
       "date": "2026-09-08",
       "created": 18,
       "closed": 16,
-      "open_cum": 1083,
+      "open_cum": 1082,
       "github_created": 18,
       "gitcode_created": 0
     },
@@ -486,7 +478,7 @@
       "date": "2026-09-09",
       "created": 6,
       "closed": 17,
-      "open_cum": 1072,
+      "open_cum": 1071,
       "github_created": 6,
       "gitcode_created": 0
     },
@@ -494,7 +486,7 @@
       "date": "2026-09-10",
       "created": 14,
       "closed": 9,
-      "open_cum": 1077,
+      "open_cum": 1076,
       "github_created": 14,
       "gitcode_created": 0
     },
@@ -502,7 +494,7 @@
       "date": "2026-09-11",
       "created": 5,
       "closed": 14,
-      "open_cum": 1068,
+      "open_cum": 1067,
       "github_created": 5,
       "gitcode_created": 0
     },
@@ -510,7 +502,7 @@
       "date": "2026-09-12",
       "created": 11,
       "closed": 8,
-      "open_cum": 1071,
+      "open_cum": 1070,
       "github_created": 11,
       "gitcode_created": 0
     },
@@ -518,14 +510,14 @@
       "date": "2026-09-13",
       "created": 4,
       "closed": 0,
-      "open_cum": 1075,
+      "open_cum": 1074,
       "github_created": 4,
       "gitcode_created": 0
     },
     {
       "date": "2026-09-14",
       "created": 16,
-      "closed": 545,
+      "closed": 544,
       "open_cum": 546,
       "github_created": 16,
       "gitcode_created": 0
@@ -716,10 +708,18 @@
     },
     {
       "date": "2026-10-08",
-      "created": 0,
+      "created": 4,
       "closed": 0,
-      "open_cum": 628,
-      "github_created": 0,
+      "open_cum": 632,
+      "github_created": 3,
+      "gitcode_created": 1
+    },
+    {
+      "date": "2026-10-09",
+      "created": 3,
+      "closed": 1,
+      "open_cum": 634,
+      "github_created": 3,
       "gitcode_created": 0
     }
   ]
