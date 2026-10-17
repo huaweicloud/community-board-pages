@@ -1,15 +1,7 @@
 {
-  "generated_at": "2026-10-16T05:37:57.547805+00:00",
+  "generated_at": "2026-10-17T05:25:46.041334+00:00",
   "window_days": 90,
   "days": [
-    {
-      "date": "2026-07-19",
-      "created": 1,
-      "closed": 0,
-      "open_cum": 1036,
-      "github_created": 1,
-      "gitcode_created": 0
-    },
     {
       "date": "2026-07-20",
       "created": 1,
@@ -716,10 +708,18 @@
     },
     {
       "date": "2026-10-16",
-      "created": 4,
-      "closed": 2,
-      "open_cum": 664,
-      "github_created": 4,
+      "created": 12,
+      "closed": 8,
+      "open_cum": 666,
+      "github_created": 11,
+      "gitcode_created": 1
+    },
+    {
+      "date": "2026-10-17",
+      "created": 0,
+      "closed": 0,
+      "open_cum": 666,
+      "github_created": 0,
       "gitcode_created": 0
     }
   ]
