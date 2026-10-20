@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T05:54:09.373145+00:00",
+  "generated_at": "2026-10-20T05:46:51.729200+00:00",
   "dims": [
     {
       "id": "d1",
@@ -279,7 +279,7 @@
       "name": "Issue管理"
     },
     "d4": {
-      "score": 36.5,
+      "score": 36.2,
       "grade": "不足",
       "weight": 10,
       "name": "PR管理"
@@ -309,7 +309,7 @@
       "name": "许可证合规"
     },
     "d9": {
-      "score": 19.9,
+      "score": 20.0,
       "grade": "不足",
       "weight": 6,
       "name": "可观测性"
@@ -339,7 +339,7 @@
       "name": "Issue管理"
     },
     "d4": {
-      "score": 41.5,
+      "score": 40.9,
       "grade": "一般",
       "weight": 10,
       "name": "PR管理"
@@ -369,13 +369,13 @@
       "name": "许可证合规"
     },
     "d9": {
-      "score": 30.9,
+      "score": 31.1,
       "grade": "不足",
       "weight": 6,
       "name": "可观测性"
     },
     "total": {
-      "score": 37.9,
+      "score": 37.8,
       "grade": "不足"
     }
   },
@@ -385,8 +385,8 @@
       "platform": "github",
       "stars": 67,
       "open_issues": 131,
-      "open_prs": 42,
-      "total": 90.3,
+      "open_prs": 43,
+      "total": 87.8,
       "grade": "优秀",
       "dims": {
         "d1": {
@@ -427,16 +427,16 @@
           "conclusion": "得分 70/100（良好）。不足：关闭率≥70%。"
         },
         "d4": {
-          "score": 75,
-          "grade": "良好",
+          "score": 50,
+          "grade": "一般",
           "checks": {
             "有 PR 活动": true,
             "合并率≥90%": false,
-            "无积压 PR": true,
+            "无积压 PR": false,
             "PR 模板": true,
             "近30天有合并": true
           },
-          "conclusion": "得分 75/100（良好）。不足：合并率≥90%。"
+          "conclusion": "得分 50/100（一般）。不足：合并率≥90%、无积压 PR。"
         },
         "d5": {
           "score": 100,
@@ -1091,8 +1091,8 @@
     {
       "repo": "huaweicloud/agentarts-sdk-python",
       "platform": "github",
-      "stars": 17,
-      "open_issues": 7,
+      "stars": 18,
+      "open_issues": 5,
       "open_prs": 8,
       "total": 67.0,
       "grade": "良好",
@@ -1915,124 +1915,6 @@
       }
     },
     {
-      "repo": "huaweicloud/cloudrobo-sdk-client",
-      "platform": "github",
-      "stars": 1,
-      "open_issues": 0,
-      "open_prs": 1,
-      "total": 63.0,
-      "grade": "良好",
-      "dims": {
-        "d1": {
-          "score": 50,
-          "grade": "一般",
-          "checks": {
-            "仓库描述": false,
-            "Topics≥3": false,
-            "README": true,
-            "非僵尸仓库": true,
-            "LICENSE": true
-          },
-          "conclusion": "得分 50/100（一般）。不足：仓库描述、Topics≥3。"
-        },
-        "d2": {
-          "score": 50,
-          "grade": "一般",
-          "checks": {
-            "CI 工作流": true,
-            "Dependabot": false,
-            "安全扫描(CodeQL)": false,
-            "贡献者≥2": false,
-            "主语言标识": true,
-            "SECURITY.md": true
-          },
-          "conclusion": "得分 50/100（一般）。不足：Dependabot、安全扫描(CodeQL)、贡献者≥2。"
-        },
-        "d3": {
-          "score": 20,
-          "grade": "不足",
-          "checks": {
-            "有 Issue": false,
-            "关闭率≥70%": false,
-            "无僵尸 Issue": true,
-            "标签体系": false,
-            "Issue 模板": false
-          },
-          "conclusion": "得分 20/100（不足）。不足：有 Issue、关闭率≥70%、标签体系、Issue 模板。"
-        },
-        "d4": {
-          "score": 85,
-          "grade": "优秀",
-          "checks": {
-            "有 PR 活动": true,
-            "合并率≥90%": true,
-            "无积压 PR": true,
-            "PR 模板": false,
-            "近30天有合并": true
-          },
-          "conclusion": "得分 85/100（优秀）。不足：PR 模板。"
-        },
-        "d5": {
-          "score": 55,
-          "grade": "一般",
-          "checks": {
-            "工作流存在": true,
-            "CI/测试/lint": false,
-            "release/publish": true,
-            "Dependabot": false
-          },
-          "conclusion": "得分 55/100（一般）。不足：CI/测试/lint、Dependabot。"
-        },
-        "d6": {
-          "score": 75,
-          "grade": "良好",
-          "checks": {
-            "分支保护": true,
-            "Release/Tag": true,
-            "SemVer 标签": true,
-            "CHANGELOG": false
-          },
-          "conclusion": "得分 75/100（良好）。不足：CHANGELOG。"
-        },
-        "d7": {
-          "score": 75,
-          "grade": "良好",
-          "checks": {
-            "README": true,
-            "CONTRIBUTING.md": true,
-            "SECURITY.md": true,
-            "CODE_OF_CONDUCT": true,
-            "Issue 模板": false,
-            "PR 模板": false,
-            "Discussions": false
-          },
-          "conclusion": "得分 75/100（良好）。不足：Issue 模板、PR 模板、Discussions。"
-        },
-        "d8": {
-          "score": 100,
-          "grade": "优秀",
-          "checks": {
-            "存在 LICENSE": true,
-            "License 可识别": true,
-            "非 GPL": true
-          },
-          "conclusion": "得分 100/100（优秀）。各项达标。"
-        },
-        "d9": {
-          "score": 80,
-          "grade": "优秀",
-          "checks": {
-            "近30天合并 PR": true,
-            "关闭率≥70%": false,
-            "有 CI": true,
-            "有 Stars": true,
-            "社区文件≥2": true
-          },
-          "conclusion": "得分 80/100（优秀）。不足：关闭率≥70%。"
-        }
-      }
-    },
-    {
       "repo": "huaweicloud/huaweicloud-cli",
       "platform": "github",
       "stars": 0,
@@ -2501,6 +2383,124 @@
             "社区文件≥2": false
           },
           "conclusion": "得分 60/100（良好）。不足：近30天合并 PR、社区文件≥2。"
+        }
+      }
+    },
+    {
+      "repo": "huaweicloud/cloudrobo-sdk-client",
+      "platform": "github",
+      "stars": 1,
+      "open_issues": 0,
+      "open_prs": 1,
+      "total": 60.5,
+      "grade": "良好",
+      "dims": {
+        "d1": {
+          "score": 50,
+          "grade": "一般",
+          "checks": {
+            "仓库描述": false,
+            "Topics≥3": false,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": true
+          },
+          "conclusion": "得分 50/100（一般）。不足：仓库描述、Topics≥3。"
+        },
+        "d2": {
+          "score": 50,
+          "grade": "一般",
+          "checks": {
+            "CI 工作流": true,
+            "Dependabot": false,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": false,
+            "主语言标识": true,
+            "SECURITY.md": true
+          },
+          "conclusion": "得分 50/100（一般）。不足：Dependabot、安全扫描(CodeQL)、贡献者≥2。"
+        },
+        "d3": {
+          "score": 20,
+          "grade": "不足",
+          "checks": {
+            "有 Issue": false,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": true,
+            "标签体系": false,
+            "Issue 模板": false
+          },
+          "conclusion": "得分 20/100（不足）。不足：有 Issue、关闭率≥70%、标签体系、Issue 模板。"
+        },
+        "d4": {
+          "score": 60,
+          "grade": "良好",
+          "checks": {
+            "有 PR 活动": true,
+            "合并率≥90%": false,
+            "无积压 PR": true,
+            "PR 模板": false,
+            "近30天有合并": true
+          },
+          "conclusion": "得分 60/100（良好）。不足：合并率≥90%、PR 模板。"
+        },
+        "d5": {
+          "score": 55,
+          "grade": "一般",
+          "checks": {
+            "工作流存在": true,
+            "CI/测试/lint": false,
+            "release/publish": true,
+            "Dependabot": false
+          },
+          "conclusion": "得分 55/100（一般）。不足：CI/测试/lint、Dependabot。"
+        },
+        "d6": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "分支保护": true,
+            "Release/Tag": true,
+            "SemVer 标签": true,
+            "CHANGELOG": false
+          },
+          "conclusion": "得分 75/100（良好）。不足：CHANGELOG。"
+        },
+        "d7": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": true,
+            "SECURITY.md": true,
+            "CODE_OF_CONDUCT": true,
+            "Issue 模板": false,
+            "PR 模板": false,
+            "Discussions": false
+          },
+          "conclusion": "得分 75/100（良好）。不足：Issue 模板、PR 模板、Discussions。"
+        },
+        "d8": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "存在 LICENSE": true,
+            "License 可识别": true,
+            "非 GPL": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d9": {
+          "score": 80,
+          "grade": "优秀",
+          "checks": {
+            "近30天合并 PR": true,
+            "关闭率≥70%": false,
+            "有 CI": true,
+            "有 Stars": true,
+            "社区文件≥2": true
+          },
+          "conclusion": "得分 80/100（优秀）。不足：关闭率≥70%。"
         }
       }
     },
@@ -5691,6 +5691,124 @@
       }
     },
     {
+      "repo": "huaweicloud/rds-postgres-AI-demo",
+      "platform": "github",
+      "stars": 1,
+      "open_issues": 0,
+      "open_prs": 0,
+      "total": 47.5,
+      "grade": "一般",
+      "dims": {
+        "d1": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "仓库描述": true,
+            "Topics≥3": false,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": true
+          },
+          "conclusion": "得分 75/100（良好）。不足：Topics≥3。"
+        },
+        "d2": {
+          "score": 30,
+          "grade": "不足",
+          "checks": {
+            "CI 工作流": true,
+            "Dependabot": false,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": false,
+            "主语言标识": false,
+            "SECURITY.md": false
+          },
+          "conclusion": "得分 30/100（不足）。不足：Dependabot、安全扫描(CodeQL)、贡献者≥2、主语言标识、SECURITY.md。"
+        },
+        "d3": {
+          "score": 40,
+          "grade": "一般",
+          "checks": {
+            "有 Issue": false,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": true,
+            "标签体系": false,
+            "Issue 模板": true
+          },
+          "conclusion": "得分 40/100（一般）。不足：有 Issue、关闭率≥70%、标签体系。"
+        },
+        "d4": {
+          "score": 40,
+          "grade": "一般",
+          "checks": {
+            "有 PR 活动": false,
+            "合并率≥90%": false,
+            "无积压 PR": true,
+            "PR 模板": true,
+            "近30天有合并": false
+          },
+          "conclusion": "得分 40/100（一般）。不足：有 PR 活动、合并率≥90%、近30天有合并。"
+        },
+        "d5": {
+          "score": 60,
+          "grade": "良好",
+          "checks": {
+            "工作流存在": true,
+            "CI/测试/lint": true,
+            "release/publish": false,
+            "Dependabot": false
+          },
+          "conclusion": "得分 60/100（良好）。不足：release/publish、Dependabot。"
+        },
+        "d6": {
+          "score": 0,
+          "grade": "不足",
+          "checks": {
+            "分支保护": null,
+            "Release/Tag": false,
+            "SemVer 标签": false,
+            "CHANGELOG": false
+          },
+          "conclusion": "得分 0/100（不足）。不足：Release/Tag、SemVer 标签、CHANGELOG。（信息未知：分支保护）"
+        },
+        "d7": {
+          "score": 55,
+          "grade": "一般",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": true,
+            "SECURITY.md": false,
+            "CODE_OF_CONDUCT": false,
+            "Issue 模板": true,
+            "PR 模板": true,
+            "Discussions": false
+          },
+          "conclusion": "得分 55/100（一般）。不足：SECURITY.md、CODE_OF_CONDUCT、Discussions。"
+        },
+        "d8": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "存在 LICENSE": true,
+            "License 可识别": true,
+            "非 GPL": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d9": {
+          "score": 60,
+          "grade": "良好",
+          "checks": {
+            "近30天合并 PR": false,
+            "关闭率≥70%": false,
+            "有 CI": true,
+            "有 Stars": true,
+            "社区文件≥2": true
+          },
+          "conclusion": "得分 60/100（良好）。不足：近30天合并 PR、关闭率≥70%。"
+        }
+      }
+    },
+    {
       "repo": "huaweicloud/cloudide-messaging",
       "platform": "github",
       "stars": 5,
@@ -5923,124 +6041,6 @@
             "社区文件≥2": false
           },
           "conclusion": "得分 40/100（一般）。不足：近30天合并 PR、有 CI、社区文件≥2。"
-        }
-      }
-    },
-    {
-      "repo": "huaweicloud/rds-postgres-AI-demo",
-      "platform": "github",
-      "stars": 0,
-      "open_issues": 0,
-      "open_prs": 0,
-      "total": 46.3,
-      "grade": "一般",
-      "dims": {
-        "d1": {
-          "score": 75,
-          "grade": "良好",
-          "checks": {
-            "仓库描述": true,
-            "Topics≥3": false,
-            "README": true,
-            "非僵尸仓库": true,
-            "LICENSE": true
-          },
-          "conclusion": "得分 75/100（良好）。不足：Topics≥3。"
-        },
-        "d2": {
-          "score": 30,
-          "grade": "不足",
-          "checks": {
-            "CI 工作流": true,
-            "Dependabot": false,
-            "安全扫描(CodeQL)": false,
-            "贡献者≥2": false,
-            "主语言标识": false,
-            "SECURITY.md": false
-          },
-          "conclusion": "得分 30/100（不足）。不足：Dependabot、安全扫描(CodeQL)、贡献者≥2、主语言标识、SECURITY.md。"
-        },
-        "d3": {
-          "score": 40,
-          "grade": "一般",
-          "checks": {
-            "有 Issue": false,
-            "关闭率≥70%": false,
-            "无僵尸 Issue": true,
-            "标签体系": false,
-            "Issue 模板": true
-          },
-          "conclusion": "得分 40/100（一般）。不足：有 Issue、关闭率≥70%、标签体系。"
-        },
-        "d4": {
-          "score": 40,
-          "grade": "一般",
-          "checks": {
-            "有 PR 活动": false,
-            "合并率≥90%": false,
-            "无积压 PR": true,
-            "PR 模板": true,
-            "近30天有合并": false
-          },
-          "conclusion": "得分 40/100（一般）。不足：有 PR 活动、合并率≥90%、近30天有合并。"
-        },
-        "d5": {
-          "score": 60,
-          "grade": "良好",
-          "checks": {
-            "工作流存在": true,
-            "CI/测试/lint": true,
-            "release/publish": false,
-            "Dependabot": false
-          },
-          "conclusion": "得分 60/100（良好）。不足：release/publish、Dependabot。"
-        },
-        "d6": {
-          "score": 0,
-          "grade": "不足",
-          "checks": {
-            "分支保护": null,
-            "Release/Tag": false,
-            "SemVer 标签": false,
-            "CHANGELOG": false
-          },
-          "conclusion": "得分 0/100（不足）。不足：Release/Tag、SemVer 标签、CHANGELOG。（信息未知：分支保护）"
-        },
-        "d7": {
-          "score": 55,
-          "grade": "一般",
-          "checks": {
-            "README": true,
-            "CONTRIBUTING.md": true,
-            "SECURITY.md": false,
-            "CODE_OF_CONDUCT": false,
-            "Issue 模板": true,
-            "PR 模板": true,
-            "Discussions": false
-          },
-          "conclusion": "得分 55/100（一般）。不足：SECURITY.md、CODE_OF_CONDUCT、Discussions。"
-        },
-        "d8": {
-          "score": 100,
-          "grade": "优秀",
-          "checks": {
-            "存在 LICENSE": true,
-            "License 可识别": true,
-            "非 GPL": true
-          },
-          "conclusion": "得分 100/100（优秀）。各项达标。"
-        },
-        "d9": {
-          "score": 40,
-          "grade": "一般",
-          "checks": {
-            "近30天合并 PR": false,
-            "关闭率≥70%": false,
-            "有 CI": true,
-            "有 Stars": false,
-            "社区文件≥2": true
-          },
-          "conclusion": "得分 40/100（一般）。不足：近30天合并 PR、关闭率≥70%、有 Stars。"
         }
       }
     },
@@ -7815,124 +7815,6 @@
       }
     },
     {
-      "repo": "huaweicloud/huaweicloud-iot-device-sdk-java",
-      "platform": "github",
-      "stars": 63,
-      "open_issues": 1,
-      "open_prs": 4,
-      "total": 43.1,
-      "grade": "一般",
-      "dims": {
-        "d1": {
-          "score": 50,
-          "grade": "一般",
-          "checks": {
-            "仓库描述": false,
-            "Topics≥3": false,
-            "README": true,
-            "非僵尸仓库": true,
-            "LICENSE": true
-          },
-          "conclusion": "得分 50/100（一般）。不足：仓库描述、Topics≥3。"
-        },
-        "d2": {
-          "score": 35,
-          "grade": "不足",
-          "checks": {
-            "CI 工作流": false,
-            "Dependabot": null,
-            "安全扫描(CodeQL)": false,
-            "贡献者≥2": true,
-            "主语言标识": true,
-            "SECURITY.md": false
-          },
-          "conclusion": "得分 35/100（不足）。不足：CI 工作流、安全扫描(CodeQL)、SECURITY.md。（信息未知：Dependabot）"
-        },
-        "d3": {
-          "score": 62,
-          "grade": "良好",
-          "checks": {
-            "有 Issue": true,
-            "关闭率≥70%": false,
-            "无僵尸 Issue": true,
-            "标签体系": true,
-            "Issue 模板": null
-          },
-          "conclusion": "得分 62/100（良好）。不足：关闭率≥70%。（信息未知：Issue 模板）"
-        },
-        "d4": {
-          "score": 52,
-          "grade": "一般",
-          "checks": {
-            "有 PR 活动": true,
-            "合并率≥90%": false,
-            "无积压 PR": true,
-            "PR 模板": null,
-            "近30天有合并": false
-          },
-          "conclusion": "得分 52/100（一般）。不足：合并率≥90%、近30天有合并。（信息未知：PR 模板）"
-        },
-        "d5": {
-          "score": 0,
-          "grade": "不足",
-          "checks": {
-            "工作流存在": false,
-            "CI/测试/lint": false,
-            "release/publish": false,
-            "Dependabot": null
-          },
-          "conclusion": "得分 0/100（不足）。不足：工作流存在、CI/测试/lint、release/publish。（信息未知：Dependabot）"
-        },
-        "d6": {
-          "score": 75,
-          "grade": "良好",
-          "checks": {
-            "分支保护": true,
-            "Release/Tag": true,
-            "SemVer 标签": true,
-            "CHANGELOG": false
-          },
-          "conclusion": "得分 75/100（良好）。不足：CHANGELOG。"
-        },
-        "d7": {
-          "score": 18,
-          "grade": "不足",
-          "checks": {
-            "README": true,
-            "CONTRIBUTING.md": false,
-            "SECURITY.md": false,
-            "CODE_OF_CONDUCT": false,
-            "Issue 模板": null,
-            "PR 模板": null,
-            "Discussions": false
-          },
-          "conclusion": "得分 18/100（不足）。不足：CONTRIBUTING.md、SECURITY.md、CODE_OF_CONDUCT、Discussions。（信息未知：Issue 模板、PR 模板）"
-        },
-        "d8": {
-          "score": 100,
-          "grade": "优秀",
-          "checks": {
-            "存在 LICENSE": true,
-            "License 可识别": true,
-            "非 GPL": true
-          },
-          "conclusion": "得分 100/100（优秀）。各项达标。"
-        },
-        "d9": {
-          "score": 20,
-          "grade": "不足",
-          "checks": {
-            "近30天合并 PR": false,
-            "关闭率≥70%": false,
-            "有 CI": false,
-            "有 Stars": true,
-            "社区文件≥2": false
-          },
-          "conclusion": "得分 20/100（不足）。不足：近30天合并 PR、关闭率≥70%、有 CI、社区文件≥2。"
-        }
-      }
-    },
-    {
       "repo": "huaweicloud/flink-dis-plugin",
       "platform": "github",
       "stars": 4,
@@ -9109,6 +8991,124 @@
             "社区文件≥2": false
           },
           "conclusion": "得分 40/100（一般）。不足：近30天合并 PR、有 CI、社区文件≥2。"
+        }
+      }
+    },
+    {
+      "repo": "huaweicloud/huaweicloud-iot-device-sdk-java",
+      "platform": "github",
+      "stars": 63,
+      "open_issues": 1,
+      "open_prs": 4,
+      "total": 40.2,
+      "grade": "一般",
+      "dims": {
+        "d1": {
+          "score": 50,
+          "grade": "一般",
+          "checks": {
+            "仓库描述": false,
+            "Topics≥3": false,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": true
+          },
+          "conclusion": "得分 50/100（一般）。不足：仓库描述、Topics≥3。"
+        },
+        "d2": {
+          "score": 35,
+          "grade": "不足",
+          "checks": {
+            "CI 工作流": false,
+            "Dependabot": null,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": true,
+            "主语言标识": true,
+            "SECURITY.md": false
+          },
+          "conclusion": "得分 35/100（不足）。不足：CI 工作流、安全扫描(CodeQL)、SECURITY.md。（信息未知：Dependabot）"
+        },
+        "d3": {
+          "score": 62,
+          "grade": "良好",
+          "checks": {
+            "有 Issue": true,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": true,
+            "标签体系": true,
+            "Issue 模板": null
+          },
+          "conclusion": "得分 62/100（良好）。不足：关闭率≥70%。（信息未知：Issue 模板）"
+        },
+        "d4": {
+          "score": 23,
+          "grade": "不足",
+          "checks": {
+            "有 PR 活动": true,
+            "合并率≥90%": false,
+            "无积压 PR": false,
+            "PR 模板": null,
+            "近30天有合并": false
+          },
+          "conclusion": "得分 23/100（不足）。不足：合并率≥90%、无积压 PR、近30天有合并。（信息未知：PR 模板）"
+        },
+        "d5": {
+          "score": 0,
+          "grade": "不足",
+          "checks": {
+            "工作流存在": false,
+            "CI/测试/lint": false,
+            "release/publish": false,
+            "Dependabot": null
+          },
+          "conclusion": "得分 0/100（不足）。不足：工作流存在、CI/测试/lint、release/publish。（信息未知：Dependabot）"
+        },
+        "d6": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "分支保护": true,
+            "Release/Tag": true,
+            "SemVer 标签": true,
+            "CHANGELOG": false
+          },
+          "conclusion": "得分 75/100（良好）。不足：CHANGELOG。"
+        },
+        "d7": {
+          "score": 18,
+          "grade": "不足",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": false,
+            "SECURITY.md": false,
+            "CODE_OF_CONDUCT": false,
+            "Issue 模板": null,
+            "PR 模板": null,
+            "Discussions": false
+          },
+          "conclusion": "得分 18/100（不足）。不足：CONTRIBUTING.md、SECURITY.md、CODE_OF_CONDUCT、Discussions。（信息未知：Issue 模板、PR 模板）"
+        },
+        "d8": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "存在 LICENSE": true,
+            "License 可识别": true,
+            "非 GPL": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d9": {
+          "score": 20,
+          "grade": "不足",
+          "checks": {
+            "近30天合并 PR": false,
+            "关闭率≥70%": false,
+            "有 CI": false,
+            "有 Stars": true,
+            "社区文件≥2": false
+          },
+          "conclusion": "得分 20/100（不足）。不足：近30天合并 PR、关闭率≥70%、有 CI、社区文件≥2。"
         }
       }
     },
@@ -12656,7 +12656,7 @@
       "repo": "huaweicloud/huaweicloud-skills",
       "platform": "github",
       "stars": 53,
-      "open_issues": 13,
+      "open_issues": 15,
       "open_prs": 0,
       "total": 28.3,
       "grade": "不足",
@@ -16314,7 +16314,7 @@
       "repo": "huaweicloud/huaweicloud-skills",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 13,
+      "open_issues": 15,
       "open_prs": 0,
       "total": 17.5,
       "grade": "不足",
@@ -29887,8 +29887,8 @@
       "title": "仓库缺少 LICENSE 文件",
       "count": 128,
       "items": [
-        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/huaweicloud-mrs-example",
@@ -30023,17 +30023,17 @@
       "title": "仓库缺少 SECURITY.md 安全策略",
       "count": 238,
       "items": [
-        "huaweicloud/terraform-provider-huaweicloud",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/terraform-provider-hcs",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/rds-postgres-AI-demo",
+        "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/ModelArts-Lab",
+        "huaweicloud/terraform-provider-hcs",
+        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/rds-supabase-showcase-demo",
         "huaweicloud/huaweicloud-sdk-java-v3",
-        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
@@ -30269,14 +30269,14 @@
       "title": "仓库未开启分支保护",
       "count": 223,
       "items": [
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/rds-postgres-AI-demo",
+        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/ModelArts-Lab",
         "huaweicloud/rds-supabase-showcase-demo",
         "huaweicloud/.github",
-        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-iot-device-sdk-python",
         "huaweicloud/agentarts-sdk-java",
         "huaweicloud/cloudeye-exporter",
@@ -30500,13 +30500,13 @@
       "title": "缺少 CONTRIBUTING.md 贡献指南",
       "count": 236,
       "items": [
-        "huaweicloud/terraform-provider-huaweicloud",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/terraform-provider-hcs",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/ModelArts-Lab",
+        "huaweicloud/terraform-provider-hcs",
+        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30744,17 +30744,17 @@
       "title": "缺少 CODE_OF_CONDUCT.md 行为准则",
       "count": 241,
       "items": [
-        "huaweicloud/terraform-provider-huaweicloud",
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/terraform-provider-hcs",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/aievspace-operation-guide",
         "huaweicloud/rds-postgres-AI-demo",
+        "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/ModelArts-Lab",
+        "huaweicloud/terraform-provider-hcs",
+        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/rds-supabase-showcase-demo",
         "huaweicloud/huaweicloud-sdk-java-v3",
-        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-python-v3",
@@ -30994,8 +30994,8 @@
       "count": 168,
       "items": [
         "huaweicloud/huaweicloud-mcp",
-        "huaweicloud/community-board-pages",
         "huaweicloud/rds-postgres-AI-demo",
+        "huaweicloud/community-board-pages",
         "huaweicloud/rds-supabase-showcase-demo",
         "huaweicloud/.github",
         "huaweicloud/agentarts-sdk-java",
@@ -31169,10 +31169,10 @@
       "title": "仓库没有 CI/CD 工作流",
       "count": 201,
       "items": [
-        "huaweicloud/ModelArts-Lab",
         "huaweicloud/huaweicloud-skills",
-        "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/ModelArts-Lab",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-iot-device-sdk-python",
@@ -31376,13 +31376,14 @@
     {
       "prio": "P2",
       "title": "存在积压 PR（>30 天未合并）",
-      "count": 19,
+      "count": 21,
       "items": [
         "huaweicloud/terraform-provider-huaweicloud",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/ModelArts-Lab",
+        "huaweicloud/huaweicloud-devkit",
         "huaweicloud/spring-cloud-huawei",
         "huaweicloud/.github",
-        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-sdk-go-v3",
         "huaweicloud/agentarts-sdk-java",
         "huaweicloud/huaweicloud-sdk-nodejs-obs",
@@ -31395,6 +31396,7 @@
         "huaweicloud/devspace-devbox",
         "huaweicloud/cloud-custodian",
         "huaweicloud/generator-cloudide-plugin",
+        "huaweicloud/huaweicloud-iot-device-sdk-java",
         "huaweicloud/huaweicloud-tool-aad-toa",
         "huaweicloud/cloudide-plugin-packager"
       ],
@@ -31511,8 +31513,8 @@
       "count": 167,
       "items": [
         "huaweicloud/huaweicloud-mcp",
-        "huaweicloud/community-board-pages",
         "huaweicloud/rds-postgres-AI-demo",
+        "huaweicloud/community-board-pages",
         "huaweicloud/rds-supabase-showcase-demo",
         "huaweicloud/agentarts-sdk-java",
         "huaweicloud/cloudrobo-sdk-client",
@@ -31682,7 +31684,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-10-19T05:54:09.373145+00:00",
+    "generated_at": "2026-10-20T05:46:51.729200+00:00",
     "rows": [
       {
         "name": "许可证",
@@ -31820,9 +31822,9 @@
       ]
     },
     "d4": {
-      "score": 36.5,
+      "score": 36.2,
       "grade": "不足",
-      "text": "均分 36.5/100，等级：不足。短板：近 30 天无合并（239/250 缺失，96%）、合并率 < 90%（228/250 缺失，91%）、无 PR 模板（39/52 缺失，75%）",
+      "text": "均分 36.2/100，等级：不足。短板：近 30 天无合并（239/250 缺失，96%）、合并率 < 90%（229/250 缺失，92%）、无 PR 模板（39/52 缺失，75%）",
       "facts": [
         {
           "label": "近 30 天无合并",
@@ -31831,7 +31833,7 @@
         },
         {
           "label": "合并率 < 90%",
-          "missing": 228,
+          "missing": 229,
           "known": 250
         },
         {
@@ -31930,9 +31932,9 @@
       ]
     },
     "d9": {
-      "score": 19.9,
+      "score": 20.0,
       "grade": "不足",
-      "text": "均分 19.9/100，等级：不足。短板：近 30 天无合并 PR（239/250 缺失，96%）、社区文件 < 2（233/250 缺失，93%）、无 CI（201/250 缺失，80%）",
+      "text": "均分 20.0/100，等级：不足。短板：近 30 天无合并 PR（239/250 缺失，96%）、社区文件 < 2（233/250 缺失，93%）、无 CI（201/250 缺失，80%）",
       "facts": [
         {
           "label": "近 30 天无合并 PR",
@@ -32020,9 +32022,9 @@
       ]
     },
     "d4": {
-      "score": 41.5,
+      "score": 40.9,
       "grade": "一般",
-      "text": "均分 41.5/100，等级：一般。短板：近 30 天无合并（139/150 缺失，93%）、合并率 < 90%（128/150 缺失，85%）、无 PR 模板（39/52 缺失，75%）",
+      "text": "均分 40.9/100，等级：一般。短板：近 30 天无合并（139/150 缺失，93%）、合并率 < 90%（129/150 缺失，86%）、无 PR 模板（39/52 缺失，75%）",
       "facts": [
         {
           "label": "近 30 天无合并",
@@ -32031,7 +32033,7 @@
         },
         {
           "label": "合并率 < 90%",
-          "missing": 128,
+          "missing": 129,
           "known": 150
         },
         {
@@ -32130,9 +32132,9 @@
       ]
     },
     "d9": {
-      "score": 30.9,
+      "score": 31.1,
       "grade": "不足",
-      "text": "均分 30.9/100，等级：不足。短板：近 30 天无合并 PR（139/150 缺失，93%）、社区文件 < 2（133/150 缺失，89%）、无 CI（101/150 缺失，67%）",
+      "text": "均分 31.1/100，等级：不足。短板：近 30 天无合并 PR（139/150 缺失，93%）、社区文件 < 2（133/150 缺失，89%）、无 CI（101/150 缺失，67%）",
       "facts": [
         {
           "label": "近 30 天无合并 PR",
