@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:50:39.818953+00:00",
+  "generated_at": "2026-10-26T05:53:27.039074+00:00",
   "dims": [
     {
       "id": "d1",
@@ -739,7 +739,7 @@
       "platform": "github",
       "stars": 0,
       "open_issues": 0,
-      "open_prs": 0,
+      "open_prs": 2,
       "total": 74.6,
       "grade": "良好",
       "dims": {
@@ -1093,7 +1093,7 @@
       "platform": "github",
       "stars": 580,
       "open_issues": 3,
-      "open_prs": 18,
+      "open_prs": 17,
       "total": 68.1,
       "grade": "良好",
       "dims": {
@@ -2391,7 +2391,7 @@
       "platform": "github",
       "stars": 1,
       "open_issues": 0,
-      "open_prs": 0,
+      "open_prs": 1,
       "total": 60.5,
       "grade": "良好",
       "dims": {
@@ -30023,12 +30023,12 @@
       "title": "仓库缺少 SECURITY.md 安全策略",
       "count": 238,
       "items": [
-        "huaweicloud/agentarts-sdk-python",
-        "huaweicloud/community-board-pages",
-        "huaweicloud/rds-postgres-AI-demo",
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/spring-cloud-huawei",
+        "huaweicloud/community-board-pages",
+        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/rds-postgres-AI-demo",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30269,12 +30269,12 @@
       "title": "仓库未开启分支保护",
       "count": 223,
       "items": [
-        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/rds-postgres-AI-demo",
         "huaweicloud/huaweicloud-sdk-java-obs",
         "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/agentarts-sdk-java",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/cloudide-nls",
@@ -30500,12 +30500,12 @@
       "title": "缺少 CONTRIBUTING.md 贡献指南",
       "count": 236,
       "items": [
+        "huaweicloud/huaweicloud-skills",
+        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/community-board-pages",
         "huaweicloud/huaweicloud-sdk-java-obs",
         "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/huaweicloud-sdk-c-obs",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -30744,14 +30744,14 @@
       "title": "缺少 CODE_OF_CONDUCT.md 行为准则",
       "count": 241,
       "items": [
-        "huaweicloud/agentarts-sdk-python",
+        "huaweicloud/huaweicloud-skills",
+        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/community-board-pages",
+        "huaweicloud/agentarts-sdk-python",
         "huaweicloud/rds-postgres-AI-demo",
         "huaweicloud/huaweicloud-sdk-java-obs",
         "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/huaweicloud-sdk-c-obs",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-java-v3",
         "huaweicloud/huaweicloud-sdk-php-v3",
@@ -31169,9 +31169,9 @@
       "title": "仓库没有 CI/CD 工作流",
       "count": 201,
       "items": [
+        "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
         "huaweicloud/aievspace-operation-guide",
-        "huaweicloud/huaweicloud-skills",
         "huaweicloud/huaweicloud-sdk-c-obs",
         "huaweicloud/huaweicloud-sdk-php-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
@@ -31378,10 +31378,10 @@
       "title": "存在积压 PR（>30 天未合并）",
       "count": 22,
       "items": [
+        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/agentarts-sdk-python",
         "huaweicloud/huaweicloud-sdk-java-obs",
         "huaweicloud/agentarts-sdk-java",
-        "huaweicloud/spring-cloud-huawei",
         "huaweicloud/huaweicloud-devkit",
         "huaweicloud/huaweicloud-sdk-python-v3",
         "huaweicloud/huaweicloud-sdk-go-v3",
@@ -31685,7 +31685,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-10-25T05:50:39.818953+00:00",
+    "generated_at": "2026-10-26T05:53:27.039074+00:00",
     "rows": [
       {
         "name": "许可证",
