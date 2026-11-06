@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-05T07:49:02.415718+00:00",
+  "generated_at": "2026-11-06T07:48:01.500268+00:00",
   "global": {
-    "total": 1627,
-    "open": 721,
+    "total": 1628,
+    "open": 722,
     "closed": 906,
     "repos_with_issues": 67,
-    "needs_triage": 1,
-    "unassigned": 203,
-    "sla_breach": 702,
-    "sla_warning": 3,
+    "needs_triage": 0,
+    "unassigned": 204,
+    "sla_breach": 705,
+    "sla_warning": 2,
     "good_first": 0,
     "help_wanted": 0,
-    "created_7d": 42,
+    "created_7d": 37,
     "closed_7d": 6,
-    "created_30d": 177,
-    "closed_30d": 57,
-    "median_age_days": 170.2,
+    "created_30d": 174,
+    "closed_30d": 56,
+    "median_age_days": 171.2,
     "by_type": {
-      "bug": 508,
+      "bug": 510,
       "feature": 188,
       "documentation": 53,
       "question": 42,
-      "other": 836
+      "other": 835
     },
     "by_priority": {
       "critical": 57,
       "high": 66,
-      "medium": 140,
+      "medium": 142,
       "low": 27,
-      "unknown": 431
+      "unknown": 430
     }
   },
   "by_platform": {
@@ -37,50 +37,50 @@
       "open": 243,
       "closed": 882,
       "repos_with_issues": 63,
-      "needs_triage": 1,
+      "needs_triage": 0,
       "unassigned": 147,
-      "sla_breach": 225,
-      "sla_warning": 3,
+      "sla_breach": 228,
+      "sla_warning": 1,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 32,
+      "created_7d": 26,
       "closed_7d": 6,
-      "created_30d": 141,
-      "closed_30d": 57,
-      "median_age_days": 44.0,
+      "created_30d": 137,
+      "closed_30d": 56,
+      "median_age_days": 45.0,
       "by_type": {
-        "bug": 497,
+        "bug": 498,
         "feature": 168,
         "documentation": 44,
         "question": 39,
-        "other": 377
+        "other": 376
       },
       "by_priority": {
         "critical": 57,
         "high": 65,
-        "medium": 93,
+        "medium": 94,
         "low": 21,
-        "unknown": 7
+        "unknown": 6
       }
     },
     "gitcode": {
-      "total": 502,
-      "open": 478,
+      "total": 503,
+      "open": 479,
       "closed": 24,
       "repos_with_issues": 7,
       "needs_triage": 0,
-      "unassigned": 56,
+      "unassigned": 57,
       "sla_breach": 477,
-      "sla_warning": 0,
+      "sla_warning": 1,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 10,
+      "created_7d": 11,
       "closed_7d": 0,
-      "created_30d": 36,
+      "created_30d": 37,
       "closed_30d": 0,
-      "median_age_days": 171.2,
+      "median_age_days": 172.2,
       "by_type": {
-        "bug": 11,
+        "bug": 12,
         "feature": 20,
         "documentation": 9,
         "question": 3,
@@ -89,7 +89,7 @@
       "by_priority": {
         "critical": 0,
         "high": 1,
-        "medium": 47,
+        "medium": 48,
         "low": 6,
         "unknown": 424
       }
