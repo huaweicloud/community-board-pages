@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T06:55:48.492519+00:00",
+  "generated_at": "2026-11-08T07:01:58.801896+00:00",
   "dims": [
     {
       "id": "d1",
@@ -621,7 +621,7 @@
       "platform": "github",
       "stars": 275,
       "open_issues": 9,
-      "open_prs": 9,
+      "open_prs": 10,
       "total": 77.1,
       "grade": "良好",
       "dims": {
@@ -2508,8 +2508,8 @@
       "repo": "huaweicloud/dubbo-servicecomb",
       "platform": "github",
       "stars": 25,
-      "open_issues": 2,
-      "open_prs": 0,
+      "open_issues": 3,
+      "open_prs": 1,
       "total": 61.2,
       "grade": "良好",
       "dims": {
@@ -12302,7 +12302,7 @@
       "repo": "huaweicloud/huaweicloud-skills",
       "platform": "github",
       "stars": 59,
-      "open_issues": 39,
+      "open_issues": 40,
       "open_prs": 0,
       "total": 28.3,
       "grade": "不足",
@@ -16668,7 +16668,7 @@
       "repo": "huaweicloud/huaweicloud-skills",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 39,
+      "open_issues": 40,
       "open_prs": 0,
       "total": 17.5,
       "grade": "不足",
@@ -29887,8 +29887,8 @@
       "title": "仓库缺少 LICENSE 文件",
       "count": 126,
       "items": [
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-lts-sdk-python",
         "huaweicloud/huaweicloud-sdk-nodejs-v3",
         "huaweicloud/huaweicloud-sdk-cpp-v3",
@@ -30021,10 +30021,10 @@
       "title": "仓库缺少 SECURITY.md 安全策略",
       "count": 237,
       "items": [
-        "huaweicloud/huaweicloud-sdk-go-v3",
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
+        "huaweicloud/huaweicloud-sdk-go-v3",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-lts-sdk-go",
         "huaweicloud/huaweicloud-lts-sdk-php",
         "huaweicloud/huaweicloud-lts-sdk-python",
@@ -30266,10 +30266,10 @@
       "title": "仓库未开启分支保护",
       "count": 223,
       "items": [
-        "huaweicloud/rds-supabase-fullstack",
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
+        "huaweicloud/rds-supabase-fullstack",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-lts-sdk-go",
         "huaweicloud/huaweicloud-lts-sdk-php",
         "huaweicloud/huaweicloud-lts-sdk-python",
@@ -30497,10 +30497,10 @@
       "title": "缺少 CONTRIBUTING.md 贡献指南",
       "count": 237,
       "items": [
-        "huaweicloud/huaweicloud-sdk-go-v3",
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
+        "huaweicloud/huaweicloud-sdk-go-v3",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-lts-sdk-go",
         "huaweicloud/huaweicloud-lts-sdk-php",
         "huaweicloud/huaweicloud-lts-sdk-python",
@@ -30742,10 +30742,10 @@
       "title": "缺少 CODE_OF_CONDUCT.md 行为准则",
       "count": 240,
       "items": [
-        "huaweicloud/huaweicloud-sdk-go-v3",
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
+        "huaweicloud/huaweicloud-sdk-go-v3",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-lts-sdk-go",
         "huaweicloud/huaweicloud-lts-sdk-php",
         "huaweicloud/huaweicloud-lts-sdk-python",
@@ -30990,8 +30990,8 @@
       "title": "Issue 标签体系缺失",
       "count": 168,
       "items": [
-        "huaweicloud/rds-supabase-fullstack",
         "huaweicloud/community-board-pages",
+        "huaweicloud/rds-supabase-fullstack",
         "huaweicloud/cloudrobo-sdk-client",
         "huaweicloud/huaweicloud-lts-sdk-go",
         "huaweicloud/huaweicloud-lts-sdk-php",
@@ -31166,9 +31166,9 @@
       "title": "仓库没有 CI/CD 工作流",
       "count": 202,
       "items": [
-        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-skills",
         "huaweicloud/community-board-pages",
+        "huaweicloud/aievspace-operation-guide",
         "huaweicloud/huaweicloud-lts-sdk-go",
         "huaweicloud/huaweicloud-lts-sdk-php",
         "huaweicloud/huaweicloud-lts-sdk-python",
@@ -31515,8 +31515,8 @@
       "title": "零 Issue 仓库",
       "count": 167,
       "items": [
-        "huaweicloud/rds-supabase-fullstack",
         "huaweicloud/community-board-pages",
+        "huaweicloud/rds-supabase-fullstack",
         "huaweicloud/cloudrobo-sdk-client",
         "huaweicloud/huaweicloud-lts-sdk-go",
         "huaweicloud/huaweicloud-lts-sdk-php",
@@ -31687,7 +31687,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-11-07T06:55:48.492519+00:00",
+    "generated_at": "2026-11-08T07:01:58.801896+00:00",
     "rows": [
       {
         "name": "许可证",
