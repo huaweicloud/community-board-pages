@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-08T07:01:58.801896+00:00",
+  "generated_at": "2026-11-09T07:46:00.599831+00:00",
   "global": {
-    "total": 1637,
-    "open": 731,
+    "total": 1638,
+    "open": 732,
     "closed": 906,
     "repos_with_issues": 67,
     "needs_triage": 0,
-    "unassigned": 209,
-    "sla_breach": 712,
-    "sla_warning": 7,
+    "unassigned": 210,
+    "sla_breach": 718,
+    "sla_warning": 3,
     "good_first": 0,
     "help_wanted": 0,
-    "created_7d": 36,
-    "closed_7d": 6,
-    "created_30d": 175,
-    "closed_30d": 54,
-    "median_age_days": 173.1,
+    "created_7d": 26,
+    "closed_7d": 4,
+    "created_30d": 171,
+    "closed_30d": 52,
+    "median_age_days": 174.2,
     "by_type": {
       "bug": 516,
       "feature": 190,
       "documentation": 53,
       "question": 42,
-      "other": 836
+      "other": 837
     },
     "by_priority": {
       "critical": 57,
       "high": 67,
       "medium": 150,
       "low": 27,
-      "unknown": 430
+      "unknown": 431
     }
   },
   "by_platform": {
@@ -39,15 +39,15 @@
       "repos_with_issues": 63,
       "needs_triage": 0,
       "unassigned": 149,
-      "sla_breach": 231,
-      "sla_warning": 7,
+      "sla_breach": 236,
+      "sla_warning": 3,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 27,
-      "closed_7d": 6,
-      "created_30d": 136,
-      "closed_30d": 54,
-      "median_age_days": 45.0,
+      "created_7d": 18,
+      "closed_7d": 4,
+      "created_30d": 133,
+      "closed_30d": 52,
+      "median_age_days": 46.1,
       "by_type": {
         "bug": 503,
         "feature": 169,
@@ -64,34 +64,34 @@
       }
     },
     "gitcode": {
-      "total": 506,
-      "open": 482,
+      "total": 507,
+      "open": 483,
       "closed": 24,
       "repos_with_issues": 7,
       "needs_triage": 0,
-      "unassigned": 60,
-      "sla_breach": 481,
+      "unassigned": 61,
+      "sla_breach": 482,
       "sla_warning": 0,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 9,
+      "created_7d": 8,
       "closed_7d": 0,
-      "created_30d": 39,
+      "created_30d": 38,
       "closed_30d": 0,
-      "median_age_days": 174.1,
+      "median_age_days": 175.2,
       "by_type": {
         "bug": 13,
         "feature": 21,
         "documentation": 9,
         "question": 3,
-        "other": 460
+        "other": 461
       },
       "by_priority": {
         "critical": 0,
         "high": 1,
         "medium": 51,
         "low": 6,
-        "unknown": 424
+        "unknown": 425
       }
     }
   }
