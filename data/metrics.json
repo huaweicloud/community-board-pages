@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-11-12T08:03:50.018547+00:00",
+  "generated_at": "2026-11-13T07:42:34.805648+00:00",
   "global": {
-    "total": 1645,
-    "open": 737,
-    "closed": 908,
+    "total": 1644,
+    "open": 739,
+    "closed": 905,
     "repos_with_issues": 67,
     "needs_triage": 0,
-    "unassigned": 216,
-    "sla_breach": 726,
-    "sla_warning": 7,
+    "unassigned": 217,
+    "sla_breach": 729,
+    "sla_warning": 6,
     "good_first": 0,
     "help_wanted": 0,
-    "created_7d": 19,
+    "created_7d": 20,
     "closed_7d": 3,
-    "created_30d": 169,
-    "closed_30d": 52,
-    "median_age_days": 177.2,
+    "created_30d": 161,
+    "closed_30d": 49,
+    "median_age_days": 178.2,
     "by_type": {
-      "bug": 522,
+      "bug": 525,
       "feature": 192,
       "documentation": 53,
       "question": 42,
-      "other": 836
+      "other": 832
     },
     "by_priority": {
-      "critical": 57,
+      "critical": 58,
       "high": 66,
-      "medium": 153,
-      "low": 30,
-      "unknown": 431
+      "medium": 154,
+      "low": 31,
+      "unknown": 430
     }
   },
   "by_platform": {
     "github": {
-      "total": 1138,
-      "open": 254,
-      "closed": 884,
+      "total": 1137,
+      "open": 256,
+      "closed": 881,
       "repos_with_issues": 63,
       "needs_triage": 0,
-      "unassigned": 155,
-      "sla_breach": 243,
-      "sla_warning": 7,
+      "unassigned": 156,
+      "sla_breach": 246,
+      "sla_warning": 6,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 14,
+      "created_7d": 16,
       "closed_7d": 3,
-      "created_30d": 132,
-      "closed_30d": 52,
+      "created_30d": 124,
+      "closed_30d": 49,
       "median_age_days": 48.4,
       "by_type": {
-        "bug": 509,
+        "bug": 512,
         "feature": 170,
         "documentation": 44,
         "question": 39,
-        "other": 376
+        "other": 372
       },
       "by_priority": {
-        "critical": 57,
+        "critical": 58,
         "high": 65,
-        "medium": 101,
-        "low": 24,
-        "unknown": 7
+        "medium": 102,
+        "low": 25,
+        "unknown": 6
       }
     },
     "gitcode": {
@@ -74,11 +74,11 @@
       "sla_warning": 0,
       "good_first": 0,
       "help_wanted": 0,
-      "created_7d": 5,
+      "created_7d": 4,
       "closed_7d": 0,
       "created_30d": 37,
       "closed_30d": 0,
-      "median_age_days": 178.2,
+      "median_age_days": 179.2,
       "by_type": {
         "bug": 13,
         "feature": 22,
