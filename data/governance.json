@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T07:41:06.139095+00:00",
+  "generated_at": "2026-11-16T07:46:49.520945+00:00",
   "dims": [
     {
       "id": "d1",
@@ -273,7 +273,7 @@
       "name": "代码质量"
     },
     "d3": {
-      "score": 44.6,
+      "score": 44.7,
       "grade": "一般",
       "weight": 10,
       "name": "Issue管理"
@@ -333,7 +333,7 @@
       "name": "代码质量"
     },
     "d3": {
-      "score": 48.0,
+      "score": 48.2,
       "grade": "一般",
       "weight": 10,
       "name": "Issue管理"
@@ -620,7 +620,7 @@
       "repo": "huaweicloud/terraform-provider-huaweicloud",
       "platform": "github",
       "stars": 275,
-      "open_issues": 14,
+      "open_issues": 18,
       "open_prs": 10,
       "total": 77.1,
       "grade": "良好",
@@ -735,11 +735,129 @@
       }
     },
     {
+      "repo": "huaweicloud/rds-supabase-fullstack",
+      "platform": "github",
+      "stars": 2,
+      "open_issues": 1,
+      "open_prs": 9,
+      "total": 76.9,
+      "grade": "良好",
+      "dims": {
+        "d1": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "仓库描述": true,
+            "Topics≥3": false,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": true
+          },
+          "conclusion": "得分 75/100（良好）。不足：Topics≥3。"
+        },
+        "d2": {
+          "score": 85,
+          "grade": "优秀",
+          "checks": {
+            "CI 工作流": true,
+            "Dependabot": true,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": true,
+            "主语言标识": true,
+            "SECURITY.md": true
+          },
+          "conclusion": "得分 85/100（优秀）。不足：安全扫描(CodeQL)。"
+        },
+        "d3": {
+          "score": 70,
+          "grade": "良好",
+          "checks": {
+            "有 Issue": true,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": true,
+            "标签体系": true,
+            "Issue 模板": true
+          },
+          "conclusion": "得分 70/100（良好）。不足：关闭率≥70%。"
+        },
+        "d4": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "有 PR 活动": true,
+            "合并率≥90%": false,
+            "无积压 PR": true,
+            "PR 模板": true,
+            "近30天有合并": true
+          },
+          "conclusion": "得分 75/100（良好）。不足：合并率≥90%。"
+        },
+        "d5": {
+          "score": 80,
+          "grade": "优秀",
+          "checks": {
+            "工作流存在": true,
+            "CI/测试/lint": true,
+            "release/publish": false,
+            "Dependabot": true
+          },
+          "conclusion": "得分 80/100（优秀）。不足：release/publish。"
+        },
+        "d6": {
+          "score": 35,
+          "grade": "不足",
+          "checks": {
+            "分支保护": null,
+            "Release/Tag": false,
+            "SemVer 标签": false,
+            "CHANGELOG": true
+          },
+          "conclusion": "得分 35/100（不足）。不足：Release/Tag、SemVer 标签。（信息未知：分支保护）"
+        },
+        "d7": {
+          "score": 95,
+          "grade": "优秀",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": true,
+            "SECURITY.md": true,
+            "CODE_OF_CONDUCT": true,
+            "Issue 模板": true,
+            "PR 模板": true,
+            "Discussions": false
+          },
+          "conclusion": "得分 95/100（优秀）。不足：Discussions。"
+        },
+        "d8": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "存在 LICENSE": true,
+            "License 可识别": true,
+            "非 GPL": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d9": {
+          "score": 80,
+          "grade": "优秀",
+          "checks": {
+            "近30天合并 PR": true,
+            "关闭率≥70%": false,
+            "有 CI": true,
+            "有 Stars": true,
+            "社区文件≥2": true
+          },
+          "conclusion": "得分 80/100（优秀）。不足：关闭率≥70%。"
+        }
+      }
+    },
+    {
       "repo": "huaweicloud/huaweicloud-mcp",
       "platform": "github",
       "stars": 0,
       "open_issues": 0,
-      "open_prs": 8,
+      "open_prs": 2,
       "total": 74.6,
       "grade": "良好",
       "dims": {
@@ -849,124 +967,6 @@
             "社区文件≥2": true
           },
           "conclusion": "得分 60/100（良好）。不足：关闭率≥70%、有 Stars。"
-        }
-      }
-    },
-    {
-      "repo": "huaweicloud/rds-supabase-fullstack",
-      "platform": "github",
-      "stars": 2,
-      "open_issues": 0,
-      "open_prs": 9,
-      "total": 73.9,
-      "grade": "良好",
-      "dims": {
-        "d1": {
-          "score": 75,
-          "grade": "良好",
-          "checks": {
-            "仓库描述": true,
-            "Topics≥3": false,
-            "README": true,
-            "非僵尸仓库": true,
-            "LICENSE": true
-          },
-          "conclusion": "得分 75/100（良好）。不足：Topics≥3。"
-        },
-        "d2": {
-          "score": 85,
-          "grade": "优秀",
-          "checks": {
-            "CI 工作流": true,
-            "Dependabot": true,
-            "安全扫描(CodeQL)": false,
-            "贡献者≥2": true,
-            "主语言标识": true,
-            "SECURITY.md": true
-          },
-          "conclusion": "得分 85/100（优秀）。不足：安全扫描(CodeQL)。"
-        },
-        "d3": {
-          "score": 40,
-          "grade": "一般",
-          "checks": {
-            "有 Issue": false,
-            "关闭率≥70%": false,
-            "无僵尸 Issue": true,
-            "标签体系": false,
-            "Issue 模板": true
-          },
-          "conclusion": "得分 40/100（一般）。不足：有 Issue、关闭率≥70%、标签体系。"
-        },
-        "d4": {
-          "score": 75,
-          "grade": "良好",
-          "checks": {
-            "有 PR 活动": true,
-            "合并率≥90%": false,
-            "无积压 PR": true,
-            "PR 模板": true,
-            "近30天有合并": true
-          },
-          "conclusion": "得分 75/100（良好）。不足：合并率≥90%。"
-        },
-        "d5": {
-          "score": 80,
-          "grade": "优秀",
-          "checks": {
-            "工作流存在": true,
-            "CI/测试/lint": true,
-            "release/publish": false,
-            "Dependabot": true
-          },
-          "conclusion": "得分 80/100（优秀）。不足：release/publish。"
-        },
-        "d6": {
-          "score": 35,
-          "grade": "不足",
-          "checks": {
-            "分支保护": null,
-            "Release/Tag": false,
-            "SemVer 标签": false,
-            "CHANGELOG": true
-          },
-          "conclusion": "得分 35/100（不足）。不足：Release/Tag、SemVer 标签。（信息未知：分支保护）"
-        },
-        "d7": {
-          "score": 95,
-          "grade": "优秀",
-          "checks": {
-            "README": true,
-            "CONTRIBUTING.md": true,
-            "SECURITY.md": true,
-            "CODE_OF_CONDUCT": true,
-            "Issue 模板": true,
-            "PR 模板": true,
-            "Discussions": false
-          },
-          "conclusion": "得分 95/100（优秀）。不足：Discussions。"
-        },
-        "d8": {
-          "score": 100,
-          "grade": "优秀",
-          "checks": {
-            "存在 LICENSE": true,
-            "License 可识别": true,
-            "非 GPL": true
-          },
-          "conclusion": "得分 100/100（优秀）。各项达标。"
-        },
-        "d9": {
-          "score": 80,
-          "grade": "优秀",
-          "checks": {
-            "近30天合并 PR": true,
-            "关闭率≥70%": false,
-            "有 CI": true,
-            "有 Stars": true,
-            "社区文件≥2": true
-          },
-          "conclusion": "得分 80/100（优秀）。不足：关闭率≥70%。"
         }
       }
     },
@@ -2980,7 +2980,7 @@
       "repo": "huaweicloud/devspace-devbridge",
       "platform": "github",
       "stars": 12,
-      "open_issues": 18,
+      "open_issues": 20,
       "open_prs": 9,
       "total": 58.2,
       "grade": "一般",
@@ -16314,7 +16314,7 @@
       "repo": "huaweicloud/terraform-provider-huaweicloud",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 14,
+      "open_issues": 18,
       "open_prs": 0,
       "total": 17.7,
       "grade": "不足",
@@ -18792,7 +18792,7 @@
       "repo": "huaweicloud/devspace-devbridge",
       "platform": "gitcode",
       "stars": 0,
-      "open_issues": 18,
+      "open_issues": 20,
       "open_prs": 0,
       "total": 14.3,
       "grade": "不足",
@@ -30988,9 +30988,8 @@
     {
       "prio": "P1",
       "title": "Issue 标签体系缺失",
-      "count": 168,
+      "count": 167,
       "items": [
-        "huaweicloud/rds-supabase-fullstack",
         "huaweicloud/community-board-pages",
         "huaweicloud/cloudrobo-sdk-client",
         "huaweicloud/HUAWEICloudPublicDataset",
@@ -31512,9 +31511,8 @@
     {
       "prio": "P3",
       "title": "零 Issue 仓库",
-      "count": 167,
+      "count": 166,
       "items": [
-        "huaweicloud/rds-supabase-fullstack",
         "huaweicloud/community-board-pages",
         "huaweicloud/cloudrobo-sdk-client",
         "huaweicloud/HUAWEICloudPublicDataset",
@@ -31686,7 +31684,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-11-15T07:41:06.139095+00:00",
+    "generated_at": "2026-11-16T07:46:49.520945+00:00",
     "rows": [
       {
         "name": "许可证",
@@ -31802,13 +31800,13 @@
       ]
     },
     "d3": {
-      "score": 44.6,
+      "score": 44.7,
       "grade": "一般",
-      "text": "均分 44.6/100，等级：一般。短板：无标签体系（168/250 缺失，67%）、无 Issue 模板（36/51 缺失，71%）、关闭率 < 70%（22/83 缺失，27%）",
+      "text": "均分 44.7/100，等级：一般。短板：无标签体系（167/250 缺失，67%）、无 Issue 模板（36/51 缺失，71%）、关闭率 < 70%（23/84 缺失，27%）",
       "facts": [
         {
           "label": "无标签体系",
-          "missing": 168,
+          "missing": 167,
           "known": 250
         },
         {
@@ -31818,8 +31816,8 @@
         },
         {
           "label": "关闭率 < 70%",
-          "missing": 22,
-          "known": 83
+          "missing": 23,
+          "known": 84
         }
       ]
     },
@@ -32002,13 +32000,13 @@
       ]
     },
     "d3": {
-      "score": 48.0,
+      "score": 48.2,
       "grade": "一般",
-      "text": "均分 48.0/100，等级：一般。短板：无标签体系（92/150 缺失，61%）、无 Issue 模板（36/51 缺失，71%）、关闭率 < 70%（14/59 缺失，24%）",
+      "text": "均分 48.2/100，等级：一般。短板：无标签体系（91/150 缺失，61%）、无 Issue 模板（36/51 缺失，71%）、关闭率 < 70%（15/60 缺失，25%）",
       "facts": [
         {
           "label": "无标签体系",
-          "missing": 92,
+          "missing": 91,
           "known": 150
         },
         {
@@ -32018,8 +32016,8 @@
         },
         {
           "label": "关闭率 < 70%",
-          "missing": 14,
-          "known": 59
+          "missing": 15,
+          "known": 60
         }
       ]
     },
