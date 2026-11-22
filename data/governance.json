@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:07:12.720457+00:00",
+  "generated_at": "2026-11-22T07:53:09.603875+00:00",
   "dims": [
     {
       "id": "d1",
@@ -261,13 +261,13 @@
   ],
   "org": {
     "d1": {
-      "score": 34.0,
+      "score": 34.6,
       "grade": "不足",
       "weight": 10,
       "name": "仓库健康"
     },
     "d2": {
-      "score": 26.3,
+      "score": 26.6,
       "grade": "不足",
       "weight": 18,
       "name": "代码质量"
@@ -279,13 +279,13 @@
       "name": "Issue管理"
     },
     "d4": {
-      "score": 36.0,
+      "score": 36.2,
       "grade": "不足",
       "weight": 10,
       "name": "PR管理"
     },
     "d5": {
-      "score": 13.7,
+      "score": 14.2,
       "grade": "不足",
       "weight": 14,
       "name": "CI/CD"
@@ -297,85 +297,85 @@
       "name": "分支发布"
     },
     "d7": {
-      "score": 14.3,
+      "score": 14.9,
       "grade": "不足",
       "weight": 12,
       "name": "社区健康"
     },
     "d8": {
-      "score": 48.3,
+      "score": 48.7,
       "grade": "一般",
       "weight": 8,
       "name": "许可证合规"
     },
     "d9": {
-      "score": 20.2,
+      "score": 20.4,
       "grade": "不足",
       "weight": 6,
       "name": "可观测性"
     },
     "total": {
-      "score": 27.7,
+      "score": 28.0,
       "grade": "不足"
     }
   },
   "org_github": {
     "d1": {
-      "score": 47.4,
+      "score": 48.0,
       "grade": "一般",
       "weight": 10,
       "name": "仓库健康"
     },
     "d2": {
-      "score": 35.3,
+      "score": 35.7,
       "grade": "不足",
       "weight": 18,
       "name": "代码质量"
     },
     "d3": {
-      "score": 47.9,
+      "score": 47.8,
       "grade": "一般",
       "weight": 10,
       "name": "Issue管理"
     },
     "d4": {
-      "score": 40.6,
+      "score": 40.8,
       "grade": "一般",
       "weight": 10,
       "name": "PR管理"
     },
     "d5": {
-      "score": 22.6,
+      "score": 23.4,
       "grade": "不足",
       "weight": 14,
       "name": "CI/CD"
     },
     "d6": {
-      "score": 39.2,
+      "score": 38.9,
       "grade": "不足",
       "weight": 12,
       "name": "分支发布"
     },
     "d7": {
-      "score": 23.6,
+      "score": 24.5,
       "grade": "不足",
       "weight": 12,
       "name": "社区健康"
     },
     "d8": {
-      "score": 79.9,
-      "grade": "良好",
+      "score": 80.2,
+      "grade": "优秀",
       "weight": 8,
       "name": "许可证合规"
     },
     "d9": {
-      "score": 31.5,
+      "score": 31.6,
       "grade": "不足",
       "weight": 6,
       "name": "可观测性"
     },
     "total": {
-      "score": 38.9,
+      "score": 39.3,
       "grade": "不足"
     }
   },
@@ -385,7 +385,7 @@
       "platform": "github",
       "stars": 70,
       "open_issues": 167,
-      "open_prs": 72,
+      "open_prs": 74,
       "total": 87.8,
       "grade": "优秀",
       "dims": {
@@ -1321,6 +1321,124 @@
             "社区文件≥2": true
           },
           "conclusion": "得分 60/100（良好）。不足：关闭率≥70%、有 Stars。"
+        }
+      }
+    },
+    {
+      "repo": "huaweicloud/agentarts-instrumentation-js",
+      "platform": "github",
+      "stars": 0,
+      "open_issues": 0,
+      "open_prs": 3,
+      "total": 70.7,
+      "grade": "良好",
+      "dims": {
+        "d1": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "仓库描述": true,
+            "Topics≥3": true,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d2": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "CI 工作流": true,
+            "Dependabot": true,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": true,
+            "主语言标识": false,
+            "SECURITY.md": true
+          },
+          "conclusion": "得分 75/100（良好）。不足：安全扫描(CodeQL)、主语言标识。"
+        },
+        "d3": {
+          "score": 40,
+          "grade": "一般",
+          "checks": {
+            "有 Issue": false,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": true,
+            "标签体系": false,
+            "Issue 模板": true
+          },
+          "conclusion": "得分 40/100（一般）。不足：有 Issue、关闭率≥70%、标签体系。"
+        },
+        "d4": {
+          "score": 60,
+          "grade": "良好",
+          "checks": {
+            "有 PR 活动": true,
+            "合并率≥90%": false,
+            "无积压 PR": true,
+            "PR 模板": true,
+            "近30天有合并": false
+          },
+          "conclusion": "得分 60/100（良好）。不足：合并率≥90%、近30天有合并。"
+        },
+        "d5": {
+          "score": 80,
+          "grade": "优秀",
+          "checks": {
+            "工作流存在": true,
+            "CI/测试/lint": true,
+            "release/publish": false,
+            "Dependabot": true
+          },
+          "conclusion": "得分 80/100（优秀）。不足：release/publish。"
+        },
+        "d6": {
+          "score": 35,
+          "grade": "不足",
+          "checks": {
+            "分支保护": null,
+            "Release/Tag": true,
+            "SemVer 标签": false,
+            "CHANGELOG": false
+          },
+          "conclusion": "得分 35/100（不足）。不足：SemVer 标签、CHANGELOG。（信息未知：分支保护）"
+        },
+        "d7": {
+          "score": 95,
+          "grade": "优秀",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": true,
+            "SECURITY.md": true,
+            "CODE_OF_CONDUCT": true,
+            "Issue 模板": true,
+            "PR 模板": true,
+            "Discussions": false
+          },
+          "conclusion": "得分 95/100（优秀）。不足：Discussions。"
+        },
+        "d8": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "存在 LICENSE": true,
+            "License 可识别": true,
+            "非 GPL": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d9": {
+          "score": 40,
+          "grade": "一般",
+          "checks": {
+            "近30天合并 PR": false,
+            "关闭率≥70%": false,
+            "有 CI": true,
+            "有 Stars": false,
+            "社区文件≥2": true
+          },
+          "conclusion": "得分 40/100（一般）。不足：近30天合并 PR、关闭率≥70%、有 Stars。"
         }
       }
     },
@@ -2619,6 +2737,124 @@
             "社区文件≥2": true
           },
           "conclusion": "得分 80/100（优秀）。不足：近30天合并 PR。"
+        }
+      }
+    },
+    {
+      "repo": "huaweicloud/agentarts-instrumentation-python",
+      "platform": "github",
+      "stars": 0,
+      "open_issues": 0,
+      "open_prs": 3,
+      "total": 62.9,
+      "grade": "良好",
+      "dims": {
+        "d1": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "仓库描述": true,
+            "Topics≥3": true,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d2": {
+          "score": 55,
+          "grade": "一般",
+          "checks": {
+            "CI 工作流": true,
+            "Dependabot": true,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": false,
+            "主语言标识": false,
+            "SECURITY.md": true
+          },
+          "conclusion": "得分 55/100（一般）。不足：安全扫描(CodeQL)、贡献者≥2、主语言标识。"
+        },
+        "d3": {
+          "score": 40,
+          "grade": "一般",
+          "checks": {
+            "有 Issue": false,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": true,
+            "标签体系": false,
+            "Issue 模板": true
+          },
+          "conclusion": "得分 40/100（一般）。不足：有 Issue、关闭率≥70%、标签体系。"
+        },
+        "d4": {
+          "score": 60,
+          "grade": "良好",
+          "checks": {
+            "有 PR 活动": true,
+            "合并率≥90%": false,
+            "无积压 PR": true,
+            "PR 模板": true,
+            "近30天有合并": false
+          },
+          "conclusion": "得分 60/100（良好）。不足：合并率≥90%、近30天有合并。"
+        },
+        "d5": {
+          "score": 80,
+          "grade": "优秀",
+          "checks": {
+            "工作流存在": true,
+            "CI/测试/lint": true,
+            "release/publish": false,
+            "Dependabot": true
+          },
+          "conclusion": "得分 80/100（优秀）。不足：release/publish。"
+        },
+        "d6": {
+          "score": 0,
+          "grade": "不足",
+          "checks": {
+            "分支保护": null,
+            "Release/Tag": false,
+            "SemVer 标签": false,
+            "CHANGELOG": false
+          },
+          "conclusion": "得分 0/100（不足）。不足：Release/Tag、SemVer 标签、CHANGELOG。（信息未知：分支保护）"
+        },
+        "d7": {
+          "score": 95,
+          "grade": "优秀",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": true,
+            "SECURITY.md": true,
+            "CODE_OF_CONDUCT": true,
+            "Issue 模板": true,
+            "PR 模板": true,
+            "Discussions": false
+          },
+          "conclusion": "得分 95/100（优秀）。不足：Discussions。"
+        },
+        "d8": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "存在 LICENSE": true,
+            "License 可识别": true,
+            "非 GPL": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d9": {
+          "score": 40,
+          "grade": "一般",
+          "checks": {
+            "近30天合并 PR": false,
+            "关闭率≥70%": false,
+            "有 CI": true,
+            "有 Stars": false,
+            "社区文件≥2": true
+          },
+          "conclusion": "得分 40/100（一般）。不足：近30天合并 PR、关闭率≥70%、有 Stars。"
         }
       }
     },
@@ -30618,8 +30854,10 @@
     {
       "prio": "P0",
       "title": "仓库未开启分支保护",
-      "count": 226,
+      "count": 228,
       "items": [
+        "huaweicloud/agentarts-instrumentation-python",
+        "huaweicloud/agentarts-instrumentation-js",
         "huaweicloud/agentarts-sdk-python",
         "huaweicloud/ModelArts-Lab",
         "huaweicloud/agentarts-adapter-js",
@@ -31345,8 +31583,10 @@
     {
       "prio": "P1",
       "title": "Issue 标签体系缺失",
-      "count": 170,
+      "count": 172,
       "items": [
+        "huaweicloud/agentarts-instrumentation-python",
+        "huaweicloud/agentarts-instrumentation-js",
         "huaweicloud/huaweicloud-mcp",
         "huaweicloud/agentarts-adapter-js",
         "huaweicloud/agentarts-sdk-js",
@@ -31865,8 +32105,10 @@
     {
       "prio": "P3",
       "title": "零 Issue 仓库",
-      "count": 169,
+      "count": 171,
       "items": [
+        "huaweicloud/agentarts-instrumentation-python",
+        "huaweicloud/agentarts-instrumentation-js",
         "huaweicloud/huaweicloud-mcp",
         "huaweicloud/agentarts-adapter-js",
         "huaweicloud/agentarts-sdk-js",
@@ -32041,71 +32283,71 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-11-21T08:07:12.720457+00:00",
+    "generated_at": "2026-11-22T07:53:09.603875+00:00",
     "rows": [
       {
         "name": "许可证",
-        "cur": "50.2%",
+        "cur": "50.6%",
         "target": "100%",
         "prio": "P0"
       },
       {
         "name": "安全策略 SECURITY.md",
-        "cur": "6.3%",
+        "cur": "7.1%",
         "target": "100%",
         "prio": "P0"
       },
       {
         "name": "分支保护",
-        "cur": "10.7%",
+        "cur": "10.6%",
         "target": "≥80%",
         "prio": "P0"
       },
       {
         "name": "贡献指南 CONTRIBUTING.md",
-        "cur": "6.3%",
+        "cur": "7.1%",
         "target": "100%",
         "prio": "P1"
       },
       {
         "name": "行为准则 CODE_OF_CONDUCT.md",
-        "cur": "5.1%",
+        "cur": "5.9%",
         "target": "100%",
         "prio": "P1"
       },
       {
         "name": "Issue 模板",
-        "cur": "18/253 (7.1%)",
+        "cur": "20/255 (7.8%)",
         "target": "100%",
         "prio": "P1"
       },
       {
         "name": "PR 模板",
-        "cur": "15/253 (5.9%)",
+        "cur": "17/255 (6.7%)",
         "target": "100%",
         "prio": "P1"
       },
       {
         "name": "CI/CD 工作流",
-        "cur": "51/253 (20.2%)",
+        "cur": "53/255 (20.8%)",
         "target": "≥80%",
         "prio": "P2"
       },
       {
         "name": "CHANGELOG",
-        "cur": "9.1%",
+        "cur": "9.0%",
         "target": "≥80%",
         "prio": "P2"
       },
       {
         "name": "仓库描述",
-        "cur": "32.0%",
+        "cur": "32.5%",
         "target": "100%",
         "prio": "P2"
       },
       {
         "name": "Topics 标签",
-        "cur": "5.9%",
+        "cur": "6.7%",
         "target": "100%",
         "prio": "P3"
       }
@@ -32113,63 +32355,63 @@
   },
   "conclusions": {
     "d1": {
-      "score": 34.0,
+      "score": 34.6,
       "grade": "不足",
-      "text": "均分 34.0/100，等级：不足。短板：Topics < 3（238/253 缺失，94%）、无仓库描述（172/253 缺失，68%）、僵尸仓库（151/253 缺失，60%）",
+      "text": "均分 34.6/100，等级：不足。短板：Topics < 3（238/255 缺失，93%）、无仓库描述（172/255 缺失，67%）、僵尸仓库（151/255 缺失，59%）",
       "facts": [
         {
           "label": "Topics < 3",
           "missing": 238,
-          "known": 253
+          "known": 255
         },
         {
           "label": "无仓库描述",
           "missing": 172,
-          "known": 253
+          "known": 255
         },
         {
           "label": "僵尸仓库",
           "missing": 151,
-          "known": 253
+          "known": 255
         }
       ]
     },
     "d2": {
-      "score": 26.3,
+      "score": 26.6,
       "grade": "不足",
-      "text": "均分 26.3/100，等级：不足。短板：无安全扫描（251/253 缺失，99%）、无 CI 工作流（202/253 缺失，80%）、无 SECURITY.md（128/144 缺失，89%）",
+      "text": "均分 26.6/100，等级：不足。短板：无安全扫描（253/255 缺失，99%）、无 CI 工作流（202/255 缺失，79%）、无 SECURITY.md（128/146 缺失，88%）",
       "facts": [
         {
           "label": "无安全扫描",
-          "missing": 251,
-          "known": 253
+          "missing": 253,
+          "known": 255
         },
         {
           "label": "无 CI 工作流",
           "missing": 202,
-          "known": 253
+          "known": 255
         },
         {
           "label": "无 SECURITY.md",
           "missing": 128,
-          "known": 144
+          "known": 146
         }
       ]
     },
     "d3": {
       "score": 44.4,
       "grade": "一般",
-      "text": "均分 44.4/100，等级：一般。短板：无标签体系（170/253 缺失，67%）、无 Issue 模板（36/54 缺失，67%）、关闭率 < 70%（25/84 缺失，30%）",
+      "text": "均分 44.4/100，等级：一般。短板：无标签体系（172/255 缺失，67%）、无 Issue 模板（36/56 缺失，64%）、关闭率 < 70%（25/84 缺失，30%）",
       "facts": [
         {
           "label": "无标签体系",
-          "missing": 170,
-          "known": 253
+          "missing": 172,
+          "known": 255
         },
         {
           "label": "无 Issue 模板",
           "missing": 36,
-          "known": 54
+          "known": 56
         },
         {
           "label": "关闭率 < 70%",
@@ -32179,197 +32421,197 @@
       ]
     },
     "d4": {
-      "score": 36.0,
+      "score": 36.2,
       "grade": "不足",
-      "text": "均分 36.0/100，等级：不足。短板：近 30 天无合并（238/253 缺失，94%）、合并率 < 90%（231/253 缺失，91%）、无 PR 模板（39/54 缺失，72%）",
+      "text": "均分 36.2/100，等级：不足。短板：近 30 天无合并（240/255 缺失，94%）、合并率 < 90%（233/255 缺失，91%）、无 PR 模板（39/56 缺失，70%）",
       "facts": [
         {
           "label": "近 30 天无合并",
-          "missing": 238,
-          "known": 253
+          "missing": 240,
+          "known": 255
         },
         {
           "label": "合并率 < 90%",
-          "missing": 231,
-          "known": 253
+          "missing": 233,
+          "known": 255
         },
         {
           "label": "无 PR 模板",
           "missing": 39,
-          "known": 54
+          "known": 56
         }
       ]
     },
     "d5": {
-      "score": 13.7,
+      "score": 14.2,
       "grade": "不足",
-      "text": "均分 13.7/100，等级：不足。短板：无 release 工作流（224/253 缺失，89%）、无 CI/测试（222/253 缺失，88%）、无任何工作流（202/253 缺失，80%）",
+      "text": "均分 14.2/100，等级：不足。短板：无 release 工作流（226/255 缺失，89%）、无 CI/测试（222/255 缺失，87%）、无任何工作流（202/255 缺失，79%）",
       "facts": [
         {
           "label": "无 release 工作流",
-          "missing": 224,
-          "known": 253
+          "missing": 226,
+          "known": 255
         },
         {
           "label": "无 CI/测试",
           "missing": 222,
-          "known": 253
+          "known": 255
         },
         {
           "label": "无任何工作流",
           "missing": 202,
-          "known": 253
+          "known": 255
         }
       ]
     },
     "d6": {
       "score": 23.7,
       "grade": "不足",
-      "text": "均分 23.7/100，等级：不足。短板：无 SemVer 标签（183/253 缺失，72%）、无 Release/Tag（173/253 缺失，68%）、无 CHANGELOG（121/144 缺失，84%）",
+      "text": "均分 23.7/100，等级：不足。短板：无 SemVer 标签（185/255 缺失，73%）、无 Release/Tag（174/255 缺失，68%）、无 CHANGELOG（123/146 缺失，84%）",
       "facts": [
         {
           "label": "无 SemVer 标签",
-          "missing": 183,
-          "known": 253
+          "missing": 185,
+          "known": 255
         },
         {
           "label": "无 Release/Tag",
-          "missing": 173,
-          "known": 253
+          "missing": 174,
+          "known": 255
         },
         {
           "label": "无 CHANGELOG",
-          "missing": 121,
-          "known": 144
+          "missing": 123,
+          "known": 146
         }
       ]
     },
     "d7": {
-      "score": 14.3,
+      "score": 14.9,
       "grade": "不足",
-      "text": "均分 14.3/100，等级：不足。短板：未启用 Discussions（246/253 缺失，97%）、无 CODE_OF_CONDUCT（131/144 缺失，91%）、无 CONTRIBUTING.md（128/144 缺失，89%）",
+      "text": "均分 14.9/100，等级：不足。短板：未启用 Discussions（248/255 缺失，97%）、无 CODE_OF_CONDUCT（131/146 缺失，90%）、无 CONTRIBUTING.md（128/146 缺失，88%）",
       "facts": [
         {
           "label": "未启用 Discussions",
-          "missing": 246,
-          "known": 253
+          "missing": 248,
+          "known": 255
         },
         {
           "label": "无 CODE_OF_CONDUCT",
           "missing": 131,
-          "known": 144
+          "known": 146
         },
         {
           "label": "无 CONTRIBUTING.md",
           "missing": 128,
-          "known": 144
+          "known": 146
         }
       ]
     },
     "d8": {
-      "score": 48.3,
+      "score": 48.7,
       "grade": "一般",
-      "text": "均分 48.3/100，等级：一般。短板：无 LICENSE（126/253 缺失，50%）、License 不可识别（12/127 缺失，9%）、GPL 传染性许可（7/127 缺失，6%）",
+      "text": "均分 48.7/100，等级：一般。短板：无 LICENSE（126/255 缺失，49%）、License 不可识别（12/129 缺失，9%）、GPL 传染性许可（7/129 缺失，5%）",
       "facts": [
         {
           "label": "无 LICENSE",
           "missing": 126,
-          "known": 253
+          "known": 255
         },
         {
           "label": "License 不可识别",
           "missing": 12,
-          "known": 127
+          "known": 129
         },
         {
           "label": "GPL 传染性许可",
           "missing": 7,
-          "known": 127
+          "known": 129
         }
       ]
     },
     "d9": {
-      "score": 20.2,
+      "score": 20.4,
       "grade": "不足",
-      "text": "均分 20.2/100，等级：不足。短板：近 30 天无合并 PR（238/253 缺失，94%）、社区文件 < 2（234/253 缺失，92%）、无 CI（202/253 缺失，80%）",
+      "text": "均分 20.4/100，等级：不足。短板：近 30 天无合并 PR（240/255 缺失，94%）、社区文件 < 2（234/255 缺失，92%）、无 CI（202/255 缺失，79%）",
       "facts": [
         {
           "label": "近 30 天无合并 PR",
-          "missing": 238,
-          "known": 253
+          "missing": 240,
+          "known": 255
         },
         {
           "label": "社区文件 < 2",
           "missing": 234,
-          "known": 253
+          "known": 255
         },
         {
           "label": "无 CI",
           "missing": 202,
-          "known": 253
+          "known": 255
         }
       ]
     }
   },
   "conclusions_github": {
     "d1": {
-      "score": 47.4,
+      "score": 48.0,
       "grade": "一般",
-      "text": "均分 47.4/100，等级：一般。短板：Topics < 3（138/153 缺失，90%）、无仓库描述（97/153 缺失，63%）、僵尸仓库（79/153 缺失，52%）",
+      "text": "均分 48.0/100，等级：一般。短板：Topics < 3（138/155 缺失，89%）、无仓库描述（97/155 缺失，63%）、僵尸仓库（79/155 缺失，51%）",
       "facts": [
         {
           "label": "Topics < 3",
           "missing": 138,
-          "known": 153
+          "known": 155
         },
         {
           "label": "无仓库描述",
           "missing": 97,
-          "known": 153
+          "known": 155
         },
         {
           "label": "僵尸仓库",
           "missing": 79,
-          "known": 153
+          "known": 155
         }
       ]
     },
     "d2": {
-      "score": 35.3,
+      "score": 35.7,
       "grade": "不足",
-      "text": "均分 35.3/100，等级：不足。短板：无安全扫描（151/153 缺失，99%）、无 SECURITY.md（128/144 缺失，89%）、无 CI 工作流（102/153 缺失，67%）",
+      "text": "均分 35.7/100，等级：不足。短板：无安全扫描（153/155 缺失，99%）、无 SECURITY.md（128/146 缺失，88%）、无 CI 工作流（102/155 缺失，66%）",
       "facts": [
         {
           "label": "无安全扫描",
-          "missing": 151,
-          "known": 153
+          "missing": 153,
+          "known": 155
         },
         {
           "label": "无 SECURITY.md",
           "missing": 128,
-          "known": 144
+          "known": 146
         },
         {
           "label": "无 CI 工作流",
           "missing": 102,
-          "known": 153
+          "known": 155
         }
       ]
     },
     "d3": {
-      "score": 47.9,
+      "score": 47.8,
       "grade": "一般",
-      "text": "均分 47.9/100，等级：一般。短板：无标签体系（94/153 缺失，61%）、无 Issue 模板（36/54 缺失，67%）、关闭率 < 70%（16/60 缺失，27%）",
+      "text": "均分 47.8/100，等级：一般。短板：无标签体系（96/155 缺失，62%）、无 Issue 模板（36/56 缺失，64%）、关闭率 < 70%（16/60 缺失，27%）",
       "facts": [
         {
           "label": "无标签体系",
-          "missing": 94,
-          "known": 153
+          "missing": 96,
+          "known": 155
         },
         {
           "label": "无 Issue 模板",
           "missing": 36,
-          "known": 54
+          "known": 56
         },
         {
           "label": "关闭率 < 70%",
@@ -32379,134 +32621,134 @@
       ]
     },
     "d4": {
-      "score": 40.6,
+      "score": 40.8,
       "grade": "一般",
-      "text": "均分 40.6/100，等级：一般。短板：近 30 天无合并（138/153 缺失，90%）、合并率 < 90%（131/153 缺失，86%）、无 PR 模板（39/54 缺失，72%）",
+      "text": "均分 40.8/100，等级：一般。短板：近 30 天无合并（140/155 缺失，90%）、合并率 < 90%（133/155 缺失，86%）、无 PR 模板（39/56 缺失，70%）",
       "facts": [
         {
           "label": "近 30 天无合并",
-          "missing": 138,
-          "known": 153
+          "missing": 140,
+          "known": 155
         },
         {
           "label": "合并率 < 90%",
-          "missing": 131,
-          "known": 153
+          "missing": 133,
+          "known": 155
         },
         {
           "label": "无 PR 模板",
           "missing": 39,
-          "known": 54
+          "known": 56
         }
       ]
     },
     "d5": {
-      "score": 22.6,
+      "score": 23.4,
       "grade": "不足",
-      "text": "均分 22.6/100，等级：不足。短板：无 release 工作流（124/153 缺失，81%）、无 CI/测试（122/153 缺失，80%）、无任何工作流（102/153 缺失，67%）",
+      "text": "均分 23.4/100，等级：不足。短板：无 release 工作流（126/155 缺失，81%）、无 CI/测试（122/155 缺失，79%）、无任何工作流（102/155 缺失，66%）",
       "facts": [
         {
           "label": "无 release 工作流",
-          "missing": 124,
-          "known": 153
+          "missing": 126,
+          "known": 155
         },
         {
           "label": "无 CI/测试",
           "missing": 122,
-          "known": 153
+          "known": 155
         },
         {
           "label": "无任何工作流",
           "missing": 102,
-          "known": 153
+          "known": 155
         }
       ]
     },
     "d6": {
-      "score": 39.2,
+      "score": 38.9,
       "grade": "不足",
-      "text": "均分 39.2/100，等级：不足。短板：无 CHANGELOG（121/144 缺失，84%）、无 SemVer 标签（83/153 缺失，54%）、无 Release/Tag（73/153 缺失，48%）",
+      "text": "均分 38.9/100，等级：不足。短板：无 CHANGELOG（123/146 缺失，84%）、无 SemVer 标签（85/155 缺失，55%）、无 Release/Tag（74/155 缺失，48%）",
       "facts": [
         {
           "label": "无 CHANGELOG",
-          "missing": 121,
-          "known": 144
+          "missing": 123,
+          "known": 146
         },
         {
           "label": "无 SemVer 标签",
-          "missing": 83,
-          "known": 153
+          "missing": 85,
+          "known": 155
         },
         {
           "label": "无 Release/Tag",
-          "missing": 73,
-          "known": 153
+          "missing": 74,
+          "known": 155
         }
       ]
     },
     "d7": {
-      "score": 23.6,
+      "score": 24.5,
       "grade": "不足",
-      "text": "均分 23.6/100，等级：不足。短板：未启用 Discussions（146/153 缺失，95%）、无 CODE_OF_CONDUCT（131/144 缺失，91%）、无 CONTRIBUTING.md（128/144 缺失，89%）",
+      "text": "均分 24.5/100，等级：不足。短板：未启用 Discussions（148/155 缺失，95%）、无 CODE_OF_CONDUCT（131/146 缺失，90%）、无 CONTRIBUTING.md（128/146 缺失，88%）",
       "facts": [
         {
           "label": "未启用 Discussions",
-          "missing": 146,
-          "known": 153
+          "missing": 148,
+          "known": 155
         },
         {
           "label": "无 CODE_OF_CONDUCT",
           "missing": 131,
-          "known": 144
+          "known": 146
         },
         {
           "label": "无 CONTRIBUTING.md",
           "missing": 128,
-          "known": 144
+          "known": 146
         }
       ]
     },
     "d8": {
-      "score": 79.9,
-      "grade": "良好",
-      "text": "均分 79.9/100，等级：良好。短板：无 LICENSE（26/153 缺失，17%）、License 不可识别（12/127 缺失，9%）、GPL 传染性许可（7/127 缺失，6%）",
+      "score": 80.2,
+      "grade": "优秀",
+      "text": "均分 80.2/100，等级：优秀。短板：无 LICENSE（26/155 缺失，17%）、License 不可识别（12/129 缺失，9%）、GPL 传染性许可（7/129 缺失，5%）",
       "facts": [
         {
           "label": "无 LICENSE",
           "missing": 26,
-          "known": 153
+          "known": 155
         },
         {
           "label": "License 不可识别",
           "missing": 12,
-          "known": 127
+          "known": 129
         },
         {
           "label": "GPL 传染性许可",
           "missing": 7,
-          "known": 127
+          "known": 129
         }
       ]
     },
     "d9": {
-      "score": 31.5,
+      "score": 31.6,
       "grade": "不足",
-      "text": "均分 31.5/100，等级：不足。短板：近 30 天无合并 PR（138/153 缺失，90%）、社区文件 < 2（134/153 缺失，88%）、无 CI（102/153 缺失，67%）",
+      "text": "均分 31.6/100，等级：不足。短板：近 30 天无合并 PR（140/155 缺失，90%）、社区文件 < 2（134/155 缺失，86%）、无 CI（102/155 缺失，66%）",
       "facts": [
         {
           "label": "近 30 天无合并 PR",
-          "missing": 138,
-          "known": 153
+          "missing": 140,
+          "known": 155
         },
         {
           "label": "社区文件 < 2",
           "missing": 134,
-          "known": 153
+          "known": 155
         },
         {
           "label": "无 CI",
           "missing": 102,
-          "known": 153
+          "known": 155
         }
       ]
     }
