@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:32:32.679048+00:00",
+  "generated_at": "2026-11-28T08:46:10.263932+00:00",
   "dims": [
     {
       "id": "d1",
@@ -285,13 +285,13 @@
       "name": "PR管理"
     },
     "d5": {
-      "score": 14.3,
+      "score": 14.4,
       "grade": "不足",
       "weight": 14,
       "name": "CI/CD"
     },
     "d6": {
-      "score": 24.0,
+      "score": 24.3,
       "grade": "不足",
       "weight": 12,
       "name": "分支发布"
@@ -345,13 +345,13 @@
       "name": "PR管理"
     },
     "d5": {
-      "score": 23.5,
+      "score": 23.6,
       "grade": "不足",
       "weight": 14,
       "name": "CI/CD"
     },
     "d6": {
-      "score": 39.5,
+      "score": 39.9,
       "grade": "不足",
       "weight": 12,
       "name": "分支发布"
@@ -375,7 +375,7 @@
       "name": "可观测性"
     },
     "total": {
-      "score": 39.4,
+      "score": 39.5,
       "grade": "不足"
     }
   },
@@ -385,7 +385,7 @@
       "platform": "github",
       "stars": 70,
       "open_issues": 169,
-      "open_prs": 80,
+      "open_prs": 79,
       "total": 87.8,
       "grade": "优秀",
       "dims": {
@@ -555,6 +555,124 @@
             "近30天有合并": true
           },
           "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d5": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "工作流存在": true,
+            "CI/测试/lint": true,
+            "release/publish": true,
+            "Dependabot": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d6": {
+          "score": 64,
+          "grade": "良好",
+          "checks": {
+            "分支保护": null,
+            "Release/Tag": true,
+            "SemVer 标签": true,
+            "CHANGELOG": false
+          },
+          "conclusion": "得分 64/100（良好）。不足：CHANGELOG。（信息未知：分支保护）"
+        },
+        "d7": {
+          "score": 95,
+          "grade": "优秀",
+          "checks": {
+            "README": true,
+            "CONTRIBUTING.md": true,
+            "SECURITY.md": true,
+            "CODE_OF_CONDUCT": true,
+            "Issue 模板": true,
+            "PR 模板": true,
+            "Discussions": false
+          },
+          "conclusion": "得分 95/100（优秀）。不足：Discussions。"
+        },
+        "d8": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "存在 LICENSE": true,
+            "License 可识别": true,
+            "非 GPL": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d9": {
+          "score": 60,
+          "grade": "良好",
+          "checks": {
+            "近30天合并 PR": true,
+            "关闭率≥70%": false,
+            "有 CI": true,
+            "有 Stars": false,
+            "社区文件≥2": true
+          },
+          "conclusion": "得分 60/100（良好）。不足：关闭率≥70%、有 Stars。"
+        }
+      }
+    },
+    {
+      "repo": "huaweicloud/agentarts-adapter-js",
+      "platform": "github",
+      "stars": 0,
+      "open_issues": 1,
+      "open_prs": 0,
+      "total": 84.5,
+      "grade": "优秀",
+      "dims": {
+        "d1": {
+          "score": 100,
+          "grade": "优秀",
+          "checks": {
+            "仓库描述": true,
+            "Topics≥3": true,
+            "README": true,
+            "非僵尸仓库": true,
+            "LICENSE": true
+          },
+          "conclusion": "得分 100/100（优秀）。各项达标。"
+        },
+        "d2": {
+          "score": 85,
+          "grade": "优秀",
+          "checks": {
+            "CI 工作流": true,
+            "Dependabot": true,
+            "安全扫描(CodeQL)": false,
+            "贡献者≥2": true,
+            "主语言标识": true,
+            "SECURITY.md": true
+          },
+          "conclusion": "得分 85/100（优秀）。不足：安全扫描(CodeQL)。"
+        },
+        "d3": {
+          "score": 70,
+          "grade": "良好",
+          "checks": {
+            "有 Issue": true,
+            "关闭率≥70%": false,
+            "无僵尸 Issue": true,
+            "标签体系": true,
+            "Issue 模板": true
+          },
+          "conclusion": "得分 70/100（良好）。不足：关闭率≥70%。"
+        },
+        "d4": {
+          "score": 75,
+          "grade": "良好",
+          "checks": {
+            "有 PR 活动": true,
+            "合并率≥90%": false,
+            "无积压 PR": true,
+            "PR 模板": true,
+            "近30天有合并": true
+          },
+          "conclusion": "得分 75/100（良好）。不足：合并率≥90%。"
         },
         "d5": {
           "score": 100,
@@ -1093,7 +1211,7 @@
       "platform": "github",
       "stars": 275,
       "open_issues": 16,
-      "open_prs": 10,
+      "open_prs": 9,
       "total": 74.9,
       "grade": "良好",
       "dims": {
@@ -1203,124 +1321,6 @@
             "社区文件≥2": false
           },
           "conclusion": "得分 60/100（良好）。不足：关闭率≥70%、社区文件≥2。"
-        }
-      }
-    },
-    {
-      "repo": "huaweicloud/agentarts-adapter-js",
-      "platform": "github",
-      "stars": 0,
-      "open_issues": 1,
-      "open_prs": 0,
-      "total": 74.0,
-      "grade": "良好",
-      "dims": {
-        "d1": {
-          "score": 100,
-          "grade": "优秀",
-          "checks": {
-            "仓库描述": true,
-            "Topics≥3": true,
-            "README": true,
-            "非僵尸仓库": true,
-            "LICENSE": true
-          },
-          "conclusion": "得分 100/100（优秀）。各项达标。"
-        },
-        "d2": {
-          "score": 85,
-          "grade": "优秀",
-          "checks": {
-            "CI 工作流": true,
-            "Dependabot": true,
-            "安全扫描(CodeQL)": false,
-            "贡献者≥2": true,
-            "主语言标识": true,
-            "SECURITY.md": true
-          },
-          "conclusion": "得分 85/100（优秀）。不足：安全扫描(CodeQL)。"
-        },
-        "d3": {
-          "score": 70,
-          "grade": "良好",
-          "checks": {
-            "有 Issue": true,
-            "关闭率≥70%": false,
-            "无僵尸 Issue": true,
-            "标签体系": true,
-            "Issue 模板": true
-          },
-          "conclusion": "得分 70/100（良好）。不足：关闭率≥70%。"
-        },
-        "d4": {
-          "score": 75,
-          "grade": "良好",
-          "checks": {
-            "有 PR 活动": true,
-            "合并率≥90%": false,
-            "无积压 PR": true,
-            "PR 模板": true,
-            "近30天有合并": true
-          },
-          "conclusion": "得分 75/100（良好）。不足：合并率≥90%。"
-        },
-        "d5": {
-          "score": 80,
-          "grade": "优秀",
-          "checks": {
-            "工作流存在": true,
-            "CI/测试/lint": true,
-            "release/publish": false,
-            "Dependabot": true
-          },
-          "conclusion": "得分 80/100（优秀）。不足：release/publish。"
-        },
-        "d6": {
-          "score": 0,
-          "grade": "不足",
-          "checks": {
-            "分支保护": null,
-            "Release/Tag": false,
-            "SemVer 标签": false,
-            "CHANGELOG": false
-          },
-          "conclusion": "得分 0/100（不足）。不足：Release/Tag、SemVer 标签、CHANGELOG。（信息未知：分支保护）"
-        },
-        "d7": {
-          "score": 95,
-          "grade": "优秀",
-          "checks": {
-            "README": true,
-            "CONTRIBUTING.md": true,
-            "SECURITY.md": true,
-            "CODE_OF_CONDUCT": true,
-            "Issue 模板": true,
-            "PR 模板": true,
-            "Discussions": false
-          },
-          "conclusion": "得分 95/100（优秀）。不足：Discussions。"
-        },
-        "d8": {
-          "score": 100,
-          "grade": "优秀",
-          "checks": {
-            "存在 LICENSE": true,
-            "License 可识别": true,
-            "非 GPL": true
-          },
-          "conclusion": "得分 100/100（优秀）。各项达标。"
-        },
-        "d9": {
-          "score": 60,
-          "grade": "良好",
-          "checks": {
-            "近30天合并 PR": true,
-            "关闭率≥70%": false,
-            "有 CI": true,
-            "有 Stars": false,
-            "社区文件≥2": true
-          },
-          "conclusion": "得分 60/100（良好）。不足：关闭率≥70%、有 Stars。"
         }
       }
     },
@@ -1682,8 +1682,8 @@
       "repo": "huaweicloud/spring-cloud-huawei",
       "platform": "github",
       "stars": 582,
-      "open_issues": 2,
-      "open_prs": 18,
+      "open_issues": 3,
+      "open_prs": 19,
       "total": 67.4,
       "grade": "良好",
       "dims": {
@@ -32273,7 +32273,7 @@
     }
   ],
   "gap": {
-    "generated_at": "2026-11-27T09:32:32.679048+00:00",
+    "generated_at": "2026-11-28T08:46:10.263932+00:00",
     "rows": [
       {
         "name": "许可证",
@@ -32433,13 +32433,13 @@
       ]
     },
     "d5": {
-      "score": 14.3,
+      "score": 14.4,
       "grade": "不足",
-      "text": "均分 14.3/100，等级：不足。短板：无 release 工作流（225/255 缺失，88%）、无 CI/测试（222/255 缺失，87%）、无任何工作流（202/255 缺失，79%）",
+      "text": "均分 14.4/100，等级：不足。短板：无 release 工作流（224/255 缺失，88%）、无 CI/测试（222/255 缺失，87%）、无任何工作流（202/255 缺失，79%）",
       "facts": [
         {
           "label": "无 release 工作流",
-          "missing": 225,
+          "missing": 224,
           "known": 255
         },
         {
@@ -32455,18 +32455,18 @@
       ]
     },
     "d6": {
-      "score": 24.0,
+      "score": 24.3,
       "grade": "不足",
-      "text": "均分 24.0/100，等级：不足。短板：无 SemVer 标签（185/255 缺失，73%）、无 Release/Tag（172/255 缺失，67%）、无 CHANGELOG（123/146 缺失，84%）",
+      "text": "均分 24.3/100，等级：不足。短板：无 SemVer 标签（184/255 缺失，72%）、无 Release/Tag（171/255 缺失，67%）、无 CHANGELOG（123/146 缺失，84%）",
       "facts": [
         {
           "label": "无 SemVer 标签",
-          "missing": 185,
+          "missing": 184,
           "known": 255
         },
         {
           "label": "无 Release/Tag",
-          "missing": 172,
+          "missing": 171,
           "known": 255
         },
         {
@@ -32633,13 +32633,13 @@
       ]
     },
     "d5": {
-      "score": 23.5,
+      "score": 23.6,
       "grade": "不足",
-      "text": "均分 23.5/100，等级：不足。短板：无 release 工作流（125/155 缺失，81%）、无 CI/测试（122/155 缺失，79%）、无任何工作流（102/155 缺失，66%）",
+      "text": "均分 23.6/100，等级：不足。短板：无 release 工作流（124/155 缺失，80%）、无 CI/测试（122/155 缺失，79%）、无任何工作流（102/155 缺失，66%）",
       "facts": [
         {
           "label": "无 release 工作流",
-          "missing": 125,
+          "missing": 124,
           "known": 155
         },
         {
@@ -32655,9 +32655,9 @@
       ]
     },
     "d6": {
-      "score": 39.5,
+      "score": 39.9,
       "grade": "不足",
-      "text": "均分 39.5/100，等级：不足。短板：无 CHANGELOG（123/146 缺失，84%）、无 SemVer 标签（85/155 缺失，55%）、无 Release/Tag（72/155 缺失，46%）",
+      "text": "均分 39.9/100，等级：不足。短板：无 CHANGELOG（123/146 缺失，84%）、无 SemVer 标签（84/155 缺失，54%）、无 Release/Tag（71/155 缺失，46%）",
       "facts": [
         {
           "label": "无 CHANGELOG",
@@ -32666,12 +32666,12 @@
         },
         {
           "label": "无 SemVer 标签",
-          "missing": 85,
+          "missing": 84,
           "known": 155
         },
         {
           "label": "无 Release/Tag",
-          "missing": 72,
+          "missing": 71,
           "known": 155
         }
       ]
